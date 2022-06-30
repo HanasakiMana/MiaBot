@@ -1,0 +1,11 @@
+此功能为查找某首歌分数线设计。
+命令格式：line <难度+歌曲id> <分数线>
+例如：line 白337 100
+命令将返回分数线允许的 TAP GREAT 容错以及 BREAK 50落等价的 TAP GREAT 数。
+以下为 TAP GREAT 的对应表：
+GREAT/GOOD/MISS
+TAP    1/2.5/5
+HOLD   2/5/10
+SLIDE  3/7.5/15
+TOUCH  1/2.5/5
+BREAK  5/12.5/25(外加200落)

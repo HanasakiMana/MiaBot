@@ -1,0 +1,1052 @@
+{'additional_rating': 2000, 'records': [
+        {'achievements': 97.6663, 'ds': 6.0, 'dxScore': 548, 'fc': '', 'fs': '', 'level': '6', 'level_index': 0, 'level_label': 'Basic', 'ra': 73, 'rate': 's', 'song_id': 11148, 'title': 'CHAOS', 'type': 'DX'
+        },
+        {'achievements': 99.697, 'ds': 6.5, 'dxScore': 473, 'fc': 'fcp', 'fs': '', 'level': '6', 'level_index': 1, 'level_label': 'Advanced', 'ra': 85, 'rate': 'ssp', 'song_id': 11114, 'title': '青空のラプソディ', 'type': 'DX'
+        },
+        {'achievements': 96.9536, 'ds': 8.5, 'dxScore': 1049, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 86, 'rate': 'aaa', 'song_id': 11206, 'title': 'BATTLE NO.1', 'type': 'DX'
+        },
+        {'achievements': 98.2318, 'ds': 7.7, 'dxScore': 576, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 96, 'rate': 'sp', 'song_id': 11147, 'title': 'Saika', 'type': 'DX'
+        },
+        {'achievements': 100.0451, 'ds': 7.8, 'dxScore': 807, 'fc': 'fcp', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 105, 'rate': 'sss', 'song_id': 11149, 'title': 'Maboroshi', 'type': 'DX'
+        },
+        {'achievements': 98.2218, 'ds': 8.5, 'dxScore': 1234, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 106, 'rate': 'sp', 'song_id': 556, 'title': '夜明けまであと３秒', 'type': 'SD'
+        },
+        {'achievements': 96.3868, 'ds': 7.8, 'dxScore': 800, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 78, 'rate': 'aaa', 'song_id': 387, 'title': 'FUJIN Rumble', 'type': 'SD'
+        },
+        {'achievements': 99.0938, 'ds': 7.5, 'dxScore': 769, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 96, 'rate': 'ss', 'song_id': 11141, 'title': 'energy trixxx', 'type': 'DX'
+        },
+        {'achievements': 97.8942, 'ds': 8.7, 'dxScore': 1112, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 106, 'rate': 's', 'song_id': 772, 'title': 'FREEDOM DiVE (tpz Overcute Remix)', 'type': 'SD'
+        },
+        {'achievements': 97.8501, 'ds': 7.9, 'dxScore': 1043, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 96, 'rate': 's', 'song_id': 738, 'title': 'Brain Power', 'type': 'SD'
+        },
+        {'achievements': 96.5261, 'ds': 6.5, 'dxScore': 758, 'fc': '', 'fs': '', 'level': '6', 'level_index': 1, 'level_label': 'Advanced', 'ra': 65, 'rate': 'aaa', 'song_id': 672, 'title': 'MilK', 'type': 'SD'
+        },
+        {'achievements': 99.1666, 'ds': 8.9, 'dxScore': 1150, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 114, 'rate': 'ss', 'song_id': 11106, 'title': 'Valsqotch', 'type': 'DX'
+        },
+        {'achievements': 98.1293, 'ds': 9.0, 'dxScore': 1418, 'fc': '', 'fs': '', 'level': '9', 'level_index': 1, 'level_label': 'Advanced', 'ra': 112, 'rate': 'sp', 'song_id': 496, 'title': 'AMAZING MIGHTYYYY!!!!', 'type': 'SD'
+        },
+        {'achievements': 95.4666, 'ds': 8.0, 'dxScore': 667, 'fc': 'fc', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 80, 'rate': 'aaa', 'song_id': 365, 'title': 'ガラテアの螺旋', 'type': 'SD'
+        },
+        {'achievements': 95.8614, 'ds': 8.0, 'dxScore': 690, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 80, 'rate': 'aaa', 'song_id': 773, 'title': 'SILENT BLUE', 'type': 'SD'
+        },
+        {'achievements': 97.2723, 'ds': 8.2, 'dxScore': 901, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 99, 'rate': 's', 'song_id': 227, 'title': 'Garakuta Doll Play', 'type': 'SD'
+        },
+        {'achievements': 97.9494, 'ds': 9.0, 'dxScore': 1121, 'fc': '', 'fs': '', 'level': '9', 'level_index': 1, 'level_label': 'Advanced', 'ra': 110, 'rate': 's', 'song_id': 11023, 'title': 'Blows Up Everything', 'type': 'DX'
+        },
+        {'achievements': 99.9019, 'ds': 7.8, 'dxScore': 918, 'fc': 'fcp', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 102, 'rate': 'ssp', 'song_id': 11004, 'title': 'MAXRAGE', 'type': 'DX'
+        },
+        {'achievements': 94.4541, 'ds': 10.7, 'dxScore': 1253, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 106, 'rate': 'aaa', 'song_id': 834, 'title': 'PANDORA PARADOXXX', 'type': 'SD'
+        },
+        {'achievements': 92.6711, 'ds': 8.7, 'dxScore': 848, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 76, 'rate': 'aa', 'song_id': 820, 'title': 'FFT', 'type': 'SD'
+        },
+        {'achievements': 94.5878, 'ds': 8.6, 'dxScore': 1137, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 85, 'rate': 'aaa', 'song_id': 379, 'title': 'Caliburne ～Story of the Legendary sword～', 'type': 'SD'
+        },
+        {'achievements': 99.5083, 'ds': 8.8, 'dxScore': 1202, 'fc': 'fc', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 115, 'rate': 'ssp', 'song_id': 779, 'title': '怒槌', 'type': 'SD'
+        },
+        {'achievements': 93.177, 'ds': 9.0, 'dxScore': 999, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 79, 'rate': 'aa', 'song_id': 853, 'title': '前前前世', 'type': 'SD'
+        },
+        {'achievements': 100.75, 'ds': 9.7, 'dxScore': 946, 'fc': 'ap', 'fs': 'fsd', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 136, 'rate': 'sssp', 'song_id': 11114, 'title': '青空のラプソディ', 'type': 'DX'
+        },
+        {'achievements': 100.0581, 'ds': 10.5, 'dxScore': 1603, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 141, 'rate': 'sss', 'song_id': 506, 'title': 'セハガガガンバッちゃう！！', 'type': 'SD'
+        },
+        {'achievements': 99.6515, 'ds': 10.8, 'dxScore': 990, 'fc': 'fc', 'fs': 'fsp', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 142, 'rate': 'ssp', 'song_id': 717, 'title': 'ラブって♡ジュエリー♪えんじぇる☆ブレイク！！', 'type': 'SD'
+        },
+        {'achievements': 97.7581, 'ds': 10.1, 'dxScore': 1085, 'fc': 'fc', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 123, 'rate': 's', 'song_id': 753, 'title': 'Rodeo Machine', 'type': 'SD'
+        },
+        {'achievements': 98.1296, 'ds': 10.0, 'dxScore': 1495, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 124, 'rate': 'sp', 'song_id': 11129, 'title': 'すーぱーぬこになれんかった', 'type': 'DX'
+        },
+        {'achievements': 91.9596, 'ds': 10.7, 'dxScore': 1103, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 93, 'rate': 'aa', 'song_id': 830, 'title': '立ち入り禁止', 'type': 'SD'
+        },
+        {'achievements': 98.0972, 'ds': 10.7, 'dxScore': 1281, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 133, 'rate': 'sp', 'song_id': 720, 'title': 'ナンセンス文学', 'type': 'SD'
+        },
+        {'achievements': 96.3648, 'ds': 10.6, 'dxScore': 1531, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 107, 'rate': 'aaa', 'song_id': 690, 'title': 'ダンスロボットダンス', 'type': 'SD'
+        },
+        {'achievements': 97.0636, 'ds': 9.9, 'dxScore': 1160, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 120, 'rate': 's', 'song_id': 793, 'title': 'ロキ', 'type': 'SD'
+        },
+        {'achievements': 95.8991, 'ds': 10.7, 'dxScore': 1284, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 107, 'rate': 'aaa', 'song_id': 11087, 'title': '幾望の月', 'type': 'DX'
+        },
+        {'achievements': 99.6686, 'ds': 10.3, 'dxScore': 1491, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 135, 'rate': 'ssp', 'song_id': 11073, 'title': 'アカリがやってきたぞっ', 'type': 'DX'
+        },
+        {'achievements': 95.9909, 'ds': 10.5, 'dxScore': 1587, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 105, 'rate': 'aaa', 'song_id': 11084, 'title': 'イカサマライフゲイム', 'type': 'DX'
+        },
+        {'achievements': 99.5722, 'ds': 10.8, 'dxScore': 1563, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 141, 'rate': 'ssp', 'song_id': 829, 'title': '敗北の少年', 'type': 'SD'
+        },
+        {'achievements': 98.1175, 'ds': 10.3, 'dxScore': 1392, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 128, 'rate': 'sp', 'song_id': 610, 'title': 'リンカーネイション', 'type': 'SD'
+        },
+        {'achievements': 100.5381, 'ds': 10.4, 'dxScore': 1577, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'sssp', 'song_id': 11122, 'title': 'アンドロイドガール', 'type': 'DX'
+        },
+        {'achievements': 98.8714, 'ds': 10.0, 'dxScore': 1233, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 125, 'rate': 'sp', 'song_id': 11131, 'title': '深海シティアンダーグラウンド', 'type': 'DX'
+        },
+        {'achievements': 98.7499, 'ds': 11.7, 'dxScore': 1825, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'sp', 'song_id': 11058, 'title': 'デンパラダイム', 'type': 'DX'
+        },
+        {'achievements': 96.7777, 'ds': 10.8, 'dxScore': 1365, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 109, 'rate': 'aaa', 'song_id': 11059, 'title': '骸骨楽団とリリア', 'type': 'DX'
+        },
+        {'achievements': 97.0894, 'ds': 10.8, 'dxScore': 1660, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 131, 'rate': 's', 'song_id': 11060, 'title': '星屑ユートピア', 'type': 'DX'
+        },
+        {'achievements': 98.4427, 'ds': 10.7, 'dxScore': 1055, 'fc': 'fc', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 133, 'rate': 'sp', 'song_id': 587, 'title': '白ゆき', 'type': 'SD'
+        },
+        {'achievements': 95.1303, 'ds': 9.4, 'dxScore': 892, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 93, 'rate': 'aaa', 'song_id': 513, 'title': 'だんだん早くなる', 'type': 'SD'
+        },
+        {'achievements': 99.2015, 'ds': 10.9, 'dxScore': 1337, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 140, 'rate': 'ss', 'song_id': 670, 'title': 'ドーナツホール', 'type': 'SD'
+        },
+        {'achievements': 92.7147, 'ds': 9.7, 'dxScore': 1034, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 85, 'rate': 'aa', 'song_id': 725, 'title': '砂の惑星 feat. HATSUNE MIKU', 'type': 'SD'
+        },
+        {'achievements': 99.4507, 'ds': 10.8, 'dxScore': 1418, 'fc': 'fc', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 139, 'rate': 'ss', 'song_id': 374, 'title': 'アンハッピーリフレイン', 'type': 'SD'
+        },
+        {'achievements': 95.6205, 'ds': 11.4, 'dxScore': 1216, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 114, 'rate': 'aaa', 'song_id': 841, 'title': '終点', 'type': 'SD'
+        },
+        {'achievements': 100.0061, 'ds': 10.8, 'dxScore': 1629, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 145, 'rate': 'sss', 'song_id': 411, 'title': '初音ミクの消失', 'type': 'SD'
+        },
+        {'achievements': 97.0721, 'ds': 10.3, 'dxScore': 1608, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 124, 'rate': 's', 'song_id': 782, 'title': 'おねがいダーリン', 'type': 'SD'
+        },
+        {'achievements': 98.9822, 'ds': 10.8, 'dxScore': 1360, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 135, 'rate': 'sp', 'song_id': 580, 'title': '吉原ラメント', 'type': 'SD'
+        },
+        {'achievements': 90.6914, 'ds': 10.6, 'dxScore': 905, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 91, 'rate': 'aa', 'song_id': 258, 'title': 'Nyan Cat EX', 'type': 'SD'
+        },
+        {'achievements': 97.9668, 'ds': 9.8, 'dxScore': 1328, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 120, 'rate': 's', 'song_id': 520, 'title': '木彫り鯰と右肩ゾンビ', 'type': 'SD'
+        },
+        {'achievements': 97.336, 'ds': 10.5, 'dxScore': 1245, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 127, 'rate': 's', 'song_id': 11049, 'title': 'Bad Apple!! feat.nomico (REDALiCE Remix)', 'type': 'DX'
+        },
+        {'achievements': 82.1392, 'ds': 9.6, 'dxScore': 673, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 67, 'rate': 'a', 'song_id': 200, 'title': 'Bad Apple!! feat nomico', 'type': 'SD'
+        },
+        {'achievements': 95.8428, 'ds': 10.7, 'dxScore': 1305, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 107, 'rate': 'aaa', 'song_id': 700, 'title': '疾走あんさんぶる', 'type': 'SD'
+        },
+        {'achievements': 95.8941, 'ds': 10.7, 'dxScore': 1164, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 107, 'rate': 'aaa', 'song_id': 11134, 'title': 'ソリッド', 'type': 'DX'
+        },
+        {'achievements': 96.6069, 'ds': 10.8, 'dxScore': 1258, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 109, 'rate': 'aaa', 'song_id': 756, 'title': 'CYBER Sparks', 'type': 'SD'
+        },
+        {'achievements': 100.0931, 'ds': 11.3, 'dxScore': 1644, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 152, 'rate': 'sss', 'song_id': 840, 'title': 'Imperishable Night 2006 (2016 Refine)', 'type': 'SD'
+        },
+        {'achievements': 99.8845, 'ds': 11.5, 'dxScore': 1433, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 151, 'rate': 'ssp', 'song_id': 11146, 'title': 'Lunar Mare', 'type': 'DX'
+        },
+        {'achievements': 98.8758, 'ds': 10.2, 'dxScore': 839, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 128, 'rate': 'sp', 'song_id': 11147, 'title': 'Saika', 'type': 'DX'
+        },
+        {'achievements': 98.9349, 'ds': 11.7, 'dxScore': 1606, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 147, 'rate': 'sp', 'song_id': 11148, 'title': 'CHAOS', 'type': 'DX'
+        },
+        {'achievements': 99.6876, 'ds': 11.2, 'dxScore': 1363, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 147, 'rate': 'ssp', 'song_id': 11149, 'title': 'Maboroshi', 'type': 'DX'
+        },
+        {'achievements': 100.0476, 'ds': 11.9, 'dxScore': 1498, 'fc': 'fc', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 160, 'rate': 'sss', 'song_id': 796, 'title': '極圏', 'type': 'SD'
+        },
+        {'achievements': 88.4855, 'ds': 11.8, 'dxScore': 903, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 88, 'rate': 'a', 'song_id': 390, 'title': 'Got more raves？', 'type': 'SD'
+        },
+        {'achievements': 94.406, 'ds': 10.9, 'dxScore': 1147, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 108, 'rate': 'aaa', 'song_id': 387, 'title': 'FUJIN Rumble', 'type': 'SD'
+        },
+        {'achievements': 100.4789, 'ds': 12.4, 'dxScore': 1879, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 168, 'rate': 'sss', 'song_id': 797, 'title': 'Scarlet Lance', 'type': 'SD'
+        },
+        {'achievements': 99.5135, 'ds': 10.8, 'dxScore': 1486, 'fc': 'fc', 'fs': 'fsp', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 141, 'rate': 'ssp', 'song_id': 11143, 'title': 'アトロポスと最果の探究者', 'type': 'DX'
+        },
+        {'achievements': 100.4434, 'ds': 11.0, 'dxScore': 1585, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 149, 'rate': 'sss', 'song_id': 11141, 'title': 'energy trixxx', 'type': 'DX'
+        },
+        {'achievements': 99.4855, 'ds': 11.8, 'dxScore': 1460, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 152, 'rate': 'ss', 'song_id': 844, 'title': 'End Time', 'type': 'SD'
+        },
+        {'achievements': 99.3255, 'ds': 10.9, 'dxScore': 1081, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 140, 'rate': 'ss', 'song_id': 815, 'title': 'L4TS: 2018 (feat. あひる & KTA)', 'type': 'SD'
+        },
+        {'achievements': 97.8321, 'ds': 11.6, 'dxScore': 1305, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 141, 'rate': 's', 'song_id': 850, 'title': 'B.M.S.', 'type': 'SD'
+        },
+        {'achievements': 100.539, 'ds': 11.8, 'dxScore': 1878, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 166, 'rate': 'sssp', 'song_id': 772, 'title': 'FREEDOM DiVE (tpz Overcute Remix)', 'type': 'SD'
+        },
+        {'achievements': 97.4869, 'ds': 10.8, 'dxScore': 1112, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 131, 'rate': 's', 'song_id': 738, 'title': 'Brain Power', 'type': 'SD'
+        },
+        {'achievements': 92.9516, 'ds': 11.8, 'dxScore': 1208, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 104, 'rate': 'aa', 'song_id': 625, 'title': 'Maxi', 'type': 'SD'
+        },
+        {'achievements': 98.4205, 'ds': 10.6, 'dxScore': 1417, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 132, 'rate': 'sp', 'song_id': 555, 'title': 'GOODMEN', 'type': 'SD'
+        },
+        {'achievements': 93.6238, 'ds': 11.2, 'dxScore': 711, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 99, 'rate': 'aa', 'song_id': 592, 'title': 'Sakura Fubuki', 'type': 'SD'
+        },
+        {'achievements': 91.7689, 'ds': 11.9, 'dxScore': 1339, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 103, 'rate': 'aa', 'song_id': 836, 'title': 'Good Bye, Mr. Jack', 'type': 'SD'
+        },
+        {'achievements': 93.5797, 'ds': 10.9, 'dxScore': 1145, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 96, 'rate': 'aa', 'song_id': 453, 'title': 'Garden Of The Dragon', 'type': 'SD'
+        },
+        {'achievements': 97.5476, 'ds': 10.8, 'dxScore': 1344, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 131, 'rate': 's', 'song_id': 557, 'title': 'Last Brave ～ Go to zero', 'type': 'SD'
+        },
+        {'achievements': 93.4849, 'ds': 10.8, 'dxScore': 432, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 95, 'rate': 'aa', 'song_id': 157, 'title': 'Natural Flow', 'type': 'SD'
+        },
+        {'achievements': 89.5806, 'ds': 10.8, 'dxScore': 728, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 82, 'rate': 'a', 'song_id': 152, 'title': '超絶！Superlative', 'type': 'SD'
+        },
+        {'achievements': 91.438, 'ds': 10.9, 'dxScore': 913, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 94, 'rate': 'aa', 'song_id': 153, 'title': '采配の刻 Power of order', 'type': 'SD'
+        },
+        {'achievements': 96.2311, 'ds': 10.8, 'dxScore': 1163, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 109, 'rate': 'aaa', 'song_id': 345, 'title': 'リッジでリッジでGO!GO!GO! -GMT mashup-', 'type': 'SD'
+        },
+        {'achievements': 97.2338, 'ds': 10.8, 'dxScore': 1234, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 131, 'rate': 's', 'song_id': 344, 'title': 'RIDGE RACER STEPS -GMT remix-', 'type': 'SD'
+        },
+        {'achievements': 99.6976, 'ds': 10.7, 'dxScore': 1121, 'fc': 'fcp', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 140, 'rate': 'ssp', 'song_id': 613, 'title': '天国と地獄 -言ノ葉リンネ-', 'type': 'SD'
+        },
+        {'achievements': 90.2493, 'ds': 9.8, 'dxScore': 1184, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 84, 'rate': 'aa', 'song_id': 559, 'title': '空威張りビヘイビア', 'type': 'SD'
+        },
+        {'achievements': 96.4543, 'ds': 10.7, 'dxScore': 1169, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 108, 'rate': 'aaa', 'song_id': 568, 'title': '分からない', 'type': 'SD'
+        },
+        {'achievements': 91.3715, 'ds': 11.0, 'dxScore': 1272, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 95, 'rate': 'aa', 'song_id': 11101, 'title': 'GRÄNDIR', 'type': 'DX'
+        },
+        {'achievements': 84.8545, 'ds': 12.7, 'dxScore': 1136, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 2, 'level_label': 'Expert', 'ra': 91, 'rate': 'a', 'song_id': 11102, 'title': '封焔の135秒', 'type': 'DX'
+        },
+        {'achievements': 95.5981, 'ds': 10.8, 'dxScore': 1128, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 108, 'rate': 'aaa', 'song_id': 11091, 'title': 'Stardust Memories', 'type': 'DX'
+        },
+        {'achievements': 98.5719, 'ds': 12.9, 'dxScore': 1983, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 2, 'level_label': 'Expert', 'ra': 161, 'rate': 'sp', 'song_id': 833, 'title': 'the EmpErroR', 'type': 'SD'
+        },
+        {'achievements': 100.3549, 'ds': 12.6, 'dxScore': 1753, 'fc': 'fcp', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 170, 'rate': 'sss', 'song_id': 11026, 'title': 'TEmPTaTiON', 'type': 'DX'
+        },
+        {'achievements': 98.2744, 'ds': 12.6, 'dxScore': 1880, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 157, 'rate': 'sp', 'song_id': 431, 'title': 'Contrapasso -paradiso-', 'type': 'SD'
+        },
+        {'achievements': 92.3673, 'ds': 10.2, 'dxScore': 945, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 89, 'rate': 'aa', 'song_id': 252, 'title': 'みんなのマイマイマー', 'type': 'SD'
+        },
+        {'achievements': 94.0065, 'ds': 10.9, 'dxScore': 1086, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 107, 'rate': 'aaa', 'song_id': 234, 'title': 'End of Twilight', 'type': 'SD'
+        },
+        {'achievements': 95.0588, 'ds': 10.9, 'dxScore': 877, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 108, 'rate': 'aaa', 'song_id': 139, 'title': 'Acceleration', 'type': 'SD'
+        },
+        {'achievements': 97.8553, 'ds': 10.5, 'dxScore': 1596, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 128, 'rate': 's', 'song_id': 11018, 'title': 'Now or Never', 'type': 'DX'
+        },
+        {'achievements': 90.2453, 'ds': 11.1, 'dxScore': 1205, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 95, 'rate': 'aa', 'song_id': 11021, 'title': '魔ジョ狩リ', 'type': 'DX'
+        },
+        {'achievements': 99.0778, 'ds': 11.4, 'dxScore': 1742, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'ss', 'song_id': 11004, 'title': 'MAXRAGE', 'type': 'DX'
+        },
+        {'achievements': 90.285, 'ds': 10.8, 'dxScore': 1130, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 92, 'rate': 'aa', 'song_id': 462, 'title': '7thSense', 'type': 'SD'
+        },
+        {'achievements': 99.0334, 'ds': 12.0, 'dxScore': 1031, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 154, 'rate': 'ss', 'song_id': 820, 'title': 'FFT', 'type': 'SD'
+        },
+        {'achievements': 93.116, 'ds': 10.8, 'dxScore': 1048, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 95, 'rate': 'aa', 'song_id': 704, 'title': 'SPILL OVER COLORS', 'type': 'SD'
+        },
+        {'achievements': 98.8915, 'ds': 12.0, 'dxScore': 1638, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 150, 'rate': 'sp', 'song_id': 643, 'title': 'Excalibur ～Revived resolution～', 'type': 'SD'
+        },
+        {'achievements': 99.9369, 'ds': 12.4, 'dxScore': 1748, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 163, 'rate': 'ssp', 'song_id': 379, 'title': 'Caliburne ～Story of the Legendary sword～', 'type': 'SD'
+        },
+        {'achievements': 100.3451, 'ds': 12.7, 'dxScore': 1648, 'fc': 'fcp', 'fs': '', 'level': '12+', 'level_index': 2, 'level_label': 'Expert', 'ra': 172, 'rate': 'sss', 'song_id': 488, 'title': 'Lividi', 'type': 'SD'
+        },
+        {'achievements': 92.995, 'ds': 11.5, 'dxScore': 1191, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 101, 'rate': 'aa', 'song_id': 705, 'title': 'Mare Maris', 'type': 'SD'
+        },
+        {'achievements': 95.743, 'ds': 10.8, 'dxScore': 1149, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 108, 'rate': 'aaa', 'song_id': 680, 'title': 'Candy Tall Woman', 'type': 'SD'
+        },
+        {'achievements': 98.7355, 'ds': 10.8, 'dxScore': 1097, 'fc': 'fc', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 135, 'rate': 'sp', 'song_id': 713, 'title': 'Kinda Way', 'type': 'SD'
+        },
+        {'achievements': 96.173, 'ds': 10.8, 'dxScore': 1079, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 109, 'rate': 'aaa', 'song_id': 630, 'title': '曖昧mind', 'type': 'SD'
+        },
+        {'achievements': 88.2862, 'ds': 11.5, 'dxScore': 733, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 86, 'rate': 'a', 'song_id': 573, 'title': '四月の雨', 'type': 'SD'
+        },
+        {'achievements': 97.4124, 'ds': 11.9, 'dxScore': 1596, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 144, 'rate': 's', 'song_id': 567, 'title': 'HERA', 'type': 'SD'
+        },
+        {'achievements': 99.4197, 'ds': 10.9, 'dxScore': 1210, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 140, 'rate': 'ss', 'song_id': 574, 'title': 'Selector', 'type': 'SD'
+        },
+        {'achievements': 96.5368, 'ds': 9.7, 'dxScore': 1107, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 98, 'rate': 'aaa', 'song_id': 465, 'title': 'スリップフリップ', 'type': 'SD'
+        },
+        {'achievements': 96.8347, 'ds': 10.8, 'dxScore': 983, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 109, 'rate': 'aaa', 'song_id': 231, 'title': 'Heartbeats', 'type': 'SD'
+        },
+        {'achievements': 94.3461, 'ds': 10.7, 'dxScore': 998, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 105, 'rate': 'aaa', 'song_id': 264, 'title': "L'épilogue", 'type': 'SD'
+        },
+        {'achievements': 92.4291, 'ds': 10.9, 'dxScore': 565, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 95, 'rate': 'aa', 'song_id': 141, 'title': 'Nerverakes', 'type': 'SD'
+        },
+        {'achievements': 96.4946, 'ds': 10.9, 'dxScore': 525, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 110, 'rate': 'aaa', 'song_id': 145, 'title': 'Starlight Disco', 'type': 'SD'
+        },
+        {'achievements': 89.1279, 'ds': 12.3, 'dxScore': 949, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 93, 'rate': 'a', 'song_id': 239, 'title': 'System “Z”', 'type': 'SD'
+        },
+        {'achievements': 98.202, 'ds': 10.1, 'dxScore': 1384, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 125, 'rate': 'sp', 'song_id': 11109, 'title': 'タテマエと本心の大乱闘', 'type': 'DX'
+        },
+        {'achievements': 100.0191, 'ds': 12.5, 'dxScore': 1870, 'fc': 'fc', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 168, 'rate': 'sss', 'song_id': 11029, 'title': 'Titania', 'type': 'DX'
+        },
+        {'achievements': 95.5461, 'ds': 10.7, 'dxScore': 1450, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 107, 'rate': 'aaa', 'song_id': 578, 'title': 'ドキドキDREAM!!!', 'type': 'SD'
+        },
+        {'achievements': 95.5022, 'ds': 10.2, 'dxScore': 1236, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 102, 'rate': 'aaa', 'song_id': 696, 'title': 'Still', 'type': 'SD'
+        },
+        {'achievements': 98.744, 'ds': 10.2, 'dxScore': 1224, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 127, 'rate': 'sp', 'song_id': 11024, 'title': 'Agitation！', 'type': 'DX'
+        },
+        {'achievements': 100.5926, 'ds': 10.5, 'dxScore': 1572, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 147, 'rate': 'sssp', 'song_id': 11025, 'title': '管弦楽組曲 第3番 ニ長調「第2曲（G線上のアリア）」BWV.1068-2', 'type': 'DX'
+        },
+        {'achievements': 97.924, 'ds': 10.7, 'dxScore': 1420, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 130, 'rate': 's', 'song_id': 526, 'title': 'brilliant better', 'type': 'SD'
+        },
+        {'achievements': 98.3957, 'ds': 10.0, 'dxScore': 1448, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 124, 'rate': 'sp', 'song_id': 548, 'title': 'DETARAME ROCK&ROLL THEORY', 'type': 'SD'
+        },
+        {'achievements': 94.5965, 'ds': 11.6, 'dxScore': 1395, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 115, 'rate': 'aaa', 'song_id': 649, 'title': '猛進ソリストライフ！', 'type': 'SD'
+        },
+        {'achievements': 97.6019, 'ds': 10.8, 'dxScore': 1145, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 131, 'rate': 's', 'song_id': 648, 'title': 'My Dearest Song', 'type': 'SD'
+        },
+        {'achievements': 97.1393, 'ds': 10.8, 'dxScore': 1262, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 131, 'rate': 's', 'song_id': 694, 'title': '猫祭り', 'type': 'SD'
+        },
+        {'achievements': 99.3528, 'ds': 10.4, 'dxScore': 1199, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 134, 'rate': 'ss', 'song_id': 695, 'title': 'TRUST', 'type': 'SD'
+        },
+        {'achievements': 90.8476, 'ds': 9.9, 'dxScore': 870, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 85, 'rate': 'aa', 'song_id': 822, 'title': 'イロトリドリのメロディ', 'type': 'SD'
+        },
+        {'achievements': 97.7045, 'ds': 10.4, 'dxScore': 1258, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 127, 'rate': 's', 'song_id': 821, 'title': '-OutsideR:RequieM-', 'type': 'SD'
+        },
+        {'achievements': 98.201, 'ds': 10.1, 'dxScore': 1298, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 125, 'rate': 'sp', 'song_id': 769, 'title': 'なるとなぎのパーフェクトロックンロール教室', 'type': 'SD'
+        },
+        {'achievements': 98.2229, 'ds': 10.0, 'dxScore': 1517, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 124, 'rate': 'sp', 'song_id': 603, 'title': 'その群青が愛しかったようだった', 'type': 'SD'
+        },
+        {'achievements': 94.2774, 'ds': 10.7, 'dxScore': 1376, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 105, 'rate': 'aaa', 'song_id': 628, 'title': '光線チューニング', 'type': 'SD'
+        },
+        {'achievements': 97.094, 'ds': 10.0, 'dxScore': 1301, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 121, 'rate': 's', 'song_id': 627, 'title': '心象蜃気楼', 'type': 'SD'
+        },
+        {'achievements': 99.8952, 'ds': 11.7, 'dxScore': 1818, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 154, 'rate': 'ssp', 'song_id': 719, 'title': 'エンドマークに希望と涙を添えて', 'type': 'SD'
+        },
+        {'achievements': 98.0754, 'ds': 12.3, 'dxScore': 1736, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 153, 'rate': 'sp', 'song_id': 736, 'title': 'World Vanquisher', 'type': 'SD'
+        },
+        {'achievements': 100.5401, 'ds': 12.5, 'dxScore': 1915, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 175, 'rate': 'sssp', 'song_id': 757, 'title': 'Xevel', 'type': 'SD'
+        },
+        {'achievements': 100.4098, 'ds': 10.0, 'dxScore': 1396, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 135, 'rate': 'sss', 'song_id': 11110, 'title': 'はちみつアドベンチャー', 'type': 'DX'
+        },
+        {'achievements': 100.5262, 'ds': 12.5, 'dxScore': 1322, 'fc': 'fcp', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 175, 'rate': 'sssp', 'song_id': 11114, 'title': '青空のラプソディ', 'type': 'DX'
+        },
+        {'achievements': 100.3059, 'ds': 11.3, 'dxScore': 1845, 'fc': '', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 153, 'rate': 'sss', 'song_id': 793, 'title': 'ロキ', 'type': 'SD'
+        },
+        {'achievements': 99.7973, 'ds': 11.4, 'dxScore': 1766, 'fc': '', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 150, 'rate': 'ssp', 'song_id': 838, 'title': '最終鬼畜妹フランドール・S', 'type': 'SD'
+        },
+        {'achievements': 82.4405, 'ds': 11.8, 'dxScore': 1122, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 82, 'rate': 'a', 'song_id': 756, 'title': 'CYBER Sparks', 'type': 'SD'
+        },
+        {'achievements': 86.8483, 'ds': 11.8, 'dxScore': 691, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 87, 'rate': 'a', 'song_id': 22, 'title': 'In Chaos', 'type': 'SD'
+        },
+        {'achievements': 97.7155, 'ds': 14.5, 'dxScore': 2553, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 177, 'rate': 's', 'song_id': 11029, 'title': 'Titania', 'type': 'DX'
+        },
+        {'achievements': 100.7768, 'ds': 9.6, 'dxScore': 1088, 'fc': 'fcp', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 135, 'rate': 'sssp', 'song_id': 789, 'title': 'ネ！コ！', 'type': 'SD'
+        },
+        {'achievements': 99.8922, 'ds': 9.8, 'dxScore': 1152, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 129, 'rate': 'ssp', 'song_id': 712, 'title': 'ミラクル・ショッピング', 'type': 'SD'
+        },
+        {'achievements': 96.9187, 'ds': 9.8, 'dxScore': 1250, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 99, 'rate': 'aaa', 'song_id': 598, 'title': 'すーぱーぬこになりたい', 'type': 'SD'
+        },
+        {'achievements': 99.3135, 'ds': 9.3, 'dxScore': 1096, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 120, 'rate': 'ss', 'song_id': 11088, 'title': '39みゅーじっく！', 'type': 'DX'
+        },
+        {'achievements': 98.6838, 'ds': 11.6, 'dxScore': 1579, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 145, 'rate': 'sp', 'song_id': 711, 'title': '拝啓ドッペルゲンガー', 'type': 'SD'
+        },
+        {'achievements': 99.7803, 'ds': 11.1, 'dxScore': 1573, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'ssp', 'song_id': 682, 'title': '人生リセットボタン', 'type': 'SD'
+        },
+        {'achievements': 98.6995, 'ds': 9.1, 'dxScore': 1161, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 114, 'rate': 'sp', 'song_id': 522, 'title': 'Mr. Wonderland', 'type': 'SD'
+        },
+        {'achievements': 99.5794, 'ds': 9.8, 'dxScore': 1410, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 128, 'rate': 'ssp', 'song_id': 763, 'title': 'はやくそれになりたい！', 'type': 'SD'
+        },
+        {'achievements': 100.5009, 'ds': 11.1, 'dxScore': 1401, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 156, 'rate': 'sssp', 'song_id': 621, 'title': 'ARROW', 'type': 'SD'
+        },
+        {'achievements': 99.2203, 'ds': 10.0, 'dxScore': 1399, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 128, 'rate': 'ss', 'song_id': 553, 'title': 'チュルリラ・チュルリラ・ダッダッダ！', 'type': 'SD'
+        },
+        {'achievements': 98.37, 'ds': 11.7, 'dxScore': 1633, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'sp', 'song_id': 709, 'title': 'アウターサイエンス', 'type': 'SD'
+        },
+        {'achievements': 95.308, 'ds': 11.5, 'dxScore': 925, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 115, 'rate': 'aaa', 'song_id': 223, 'title': '夜咄ディセイブ', 'type': 'SD'
+        },
+        {'achievements': 99.0173, 'ds': 10.6, 'dxScore': 979, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 136, 'rate': 'ss', 'song_id': 198, 'title': 'カゲロウデイズ', 'type': 'SD'
+        },
+        {'achievements': 100.2067, 'ds': 8.7, 'dxScore': 1139, 'fc': 'fcp', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 117, 'rate': 'sss', 'song_id': 417, 'title': 'ウミユリ海底譚', 'type': 'SD'
+        },
+        {'achievements': 96.2728, 'ds': 9.0, 'dxScore': 887, 'fc': 'fc', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 90, 'rate': 'aaa', 'song_id': 508, 'title': '恋愛裁判', 'type': 'SD'
+        },
+        {'achievements': 100.1952, 'ds': 11.6, 'dxScore': 1287, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 156, 'rate': 'sss', 'song_id': 269, 'title': '裏表ラバーズ', 'type': 'SD'
+        },
+        {'achievements': 95.5731, 'ds': 10.0, 'dxScore': 1008, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 100, 'rate': 'aaa', 'song_id': 193, 'title': 'セツナトリップ', 'type': 'SD'
+        },
+        {'achievements': 99.1075, 'ds': 11.4, 'dxScore': 1383, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'ss', 'song_id': 750, 'title': '初音ミクの激唱', 'type': 'SD'
+        },
+        {'achievements': 100.6304, 'ds': 12.2, 'dxScore': 1434, 'fc': 'fc', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 171, 'rate': 'sssp', 'song_id': 432, 'title': '幸せになれる隠しコマンドがあるらしい', 'type': 'SD'
+        },
+        {'achievements': 100.7187, 'ds': 9.4, 'dxScore': 1372, 'fc': 'fc', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 132, 'rate': 'sssp', 'song_id': 693, 'title': 'キレキャリオン', 'type': 'SD'
+        },
+        {'achievements': 97.675, 'ds': 8.9, 'dxScore': 846, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 108, 'rate': 's', 'song_id': 259, 'title': 'ぽっぴっぽー', 'type': 'SD'
+        },
+        {'achievements': 99.3845, 'ds': 10.7, 'dxScore': 1507, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 138, 'rate': 'ss', 'song_id': 380, 'title': 'どうしてこうなった', 'type': 'SD'
+        },
+        {'achievements': 95.4454, 'ds': 10.8, 'dxScore': 783, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 108, 'rate': 'aaa', 'song_id': 285, 'title': "magician's operation", 'type': 'SD'
+        },
+        {'achievements': 94.9681, 'ds': 10.9, 'dxScore': 1236, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 108, 'rate': 'aaa', 'song_id': 204, 'title': 'ナイト・オブ・ナイツ', 'type': 'SD'
+        },
+        {'achievements': 100.1298, 'ds': 11.0, 'dxScore': 1735, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 148, 'rate': 'sss', 'song_id': 439, 'title': '最終鬼畜妹・一部声', 'type': 'SD'
+        },
+        {'achievements': 97.6025, 'ds': 10.8, 'dxScore': 1360, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 131, 'rate': 's', 'song_id': 817, 'title': '【東方ニコカラ】秘神マターラ feat.魂音泉【IOSYS】', 'type': 'SD'
+        },
+        {'achievements': 96.9541, 'ds': 10.8, 'dxScore': 1020, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 109, 'rate': 'aaa', 'song_id': 699, 'title': '天狗の落とし文 feat. ｙｔｒ', 'type': 'SD'
+        },
+        {'achievements': 97.2564, 'ds': 10.6, 'dxScore': 1030, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 128, 'rate': 's', 'song_id': 583, 'title': 'Starlight Vision', 'type': 'SD'
+        },
+        {'achievements': 99.8241, 'ds': 11.1, 'dxScore': 1595, 'fc': 'fc', 'fs': 'fsp', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'ssp', 'song_id': 701, 'title': 'Doll Judgment', 'type': 'SD'
+        },
+        {'achievements': 99.6847, 'ds': 11.1, 'dxScore': 1385, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'ssp', 'song_id': 11065, 'title': 'Yakumo >>JOINT STRUGGLE (2019 Update)', 'type': 'DX'
+        },
+        {'achievements': 90.4602, 'ds': 12.4, 'dxScore': 1112, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 106, 'rate': 'aa', 'song_id': 11142, 'title': 'NULCTRL', 'type': 'DX'
+        },
+        {'achievements': 95.3591, 'ds': 10.9, 'dxScore': 1276, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 109, 'rate': 'aaa', 'song_id': 740, 'title': 'ULTRA B+K', 'type': 'SD'
+        },
+        {'achievements': 98.5343, 'ds': 9.8, 'dxScore': 1251, 'fc': 'fc', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 122, 'rate': 'sp', 'song_id': 471, 'title': 'オモイヨシノ', 'type': 'SD'
+        },
+        {'achievements': 99.7374, 'ds': 11.8, 'dxScore': 1803, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 155, 'rate': 'ssp', 'song_id': 11089, 'title': 'STEEL TRANSONIC', 'type': 'DX'
+        },
+        {'achievements': 85.4633, 'ds': 12.5, 'dxScore': 1396, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 90, 'rate': 'a', 'song_id': 581, 'title': 'ねぇ、壊れタ人形ハ何処へ棄テらレるノ？', 'type': 'SD'
+        },
+        {'achievements': 89.5917, 'ds': 11.9, 'dxScore': 971, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 90, 'rate': 'a', 'song_id': 589, 'title': 'Panopticon', 'type': 'SD'
+        },
+        {'achievements': 99.2058, 'ds': 11.9, 'dxScore': 1749, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 153, 'rate': 'ss', 'song_id': 825, 'title': '雷切-RAIKIRI-', 'type': 'SD'
+        },
+        {'achievements': 99.3404, 'ds': 12.7, 'dxScore': 1983, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 2, 'level_label': 'Expert', 'ra': 164, 'rate': 'ss', 'song_id': 456, 'title': 'Glorious Crown', 'type': 'SD'
+        },
+        {'achievements': 94.9829, 'ds': 11.7, 'dxScore': 1571, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 116, 'rate': 'aaa', 'song_id': 421, 'title': 'Aiolos', 'type': 'SD'
+        },
+        {'achievements': 94.3202, 'ds': 11.8, 'dxScore': 1226, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 116, 'rate': 'aaa', 'song_id': 232, 'title': 'Life Feels Good', 'type': 'SD'
+        },
+        {'achievements': 94.2961, 'ds': 12.6, 'dxScore': 1948, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 124, 'rate': 'aaa', 'song_id': 852, 'title': 'TiamaT:F minor', 'type': 'SD'
+        },
+        {'achievements': 99.5938, 'ds': 10.7, 'dxScore': 1333, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 3, 'level_label': 'Master', 'ra': 140, 'rate': 'ssp', 'song_id': 731, 'title': '妄想感傷代償連盟', 'type': 'SD'
+        },
+        {'achievements': 96.5825, 'ds': 11.7, 'dxScore': 970, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 118, 'rate': 'aaa', 'song_id': 64, 'title': '教えて!! 魔法のLyric', 'type': 'SD'
+        },
+        {'achievements': 99.708, 'ds': 7.7, 'dxScore': 878, 'fc': 'fc', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 101, 'rate': 'ssp', 'song_id': 11216, 'title': 'felys -final remix-', 'type': 'DX'
+        },
+        {'achievements': 97.2049, 'ds': 8.0, 'dxScore': 886, 'fc': 'fc', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 97, 'rate': 's', 'song_id': 10734, 'title': 'ENERGY SYNERGY MATRIX', 'type': 'DX'
+        },
+        {'achievements': 91.3835, 'ds': 8.5, 'dxScore': 906, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 73, 'rate': 'aa', 'song_id': 11103, 'title': '渦状銀河のシンフォニエッタ', 'type': 'DX'
+        },
+        {'achievements': 98.7921, 'ds': 7.8, 'dxScore': 911, 'fc': 'fc', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 97, 'rate': 'sp', 'song_id': 459, 'title': '幾四音-Ixion-', 'type': 'SD'
+        },
+        {'achievements': 99.8939, 'ds': 9.0, 'dxScore': 1277, 'fc': 'fc', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 118, 'rate': 'ssp', 'song_id': 11180, 'title': '紅蓮華', 'type': 'DX'
+        },
+        {'achievements': 100.5956, 'ds': 8.8, 'dxScore': 916, 'fc': 'fc', 'fs': 'fsp', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 123, 'rate': 'sssp', 'song_id': 11179, 'title': '町かどタンジェント', 'type': 'DX'
+        },
+        {'achievements': 100.6027, 'ds': 8.9, 'dxScore': 952, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 125, 'rate': 'sssp', 'song_id': 11178, 'title': 'ノーポイッ!', 'type': 'DX'
+        },
+        {'achievements': 99.0446, 'ds': 8.5, 'dxScore': 495, 'fc': '', 'fs': '', 'level': '8', 'level_index': 2, 'level_label': 'Expert', 'ra': 109, 'rate': 'ss', 'song_id': 11151, 'title': '馬と鹿', 'type': 'DX'
+        },
+        {'achievements': 100.7016, 'ds': 8.8, 'dxScore': 1278, 'fc': 'fc', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 123, 'rate': 'sssp', 'song_id': 11035, 'title': 'LOSER', 'type': 'DX'
+        },
+        {'achievements': 98.576, 'ds': 9.1, 'dxScore': 972, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 113, 'rate': 'sp', 'song_id': 11038, 'title': '新宝島', 'type': 'DX'
+        },
+        {'achievements': 92.1013, 'ds': 8.8, 'dxScore': 682, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 76, 'rate': 'aa', 'song_id': 10021, 'title': 'コネクト', 'type': 'DX'
+        },
+        {'achievements': 99.8461, 'ds': 10.2, 'dxScore': 1545, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 134, 'rate': 'ssp', 'song_id': 11185, 'title': '命に嫌われている', 'type': 'DX'
+        },
+        {'achievements': 100.6455, 'ds': 8.8, 'dxScore': 1027, 'fc': 'fcp', 'fs': 'fsp', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 123, 'rate': 'sssp', 'song_id': 11187, 'title': '乙女解剖', 'type': 'DX'
+        },
+        {'achievements': 99.9529, 'ds': 9.3, 'dxScore': 1323, 'fc': 'fc', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 122, 'rate': 'ssp', 'song_id': 11045, 'title': 'アウトサイダー', 'type': 'DX'
+        },
+        {'achievements': 100.0865, 'ds': 9.7, 'dxScore': 1033, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 131, 'rate': 'sss', 'song_id': 288, 'title': '六兆年と一夜物語', 'type': 'SD'
+        },
+        {'achievements': 100.322, 'ds': 9.9, 'dxScore': 1422, 'fc': 'fc', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 134, 'rate': 'sss', 'song_id': 552, 'title': 'ゴーストルール', 'type': 'SD'
+        },
+        {'achievements': 100.4902, 'ds': 9.8, 'dxScore': 1189, 'fc': 'fcp', 'fs': 'fsp', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 132, 'rate': 'sss', 'song_id': 11125, 'title': 'クレイジー・ビート', 'type': 'DX'
+        },
+        {'achievements': 98.6934, 'ds': 11.3, 'dxScore': 1059, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 141, 'rate': 'sp', 'song_id': 10191, 'title': '脳漿炸裂ガール', 'type': 'DX'
+        },
+        {'achievements': 94.7266, 'ds': 11.7, 'dxScore': 941, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 116, 'rate': 'aaa', 'song_id': 191, 'title': '脳漿炸裂ガール', 'type': 'SD'
+        },
+        {'achievements': 98.7921, 'ds': 10.3, 'dxScore': 1616, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 129, 'rate': 'sp', 'song_id': 11052, 'title': 'グリーンライツ・セレナーデ', 'type': 'DX'
+        },
+        {'achievements': 95.934, 'ds': 11.7, 'dxScore': 1138, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 117, 'rate': 'aaa', 'song_id': 109, 'title': '腐れ外道とチョコレゐト', 'type': 'SD'
+        },
+        {'achievements': 100.3566, 'ds': 9.5, 'dxScore': 1324, 'fc': 'fcp', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 128, 'rate': 'sss', 'song_id': 11200, 'title': 'Paranoia', 'type': 'DX'
+        },
+        {'achievements': 99.8574, 'ds': 10.5, 'dxScore': 1494, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 138, 'rate': 'ssp', 'song_id': 838, 'title': '最終鬼畜妹フランドール・S', 'type': 'SD'
+        },
+        {'achievements': 100.3725, 'ds': 10.4, 'dxScore': 1151, 'fc': 'fc', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 140, 'rate': 'sss', 'song_id': 766, 'title': 'アマノジャクリバース feat. ｙｔｒ', 'type': 'SD'
+        },
+        {'achievements': 100.366, 'ds': 10.8, 'dxScore': 1594, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'sss', 'song_id': 839, 'title': 'ネクロファンタジア～Arr.Demetori', 'type': 'SD'
+        },
+        {'achievements': 97.6885, 'ds': 11.1, 'dxScore': 1426, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 135, 'rate': 's', 'song_id': 11064, 'title': 'Little "Sister" Bitch', 'type': 'DX'
+        },
+        {'achievements': 80.5243, 'ds': 11.9, 'dxScore': 1092, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 81, 'rate': 'a', 'song_id': 641, 'title': 'Calamity Fortune', 'type': 'SD'
+        },
+        {'achievements': 97.9168, 'ds': 11.7, 'dxScore': 1567, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 143, 'rate': 's', 'song_id': 684, 'title': 'もうみんなしねばいいのに', 'type': 'SD'
+        },
+        {'achievements': 100.3244, 'ds': 10.7, 'dxScore': 1598, 'fc': 'fc', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 144, 'rate': 'sss', 'song_id': 11216, 'title': 'felys -final remix-', 'type': 'DX'
+        },
+        {'achievements': 99.8538, 'ds': 12.2, 'dxScore': 1973, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 160, 'rate': 'ssp', 'song_id': 11206, 'title': 'BATTLE NO.1', 'type': 'DX'
+        },
+        {'achievements': 95.9876, 'ds': 12.0, 'dxScore': 1400, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 120, 'rate': 'aaa', 'song_id': 385, 'title': 'Ignis Danse', 'type': 'SD'
+        },
+        {'achievements': 93.3975, 'ds': 12.6, 'dxScore': 1200, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 111, 'rate': 'aa', 'song_id': 556, 'title': '夜明けまであと３秒', 'type': 'SD'
+        },
+        {'achievements': 97.9817, 'ds': 11.6, 'dxScore': 1501, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 142, 'rate': 's', 'song_id': 798, 'title': 'セイクリッド\u3000ルイン', 'type': 'SD'
+        },
+        {'achievements': 99.3081, 'ds': 11.8, 'dxScore': 1572, 'fc': 'fc', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 152, 'rate': 'ss', 'song_id': 11075, 'title': 'プナイプナイせんそう', 'type': 'DX'
+        },
+        {'achievements': 100.2775, 'ds': 10.9, 'dxScore': 1330, 'fc': 'fcp', 'fs': 'fs', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 147, 'rate': 'sss', 'song_id': 11081, 'title': 'サンバランド', 'type': 'DX'
+        },
+        {'achievements': 100.7921, 'ds': 11.4, 'dxScore': 1703, 'fc': 'fcp', 'fs': 'fs', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 160, 'rate': 'sssp', 'song_id': 10734, 'title': 'ENERGY SYNERGY MATRIX', 'type': 'DX'
+        },
+        {'achievements': 100.6958, 'ds': 11.8, 'dxScore': 1778, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 166, 'rate': 'sssp', 'song_id': 734, 'title': 'ENERGY SYNERGY MATRIX', 'type': 'SD'
+        },
+        {'achievements': 96.9783, 'ds': 11.5, 'dxScore': 1252, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 117, 'rate': 'aaa', 'song_id': 672, 'title': 'MilK', 'type': 'SD'
+        },
+        {'achievements': 95.6459, 'ds': 11.7, 'dxScore': 1589, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 117, 'rate': 'aaa', 'song_id': 381, 'title': 'B.B.K.K.B.K.K.', 'type': 'SD'
+        },
+        {'achievements': 99.9146, 'ds': 11.4, 'dxScore': 1442, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 150, 'rate': 'ssp', 'song_id': 848, 'title': '魔法少女になるしかねぇ', 'type': 'SD'
+        },
+        {'achievements': 98.0323, 'ds': 11.4, 'dxScore': 1479, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 141, 'rate': 'sp', 'song_id': 10593, 'title': 'conflict', 'type': 'DX'
+        },
+        {'achievements': 93.9129, 'ds': 12.2, 'dxScore': 1481, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 108, 'rate': 'aa', 'song_id': 593, 'title': 'conflict', 'type': 'SD'
+        },
+        {'achievements': 97.1264, 'ds': 10.9, 'dxScore': 955, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 132, 'rate': 's', 'song_id': 800, 'title': 'EVERGREEN', 'type': 'SD'
+        },
+        {'achievements': 98.5424, 'ds': 11.8, 'dxScore': 1503, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 147, 'rate': 'sp', 'song_id': 542, 'title': 'METATRON', 'type': 'SD'
+        },
+        {'achievements': 98.7112, 'ds': 11.7, 'dxScore': 1439, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'sp', 'song_id': 688, 'title': '麒麟', 'type': 'SD'
+        },
+        {'achievements': 97.7173, 'ds': 11.8, 'dxScore': 960, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 144, 'rate': 's', 'song_id': 339, 'title': 'DRAGONLADY', 'type': 'SD'
+        },
+        {'achievements': 100.0758, 'ds': 11.3, 'dxScore': 1483, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 152, 'rate': 'sss', 'song_id': 11152, 'title': 'ぼくたちいつでも\u3000しゅわっしゅわ！', 'type': 'DX'
+        },
+        {'achievements': 100.0134, 'ds': 9.7, 'dxScore': 1408, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 130, 'rate': 'sss', 'song_id': 328, 'title': '言ノ葉カルマ', 'type': 'SD'
+        },
+        {'achievements': 98.3887, 'ds': 11.8, 'dxScore': 1594, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 147, 'rate': 'sp', 'song_id': 11214, 'title': 'Jörqer', 'type': 'DX'
+        },
+        {'achievements': 100.0907, 'ds': 12.2, 'dxScore': 2163, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 164, 'rate': 'sss', 'song_id': 11215, 'title': 'Sqlupp (Camellia\'s "Sqleipd*Hiytex" Remix)', 'type': 'DX'
+        },
+        {'achievements': 98.3596, 'ds': 12.0, 'dxScore': 1543, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 149, 'rate': 'sp', 'song_id': 11155, 'title': 'ARAIS', 'type': 'DX'
+        },
+        {'achievements': 100.2411, 'ds': 13.0, 'dxScore': 2223, 'fc': '', 'fs': '', 'level': '13', 'level_index': 2, 'level_label': 'Expert', 'ra': 175, 'rate': 'sss', 'song_id': 11106, 'title': 'Valsqotch', 'type': 'DX'
+        },
+        {'achievements': 99.5616, 'ds': 11.9, 'dxScore': 1665, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 156, 'rate': 'ssp', 'song_id': 494, 'title': 'CITRUS MONSTER', 'type': 'SD'
+        },
+        {'achievements': 99.4788, 'ds': 12.5, 'dxScore': 2017, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 161, 'rate': 'ss', 'song_id': 11027, 'title': 'アポカリプスに反逆の焔を焚べろ', 'type': 'DX'
+        },
+        {'achievements': 100.0706, 'ds': 12.5, 'dxScore': 1867, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 168, 'rate': 'sss', 'song_id': 799, 'title': 'QZKago Requiem', 'type': 'SD'
+        },
+        {'achievements': 98.0871, 'ds': 11.4, 'dxScore': 1506, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 142, 'rate': 'sp', 'song_id': 10363, 'title': 'Oshama Scramble!', 'type': 'DX'
+        },
+        {'achievements': 99.8836, 'ds': 11.0, 'dxScore': 1568, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 145, 'rate': 'ssp', 'song_id': 363, 'title': 'Oshama Scramble!', 'type': 'SD'
+        },
+        {'achievements': 94.1959, 'ds': 11.1, 'dxScore': 1180, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 109, 'rate': 'aaa', 'song_id': 261, 'title': 'Death Scythe', 'type': 'SD'
+        },
+        {'achievements': 95.0285, 'ds': 11.8, 'dxScore': 830, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 117, 'rate': 'aaa', 'song_id': 133, 'title': 'We Gonna Party', 'type': 'SD'
+        },
+        {'achievements': 97.1783, 'ds': 11.5, 'dxScore': 1315, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 139, 'rate': 's', 'song_id': 745, 'title': 'keep hopping', 'type': 'SD'
+        },
+        {'achievements': 95.5441, 'ds': 11.9, 'dxScore': 1607, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 119, 'rate': 'aaa', 'song_id': 492, 'title': 'Jumble Rumble', 'type': 'SD'
+        },
+        {'achievements': 97.7687, 'ds': 10.5, 'dxScore': 1443, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 128, 'rate': 's', 'song_id': 422, 'title': 'LANCE', 'type': 'SD'
+        },
+        {'achievements': 97.9711, 'ds': 11.0, 'dxScore': 1261, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 134, 'rate': 's', 'song_id': 366, 'title': 'oboro', 'type': 'SD'
+        },
+        {'achievements': 90.9619, 'ds': 11.2, 'dxScore': 546, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 96, 'rate': 'aa', 'song_id': 137, 'title': 'Spin me harder', 'type': 'SD'
+        },
+        {'achievements': 95.5304, 'ds': 11.5, 'dxScore': 718, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 115, 'rate': 'aaa', 'song_id': 131, 'title': 'Link', 'type': 'SD'
+        },
+        {'achievements': 100.5869, 'ds': 12.5, 'dxScore': 1976, 'fc': 'fc', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 175, 'rate': 'sssp', 'song_id': 11175, 'title': '宛城、炎上！！', 'type': 'DX'
+        },
+        {'achievements': 98.213, 'ds': 9.1, 'dxScore': 1321, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 113, 'rate': 'sp', 'song_id': 461, 'title': '無敵We are one!!', 'type': 'SD'
+        },
+        {'achievements': 99.3293, 'ds': 11.3, 'dxScore': 1516, 'fc': 'fc', 'fs': 'fsp', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 145, 'rate': 'ss', 'song_id': 823, 'title': '奏者はただ背中と提琴で語るのみ', 'type': 'SD'
+        },
+        {'achievements': 97.4225, 'ds': 11.5, 'dxScore': 1114, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 140, 'rate': 's', 'song_id': 786, 'title': 'My First Phone', 'type': 'SD'
+        },
+        {'achievements': 99.7596, 'ds': 11.9, 'dxScore': 1420, 'fc': 'fc', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 156, 'rate': 'ssp', 'song_id': 11032, 'title': 'CHOCOLATE BOMB!!!!', 'type': 'DX'
+        },
+        {'achievements': 100.0163, 'ds': 11.5, 'dxScore': 1466, 'fc': 'fc', 'fs': 'fsp', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 155, 'rate': 'sss', 'song_id': 11180, 'title': '紅蓮華', 'type': 'DX'
+        },
+        {'achievements': 100.8659, 'ds': 11.8, 'dxScore': 1079, 'fc': 'fcp', 'fs': 'fs', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 166, 'rate': 'sssp', 'song_id': 11179, 'title': '町かどタンジェント', 'type': 'DX'
+        },
+        {'achievements': 97.2629, 'ds': 11.9, 'dxScore': 1804, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 144, 'rate': 's', 'song_id': 11035, 'title': 'LOSER', 'type': 'DX'
+        },
+        {'achievements': 99.3135, 'ds': 11.8, 'dxScore': 1350, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 152, 'rate': 'ss', 'song_id': 11038, 'title': '新宝島', 'type': 'DX'
+        },
+        {'achievements': 100.2762, 'ds': 11.3, 'dxScore': 1100, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 152, 'rate': 'sss', 'song_id': 10021, 'title': 'コネクト', 'type': 'DX'
+        },
+        {'achievements': 91.8792, 'ds': 11.7, 'dxScore': 711, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 102, 'rate': 'aa', 'song_id': 21, 'title': 'コネクト', 'type': 'SD'
+        },
+        {'achievements': 100.4794, 'ds': 12.7, 'dxScore': 1650, 'fc': 'fc', 'fs': 'fs', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 172, 'rate': 'sss', 'song_id': 789, 'title': 'ネ！コ！', 'type': 'SD'
+        },
+        {'achievements': 90.9834, 'ds': 11.0, 'dxScore': 412, 'fc': '', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 95, 'rate': 'aa', 'song_id': 18, 'title': 'Love You', 'type': 'SD'
+        },
+        {'achievements': 93.9509, 'ds': 12.1, 'dxScore': 1641, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 107, 'rate': 'aa', 'song_id': 601, 'title': 'きらっせ☆ウッド村ファーム', 'type': 'SD'
+        },
+        {'achievements': 100.7482, 'ds': 12.5, 'dxScore': 1792, 'fc': 'fc', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 175, 'rate': 'sssp', 'song_id': 11187, 'title': '乙女解剖', 'type': 'DX'
+        },
+        {'achievements': 100.1982, 'ds': 13.0, 'dxScore': 2365, 'fc': 'fc', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 175, 'rate': 'sss', 'song_id': 11129, 'title': 'すーぱーぬこになれんかった', 'type': 'DX'
+        },
+        {'achievements': 100.3809, 'ds': 11.9, 'dxScore': 1910, 'fc': 'fc', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 161, 'rate': 'sss', 'song_id': 11069, 'title': '太陽系デスコ', 'type': 'DX'
+        },
+        {'achievements': 100.5324, 'ds': 11.8, 'dxScore': 1990, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 166, 'rate': 'sssp', 'song_id': 742, 'title': '彗星ハネムーン', 'type': 'SD'
+        },
+        {'achievements': 100.2226, 'ds': 11.8, 'dxScore': 1561, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 159, 'rate': 'sss', 'song_id': 11088, 'title': '39みゅーじっく！', 'type': 'DX'
+        },
+        {'achievements': 95.3357, 'ds': 11.1, 'dxScore': 1035, 'fc': '', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 111, 'rate': 'aaa', 'song_id': 256, 'title': 'いーあるふぁんくらぶ', 'type': 'SD'
+        },
+        {'achievements': 99.6986, 'ds': 12.5, 'dxScore': 1794, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 164, 'rate': 'ssp', 'song_id': 552, 'title': 'ゴーストルール', 'type': 'SD'
+        },
+        {'achievements': 100.7109, 'ds': 11.9, 'dxScore': 1564, 'fc': 'fcp', 'fs': 'fs', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 167, 'rate': 'sssp', 'song_id': 11044, 'title': 'メルティランドナイトメア', 'type': 'DX'
+        },
+        {'achievements': 100.8225, 'ds': 13.0, 'dxScore': 2030, 'fc': 'fcp', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 182, 'rate': 'sssp', 'song_id': 417, 'title': 'ウミユリ海底譚', 'type': 'SD'
+        },
+        {'achievements': 99.5582, 'ds': 11.2, 'dxScore': 1407, 'fc': '', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 147, 'rate': 'ssp', 'song_id': 513, 'title': 'だんだん早くなる', 'type': 'SD'
+        },
+        {'achievements': 100.2002, 'ds': 11.1, 'dxScore': 1653, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 150, 'rate': 'sss', 'song_id': 508, 'title': '恋愛裁判', 'type': 'SD'
+        },
+        {'achievements': 100.117, 'ds': 11.3, 'dxScore': 1575, 'fc': 'fcp', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 152, 'rate': 'sss', 'song_id': 809, 'title': '結ンデ開イテ羅刹ト骸', 'type': 'SD'
+        },
+        {'achievements': 98.1896, 'ds': 12.7, 'dxScore': 1455, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 158, 'rate': 'sp', 'song_id': 315, 'title': '深海少女', 'type': 'SD'
+        },
+        {'achievements': 92.2569, 'ds': 11.8, 'dxScore': 1453, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 103, 'rate': 'aa', 'song_id': 646, 'title': '名探偵連続殺人事件', 'type': 'SD'
+        },
+        {'achievements': 97.6504, 'ds': 11.9, 'dxScore': 2104, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 145, 'rate': 's', 'song_id': 637, 'title': 'ないせんのうた', 'type': 'SD'
+        },
+        {'achievements': 98.2891, 'ds': 12.7, 'dxScore': 1911, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 158, 'rate': 'sp', 'song_id': 11200, 'title': 'Paranoia', 'type': 'DX'
+        },
+        {'achievements': 97.9903, 'ds': 11.8, 'dxScore': 1522, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 144, 'rate': 's', 'song_id': 200, 'title': 'Bad Apple!! feat nomico', 'type': 'SD'
+        },
+        {'achievements': 95.4567, 'ds': 12.4, 'dxScore': 1158, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 124, 'rate': 'aaa', 'song_id': 199, 'title': 'チルノのパーフェクトさんすう教室', 'type': 'SD'
+        },
+        {'achievements': 100.3177, 'ds': 12.6, 'dxScore': 1187, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 170, 'rate': 'sss', 'song_id': 10536, 'title': '月に叢雲華に風', 'type': 'DX'
+        },
+        {'achievements': 88.2085, 'ds': 11.8, 'dxScore': 1115, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 88, 'rate': 'a', 'song_id': 535, 'title': '色は匂へど散りぬるを', 'type': 'SD'
+        },
+        {'achievements': 100.3153, 'ds': 11.8, 'dxScore': 1666, 'fc': 'fc', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 159, 'rate': 'sss', 'song_id': 586, 'title': '永遠のメロディ', 'type': 'SD'
+        },
+        {'achievements': 98.2278, 'ds': 11.0, 'dxScore': 844, 'fc': '', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 137, 'rate': 'sp', 'song_id': 61, 'title': 'Beat Of Mind', 'type': 'SD'
+        },
+        {'achievements': 99.0113, 'ds': 11.7, 'dxScore': 990, 'fc': 'fc', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 150, 'rate': 'ss', 'song_id': 229, 'title': 'ぐるぐるWASH！コインランドリー・ディスコ', 'type': 'SD'
+        },
+        {'achievements': 97.5345, 'ds': 12.0, 'dxScore': 1233, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 146, 'rate': 's', 'song_id': 242, 'title': 'ナミダと流星', 'type': 'SD'
+        },
+        {'achievements': 96.6833, 'ds': 10.7, 'dxScore': 983, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 3, 'level_label': 'Master', 'ra': 108, 'rate': 'aaa', 'song_id': 25, 'title': 'Sweets×Sweets', 'type': 'SD'
+        },
+        {'achievements': 100.5492, 'ds': 11.9, 'dxScore': 1502, 'fc': 'fc', 'fs': 'fsp', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 167, 'rate': 'sssp', 'song_id': 822, 'title': 'イロトリドリのメロディ', 'type': 'SD'
+        },
+        {'achievements': 96.9766, 'ds': 12.6, 'dxScore': 1971, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 128, 'rate': 'aaa', 'song_id': 528, 'title': 'Invitation', 'type': 'SD'
+        },
+        {'achievements': 100.6636, 'ds': 12.2, 'dxScore': 1916, 'fc': 'fc', 'fs': 'fs', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 171, 'rate': 'sssp', 'song_id': 603, 'title': 'その群青が愛しかったようだった', 'type': 'SD'
+        },
+        {'achievements': 98.7556, 'ds': 12.2, 'dxScore': 1392, 'fc': '', 'fs': '', 'level': '12', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 153, 'rate': 'sp', 'song_id': 513, 'title': 'だんだん早くなる', 'type': 'SD'
+        },
+        {'achievements': 100.1322, 'ds': 9.8, 'dxScore': 1665, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 132, 'rate': 'sss', 'song_id': 11186, 'title': 'アンクローズ・ヒューマン', 'type': 'DX'
+        },
+        {'achievements': 99.6507, 'ds': 9.7, 'dxScore': 1573, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 127, 'rate': 'ssp', 'song_id': 283, 'title': 'ネトゲ廃人シュプレヒコール', 'type': 'SD'
+        },
+        {'achievements': 100.0154, 'ds': 10.2, 'dxScore': 1577, 'fc': 'fc', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 137, 'rate': 'sss', 'song_id': 762, 'title': 'このピアノでお前を8759632145回ぶん殴る', 'type': 'SD'
+        },
+        {'achievements': 98.5, 'ds': 11.0, 'dxScore': 1495, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 137, 'rate': 'sp', 'song_id': 10301, 'title': '患部で止まってすぐ溶ける～狂気の優曇華院', 'type': 'DX'
+        },
+        {'achievements': 99.2971, 'ds': 12.2, 'dxScore': 2003, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 157, 'rate': 'ss', 'song_id': 572, 'title': 'Scream out! -maimai SONIC WASHER Edit-', 'type': 'SD'
+        },
+        {'achievements': 92.9239, 'ds': 12.1, 'dxScore': 711, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 106, 'rate': 'aa', 'song_id': 689, 'title': 'Credits', 'type': 'SD'
+        },
+        {'achievements': 95.3879, 'ds': 12.2, 'dxScore': 1008, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 122, 'rate': 'aaa', 'song_id': 83, 'title': 'Urban Crusher [Remix
+            ]', 'type': 'SD'
+        },
+        {'achievements': 98.9728, 'ds': 10.8, 'dxScore': 1218, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 135, 'rate': 'sp', 'song_id': 454, 'title': 'After Burner', 'type': 'SD'
+        },
+        {'achievements': 98.3204, 'ds': 10.4, 'dxScore': 1300, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 129, 'rate': 'sp', 'song_id': 112, 'title': 'Like the Wind [Reborn
+            ]', 'type': 'SD'
+        },
+        {'achievements': 96.1149, 'ds': 11.7, 'dxScore': 1057, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 118, 'rate': 'aaa', 'song_id': 216, 'title': 'Mysterious Destiny', 'type': 'SD'
+        },
+        {'achievements': 100.4326, 'ds': 11.8, 'dxScore': 1565, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 159, 'rate': 'sss', 'song_id': 11154, 'title': '居並ぶ穀物と溜息まじりの運送屋', 'type': 'DX'
+        },
+        {'achievements': 100.0917, 'ds': 11.8, 'dxScore': 1495, 'fc': 'fc', 'fs': 'fsp', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 159, 'rate': 'sss', 'song_id': 11103, 'title': '渦状銀河のシンフォニエッタ', 'type': 'DX'
+        },
+        {'achievements': 99.0613, 'ds': 11.8, 'dxScore': 1928, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 151, 'rate': 'ss', 'song_id': 11093, 'title': 'UniTas', 'type': 'DX'
+        },
+        {'achievements': 99.7567, 'ds': 12.5, 'dxScore': 1868, 'fc': 'fc', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 164, 'rate': 'ssp', 'song_id': 812, 'title': 'Alea jacta est!', 'type': 'SD'
+        },
+        {'achievements': 98.508, 'ds': 12.2, 'dxScore': 1829, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 152, 'rate': 'sp', 'song_id': 11096, 'title': 'モ°ルモ°ル', 'type': 'DX'
+        },
+        {'achievements': 96.222, 'ds': 11.8, 'dxScore': 1605, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 119, 'rate': 'aaa', 'song_id': 773, 'title': 'SILENT BLUE', 'type': 'SD'
+        },
+        {'achievements': 95.9272, 'ds': 12.5, 'dxScore': 1507, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 125, 'rate': 'aaa', 'song_id': 571, 'title': 'Our Wrenally', 'type': 'SD'
+        },
+        {'achievements': 99.0609, 'ds': 12.6, 'dxScore': 1846, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 162, 'rate': 'ss', 'song_id': 227, 'title': 'Garakuta Doll Play', 'type': 'SD'
+        },
+        {'achievements': 100.4831, 'ds': 10.9, 'dxScore': 1404, 'fc': 'fcp', 'fs': 'fsp', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 147, 'rate': 'sss', 'song_id': 631, 'title': 'KING is BACK!!', 'type': 'SD'
+        },
+        {'achievements': 97.653, 'ds': 11.9, 'dxScore': 1486, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 145, 'rate': 's', 'song_id': 642, 'title': 'Justified', 'type': 'SD'
+        },
+        {'achievements': 100.2332, 'ds': 11.9, 'dxScore': 1997, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 161, 'rate': 'sss', 'song_id': 11023, 'title': 'Blows Up Everything', 'type': 'DX'
+        },
+        {'achievements': 95.8019, 'ds': 11.7, 'dxScore': 1011, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 117, 'rate': 'aaa', 'song_id': 777, 'title': '花と、雪と、ドラムンベース。', 'type': 'SD'
+        },
+        {'achievements': 94.7947, 'ds': 11.9, 'dxScore': 1310, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 118, 'rate': 'aaa', 'song_id': 803, 'title': 'Schwarzschild', 'type': 'SD'
+        },
+        {'achievements': 98.8803, 'ds': 12.1, 'dxScore': 749, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 151, 'rate': 'sp', 'song_id': 143, 'title': 'Fragrance', 'type': 'SD'
+        },
+        {'achievements': 97.663, 'ds': 11.9, 'dxScore': 1416, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 145, 'rate': 's', 'song_id': 348, 'title': 'Axeria', 'type': 'SD'
+        },
+        {'achievements': 97.6419, 'ds': 11.7, 'dxScore': 1281, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 142, 'rate': 's', 'song_id': 632, 'title': 'Ultranova', 'type': 'SD'
+        },
+        {'achievements': 96.1683, 'ds': 11.8, 'dxScore': 1328, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 119, 'rate': 'aaa', 'song_id': 493, 'title': 'Imitation:Loud Lounge', 'type': 'SD'
+        },
+        {'achievements': 98.7775, 'ds': 11.7, 'dxScore': 1532, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'sp', 'song_id': 464, 'title': 'Revive The Rave', 'type': 'SD'
+        },
+        {'achievements': 97.0658, 'ds': 11.9, 'dxScore': 1260, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 144, 'rate': 's', 'song_id': 238, 'title': 'Get Happy', 'type': 'SD'
+        },
+        {'achievements': 95.6839, 'ds': 12.4, 'dxScore': 1245, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 124, 'rate': 'aaa', 'song_id': 11217, 'title': 'Pretender', 'type': 'DX'
+        },
+        {'achievements': 100.6667, 'ds': 12.0, 'dxScore': 1332, 'fc': 'fc', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 'sssp', 'song_id': 11178, 'title': 'ノーポイッ!', 'type': 'DX'
+        },
+        {'achievements': 100.5952, 'ds': 12.5, 'dxScore': 1776, 'fc': 'fcp', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 175, 'rate': 'sssp', 'song_id': 11115, 'title': 'だから僕は音楽を辞めた', 'type': 'DX'
+        },
+        {'achievements': 90.7429, 'ds': 12.6, 'dxScore': 1800, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 108, 'rate': 'aa', 'song_id': 11045, 'title': 'アウトサイダー', 'type': 'DX'
+        },
+        {'achievements': 100.4362, 'ds': 11.2, 'dxScore': 1427, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 151, 'rate': 'sss', 'song_id': 10256, 'title': 'いーあるふぁんくらぶ', 'type': 'DX'
+        },
+        {'achievements': 96.2195, 'ds': 11.8, 'dxScore': 1376, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 119, 'rate': 'aaa', 'song_id': 512, 'title': 'StargazeR', 'type': 'SD'
+        },
+        {'achievements': 99.7345, 'ds': 13.2, 'dxScore': 2175, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 173, 'rate': 'ssp', 'song_id': 11048, 'title': 'ナイト・オブ・ナイツ (Cranky Remix)', 'type': 'DX'
+        },
+        {'achievements': 100.1284, 'ds': 13.0, 'dxScore': 2208, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 175, 'rate': 'sss', 'song_id': 704, 'title': 'SPILL OVER COLORS', 'type': 'SD'
+        },
+        {'achievements': 97.4357, 'ds': 13.0, 'dxScore': 1251, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 158, 'rate': 's', 'song_id': 230, 'title': 'CYCLES', 'type': 'SD'
+        },
+        {'achievements': 94.345, 'ds': 13.1, 'dxScore': 810, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 129, 'rate': 'aaa', 'song_id': 35, 'title': '炭★坑★節', 'type': 'SD'
+        },
+        {'achievements': 100.8706, 'ds': 8.9, 'dxScore': 751, 'fc': 'fc', 'fs': 'fsp', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 125, 'rate': 'sssp', 'song_id': 315, 'title': '深海少女', 'type': 'SD'
+        },
+        {'achievements': 99.681, 'ds': 10.3, 'dxScore': 1416, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 135, 'rate': 'ssp', 'song_id': 521, 'title': 'ECHO', 'type': 'SD'
+        },
+        {'achievements': 98.9963, 'ds': 9.8, 'dxScore': 1501, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 123, 'rate': 'sp', 'song_id': 459, 'title': '幾四音-Ixion-', 'type': 'SD'
+        },
+        {'achievements': 97.343, 'ds': 11.9, 'dxScore': 1683, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 144, 'rate': 's', 'song_id': 708, 'title': 'バレリーコ', 'type': 'SD'
+        },
+        {'achievements': 100.4945, 'ds': 12.3, 'dxScore': 1758, 'fc': 'fc', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 166, 'rate': 'sss', 'song_id': 655, 'title': 'フラジール', 'type': 'SD'
+        },
+        {'achievements': 98.2171, 'ds': 11.7, 'dxScore': 1039, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 145, 'rate': 'sp', 'song_id': 121, 'title': 'スイートマジック', 'type': 'SD'
+        },
+        {'achievements': 100.4354, 'ds': 9.2, 'dxScore': 809, 'fc': 'fc', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 124, 'rate': 'sss', 'song_id': 11116, 'title': 'ラブ・ドラマティック feat. 伊原六花', 'type': 'DX'
+        },
+        {'achievements': 99.5494, 'ds': 9.7, 'dxScore': 998, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 127, 'rate': 'ssp', 'song_id': 270, 'title': "Outlaw's Lullaby", 'type': 'SD'
+        },
+        {'achievements': 100.5183, 'ds': 11.2, 'dxScore': 1694, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 157, 'rate': 'sssp', 'song_id': 11022, 'title': 'TwisteD! XD', 'type': 'DX'
+        },
+        {'achievements': 100.034, 'ds': 10.2, 'dxScore': 1184, 'fc': 'fc', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 137, 'rate': 'sss', 'song_id': 11014, 'title': '♡マイマイマイラブ♡', 'type': 'DX'
+        },
+        {'achievements': 99.4464, 'ds': 12.3, 'dxScore': 1176, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 159, 'rate': 'ss', 'song_id': 66, 'title': 'ワールズエンド・ダンスホール', 'type': 'SD'
+        },
+        {'achievements': 97.196, 'ds': 11.7, 'dxScore': 964, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 142, 'rate': 's', 'song_id': 296, 'title': '明星ロケット', 'type': 'SD'
+        },
+        {'achievements': 100.6634, 'ds': 12.9, 'dxScore': 2147, 'fc': 'fc', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 181, 'rate': 'sssp', 'song_id': 11152, 'title': 'ぼくたちいつでも\u3000しゅわっしゅわ！', 'type': 'DX'
+        },
+        {'achievements': 100.0584, 'ds': 12.5, 'dxScore': 2095, 'fc': 'fc', 'fs': 'fsp', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 'sss', 'song_id': 11109, 'title': 'タテマエと本心の大乱闘', 'type': 'DX'
+        },
+        {'achievements': 100.1801, 'ds': 12.9, 'dxScore': 2076, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 174, 'rate': 'sss', 'song_id': 694, 'title': '猫祭り', 'type': 'SD'
+        },
+        {'achievements': 100.335, 'ds': 12.8, 'dxScore': 1944, 'fc': 'fc', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 173, 'rate': 'sss', 'song_id': 11110, 'title': 'はちみつアドベンチャー', 'type': 'DX'
+        },
+        {'achievements': 100.7558, 'ds': 9.4, 'dxScore': 899, 'fc': 'fcp', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 132, 'rate': 'sssp', 'song_id': 11037, 'title': 'HOT LIMIT', 'type': 'DX'
+        },
+        {'achievements': 100.7461, 'ds': 9.4, 'dxScore': 771, 'fc': 'fcp', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 132, 'rate': 'sssp', 'song_id': 10536, 'title': '月に叢雲華に風', 'type': 'DX'
+        },
+        {'achievements': 98.9116, 'ds': 11.4, 'dxScore': 1674, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 143, 'rate': 'sp', 'song_id': 11085, 'title': 'Halcyon', 'type': 'DX'
+        },
+        {'achievements': 100.1594, 'ds': 9.1, 'dxScore': 974, 'fc': 'fc', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 123, 'rate': 'sss', 'song_id': 11010, 'title': 'STARTLINER', 'type': 'DX'
+        },
+        {'achievements': 100.0579, 'ds': 9.4, 'dxScore': 1278, 'fc': 'fc', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 126, 'rate': 'sss', 'song_id': 11108, 'title': 'UTAKATA', 'type': 'DX'
+        },
+        {'achievements': 99.2567, 'ds': 12.8, 'dxScore': 2263, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 2, 'level_label': 'Expert', 'ra': 165, 'rate': 'ss', 'song_id': 606, 'title': 'The wheel to the right', 'type': 'SD'
+        },
+        {'achievements': 100.6568, 'ds': 12.1, 'dxScore': 2044, 'fc': 'fcp', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 170, 'rate': 'sssp', 'song_id': 791, 'title': 'ロールプレイングゲーム', 'type': 'SD'
+        },
+        {'achievements': 98.6436, 'ds': 13.3, 'dxScore': 1812, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 166, 'rate': 'sp', 'song_id': 10288, 'title': '六兆年と一夜物語', 'type': 'DX'
+        },
+        {'achievements': 97.9084, 'ds': 12.0, 'dxScore': 1096, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 146, 'rate': 's', 'song_id': 435, 'title': '願いを呼ぶ季節', 'type': 'SD'
+        },
+        {'achievements': 100.114, 'ds': 13.5, 'dxScore': 2174, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 182, 'rate': 'sss', 'song_id': 11143, 'title': 'アトロポスと最果の探究者', 'type': 'DX'
+        },
+        {'achievements': 99.9674, 'ds': 13.6, 'dxScore': 2649, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 179, 'rate': 'ssp', 'song_id': 10363, 'title': 'Oshama Scramble!', 'type': 'DX'
+        },
+        {'achievements': 100.8758, 'ds': 12.3, 'dxScore': 1456, 'fc': 'fcp', 'fs': 'fsp', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 173, 'rate': 'sssp', 'song_id': 735, 'title': 'Session High⤴', 'type': 'SD'
+        },
+        {'achievements': 92.6587, 'ds': 6.0, 'dxScore': 428, 'fc': '', 'fs': '', 'level': '6', 'level_index': 0, 'level_label': 'Basic', 'ra': 52, 'rate': 'aa', 'song_id': 11146, 'title': 'Lunar Mare', 'type': 'DX'
+        },
+        {'achievements': 98.4585, 'ds': 5.0, 'dxScore': 407, 'fc': '', 'fs': '', 'level': '5', 'level_index': 0, 'level_label': 'Basic', 'ra': 62, 'rate': 'sp', 'song_id': 10734, 'title': 'ENERGY SYNERGY MATRIX', 'type': 'DX'
+        },
+        {'achievements': 81.743, 'ds': 6.0, 'dxScore': 455, 'fc': '', 'fs': '', 'level': '6', 'level_index': 0, 'level_label': 'Basic', 'ra': 41, 'rate': 'a', 'song_id': 11026, 'title': 'TEmPTaTiON', 'type': 'DX'
+        },
+        {'achievements': 93.9025, 'ds': 7.7, 'dxScore': 654, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 0, 'level_label': 'Basic', 'ra': 68, 'rate': 'aa', 'song_id': 834, 'title': 'PANDORA PARADOXXX', 'type': 'SD'
+        },
+        {'achievements': 95.0333, 'ds': 6.0, 'dxScore': 254, 'fc': '', 'fs': '', 'level': '6', 'level_index': 0, 'level_label': 'Basic', 'ra': 59, 'rate': 'aaa', 'song_id': 137, 'title': 'Spin me harder', 'type': 'SD'
+        },
+        {'achievements': 99.55, 'ds': 6.2, 'dxScore': 568, 'fc': 'fc', 'fs': '', 'level': '6', 'level_index': 1, 'level_label': 'Advanced', 'ra': 81, 'rate': 'ssp', 'song_id': 11180, 'title': '紅蓮華', 'type': 'DX'
+        },
+        {'achievements': 100.6286, 'ds': 6.5, 'dxScore': 574, 'fc': 'fcp', 'fs': '', 'level': '6', 'level_index': 1, 'level_label': 'Advanced', 'ra': 91, 'rate': 'sssp', 'song_id': 11179, 'title': '町かどタンジェント', 'type': 'DX'
+        },
+        {'achievements': 98.2635, 'ds': 6.5, 'dxScore': 703, 'fc': '', 'fs': '', 'level': '6', 'level_index': 1, 'level_label': 'Advanced', 'ra': 81, 'rate': 'sp', 'song_id': 11035, 'title': 'LOSER', 'type': 'DX'
+        },
+        {'achievements': 93.7185, 'ds': 7.0, 'dxScore': 814, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 62, 'rate': 'aa', 'song_id': 789, 'title': 'ネ！コ！', 'type': 'SD'
+        },
+        {'achievements': 100.1132, 'ds': 7.3, 'dxScore': 970, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 98, 'rate': 'sss', 'song_id': 506, 'title': 'セハガガガンバッちゃう！！', 'type': 'SD'
+        },
+        {'achievements': 98.9851, 'ds': 7.7, 'dxScore': 674, 'fc': 'fc', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 96, 'rate': 'sp', 'song_id': 717, 'title': 'ラブって♡ジュエリー♪えんじぇる☆ブレイク！！', 'type': 'SD'
+        },
+        {'achievements': 96.0555, 'ds': 7.0, 'dxScore': 770, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 70, 'rate': 'aaa', 'song_id': 11185, 'title': '命に嫌われている', 'type': 'DX'
+        },
+        {'achievements': 100.0591, 'ds': 7.2, 'dxScore': 886, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 97, 'rate': 'sss', 'song_id': 11186, 'title': 'アンクローズ・ヒューマン', 'type': 'DX'
+        },
+        {'achievements': 98.3488, 'ds': 6.5, 'dxScore': 691, 'fc': '', 'fs': '', 'level': '6', 'level_index': 1, 'level_label': 'Advanced', 'ra': 81, 'rate': 'sp', 'song_id': 11086, 'title': 'だれかの心臓になれたなら', 'type': 'DX'
+        },
+        {'achievements': 97.5493, 'ds': 7.5, 'dxScore': 814, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 91, 'rate': 's', 'song_id': 11045, 'title': 'アウトサイダー', 'type': 'DX'
+        },
+        {'achievements': 97.4132, 'ds': 7.2, 'dxScore': 852, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 87, 'rate': 's', 'song_id': 793, 'title': 'ロキ', 'type': 'SD'
+        },
+        {'achievements': 99.3916, 'ds': 7.8, 'dxScore': 745, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 100, 'rate': 'ss', 'song_id': 10288, 'title': '六兆年と一夜物語', 'type': 'DX'
+        },
+        {'achievements': 99.6128, 'ds': 7.7, 'dxScore': 1272, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 101, 'rate': 'ssp', 'song_id': 711, 'title': '拝啓ドッペルゲンガー', 'type': 'SD'
+        },
+        {'achievements': 99.5222, 'ds': 7.8, 'dxScore': 1027, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 102, 'rate': 'ssp', 'song_id': 682, 'title': '人生リセットボタン', 'type': 'SD'
+        },
+        {'achievements': 99.5126, 'ds': 7.8, 'dxScore': 958, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 102, 'rate': 'ssp', 'song_id': 11122, 'title': 'アンドロイドガール', 'type': 'DX'
+        },
+        {'achievements': 99.0707, 'ds': 7.7, 'dxScore': 932, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 99, 'rate': 'ss', 'song_id': 552, 'title': 'ゴーストルール', 'type': 'SD'
+        },
+        {'achievements': 100.6905, 'ds': 6.5, 'dxScore': 723, 'fc': 'fcp', 'fs': '', 'level': '6', 'level_index': 1, 'level_label': 'Advanced', 'ra': 91, 'rate': 'sssp', 'song_id': 11125, 'title': 'クレイジー・ビート', 'type': 'DX'
+        },
+        {'achievements': 97.9097, 'ds': 6.2, 'dxScore': 356, 'fc': '', 'fs': '', 'level': '6', 'level_index': 1, 'level_label': 'Advanced', 'ra': 75, 'rate': 's', 'song_id': 198, 'title': 'カゲロウデイズ', 'type': 'SD'
+        },
+        {'achievements': 86.814, 'ds': 7.5, 'dxScore': 739, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 55, 'rate': 'a', 'song_id': 11052, 'title': 'グリーンライツ・セレナーデ', 'type': 'DX'
+        },
+        {'achievements': 100.1081, 'ds': 7.9, 'dxScore': 862, 'fc': 'fcp', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 106, 'rate': 'sss', 'song_id': 11058, 'title': 'デンパラダイム', 'type': 'DX'
+        },
+        {'achievements': 100.1666, 'ds': 7.8, 'dxScore': 768, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 105, 'rate': 'sss', 'song_id': 11059, 'title': '骸骨楽団とリリア', 'type': 'DX'
+        },
+        {'achievements': 93.221, 'ds': 7.5, 'dxScore': 731, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 66, 'rate': 'aa', 'song_id': 374, 'title': 'アンハッピーリフレイン', 'type': 'SD'
+        },
+        {'achievements': 93.7588, 'ds': 7.6, 'dxScore': 714, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 67, 'rate': 'aa', 'song_id': 194, 'title': '放課後ストライド', 'type': 'SD'
+        },
+        {'achievements': 87.0943, 'ds': 6.7, 'dxScore': 461, 'fc': '', 'fs': '', 'level': '6', 'level_index': 1, 'level_label': 'Advanced', 'ra': 49, 'rate': 'a', 'song_id': 73, 'title': 'メグメグ☆ファイアーエンドレスナイト', 'type': 'SD'
+        },
+        {'achievements': 98.4079, 'ds': 8.0, 'dxScore': 1051, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 99, 'rate': 'sp', 'song_id': 411, 'title': '初音ミクの消失', 'type': 'SD'
+        },
+        {'achievements': 100.1407, 'ds': 8.5, 'dxScore': 1161, 'fc': 'fcp', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 114, 'rate': 'sss', 'song_id': 432, 'title': '幸せになれる隠しコマンドがあるらしい', 'type': 'SD'
+        },
+        {'achievements': 99.8003, 'ds': 7.0, 'dxScore': 838, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 92, 'rate': 'ssp', 'song_id': 11200, 'title': 'Paranoia', 'type': 'DX'
+        },
+        {'achievements': 95.0362, 'ds': 7.8, 'dxScore': 1015, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 77, 'rate': 'aaa', 'song_id': 700, 'title': '疾走あんさんぶる', 'type': 'SD'
+        },
+        {'achievements': 99.3167, 'ds': 7.8, 'dxScore': 1083, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 100, 'rate': 'ss', 'song_id': 759, 'title': 'サドマミホリック', 'type': 'SD'
+        },
+        {'achievements': 98.8311, 'ds': 7.0, 'dxScore': 955, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 87, 'rate': 'sp', 'song_id': 838, 'title': '最終鬼畜妹フランドール・S', 'type': 'SD'
+        },
+        {'achievements': 98.4477, 'ds': 7.0, 'dxScore': 996, 'fc': 'fc', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 87, 'rate': 'sp', 'song_id': 702, 'title': 'WARNING×WARNING×WARNING', 'type': 'SD'
+        },
+        {'achievements': 95.6156, 'ds': 7.8, 'dxScore': 991, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 78, 'rate': 'aaa', 'song_id': 701, 'title': 'Doll Judgment', 'type': 'SD'
+        },
+        {'achievements': 93.4438, 'ds': 7.8, 'dxScore': 875, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 69, 'rate': 'aa', 'song_id': 11065, 'title': 'Yakumo >>JOINT STRUGGLE (2019 Update)', 'type': 'DX'
+        },
+        {'achievements': 98.8674, 'ds': 8.0, 'dxScore': 868, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 100, 'rate': 'sp', 'song_id': 11146, 'title': 'Lunar Mare', 'type': 'DX'
+        },
+        {'achievements': 94.8936, 'ds': 8.7, 'dxScore': 1069, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 86, 'rate': 'aaa', 'song_id': 796, 'title': '極圏', 'type': 'SD'
+        },
+        {'achievements': 93.1392, 'ds': 8.8, 'dxScore': 1112, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 77, 'rate': 'aa', 'song_id': 798, 'title': 'セイクリッド\u3000ルイン', 'type': 'SD'
+        },
+        {'achievements': 99.0163, 'ds': 7.2, 'dxScore': 706, 'fc': 'fc', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 92, 'rate': 'ss', 'song_id': 11143, 'title': 'アトロポスと最果の探究者', 'type': 'DX'
+        },
+        {'achievements': 99.2445, 'ds': 8.5, 'dxScore': 864, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 109, 'rate': 'ss', 'song_id': 11075, 'title': 'プナイプナイせんそう', 'type': 'DX'
+        },
+        {'achievements': 97.7408, 'ds': 8.5, 'dxScore': 1057, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 103, 'rate': 's', 'song_id': 11085, 'title': 'Halcyon', 'type': 'DX'
+        },
+        {'achievements': 96.3662, 'ds': 7.7, 'dxScore': 633, 'fc': 'fc', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 77, 'rate': 'aaa', 'song_id': 837, 'title': 'Altale', 'type': 'SD'
+        },
+        {'achievements': 96.3705, 'ds': 7.3, 'dxScore': 1017, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 73, 'rate': 'aaa', 'song_id': 555, 'title': 'GOODMEN', 'type': 'SD'
+        },
+        {'achievements': 89.0989, 'ds': 8.0, 'dxScore': 941, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 60, 'rate': 'a', 'song_id': 542, 'title': 'METATRON', 'type': 'SD'
+        },
+        {'achievements': 91.7124, 'ds': 7.0, 'dxScore': 814, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 60, 'rate': 'aa', 'song_id': 471, 'title': 'オモイヨシノ', 'type': 'SD'
+        },
+        {'achievements': 98.6228, 'ds': 7.6, 'dxScore': 736, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 95, 'rate': 'sp', 'song_id': 339, 'title': 'DRAGONLADY', 'type': 'SD'
+        },
+        {'achievements': 88.8496, 'ds': 7.5, 'dxScore': 647, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 56, 'rate': 'a', 'song_id': 325, 'title': 'Windy Hill -Zone 1', 'type': 'SD'
+        },
+        {'achievements': 62.0401, 'ds': 8.5, 'dxScore': 330, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 31, 'rate': 'b', 'song_id': 61, 'title': 'Beat Of Mind', 'type': 'SD'
+        },
+        {'achievements': 99.8107, 'ds': 7.0, 'dxScore': 780, 'fc': 'fc', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 92, 'rate': 'ssp', 'song_id': 11152, 'title': 'ぼくたちいつでも\u3000しゅわっしゅわ！', 'type': 'DX'
+        },
+        {'achievements': 97.4757, 'ds': 7.0, 'dxScore': 744, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 85, 'rate': 's', 'song_id': 11214, 'title': 'Jörqer', 'type': 'DX'
+        },
+        {'achievements': 99.9203, 'ds': 7.8, 'dxScore': 1022, 'fc': 'fc', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 102, 'rate': 'ssp', 'song_id': 11154, 'title': '居並ぶ穀物と溜息まじりの運送屋', 'type': 'DX'
+        },
+        {'achievements': 96.7674, 'ds': 8.8, 'dxScore': 991, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 89, 'rate': 'aaa', 'song_id': 11155, 'title': 'ARAIS', 'type': 'DX'
+        },
+        {'achievements': 96.635, 'ds': 8.8, 'dxScore': 1012, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 89, 'rate': 'aaa', 'song_id': 11102, 'title': '封焔の135秒', 'type': 'DX'
+        },
+        {'achievements': 91.2401, 'ds': 8.5, 'dxScore': 965, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 73, 'rate': 'aa', 'song_id': 494, 'title': 'CITRUS MONSTER', 'type': 'SD'
+        },
+        {'achievements': 98.9512, 'ds': 8.5, 'dxScore': 905, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 106, 'rate': 'sp', 'song_id': 11026, 'title': 'TEmPTaTiON', 'type': 'DX'
+        },
+        {'achievements': 62.8206, 'ds': 9.9, 'dxScore': 816, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 37, 'rate': 'b', 'song_id': 799, 'title': 'QZKago Requiem', 'type': 'SD'
+        },
+        {'achievements': 100.2212, 'ds': 8.7, 'dxScore': 1087, 'fc': 'fc', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 117, 'rate': 'sss', 'song_id': 10363, 'title': 'Oshama Scramble!', 'type': 'DX'
+        },
+        {'achievements': 86.3422, 'ds': 7.8, 'dxScore': 974, 'fc': '', 'fs': '', 'level': '7+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 57, 'rate': 'a', 'song_id': 363, 'title': 'Oshama Scramble!', 'type': 'SD'
+        },
+        {'achievements': 96.9728, 'ds': 7.5, 'dxScore': 812, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 76, 'rate': 'aaa', 'song_id': 11018, 'title': 'Now or Never', 'type': 'DX'
+        },
+        {'achievements': 96.106, 'ds': 8.9, 'dxScore': 1014, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 89, 'rate': 'aaa', 'song_id': 566, 'title': '天火明命', 'type': 'SD'
+        },
+        {'achievements': 83.4119, 'ds': 8.0, 'dxScore': 691, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 56, 'rate': 'a', 'song_id': 462, 'title': '7thSense', 'type': 'SD'
+        },
+        {'achievements': 89.4109, 'ds': 8.8, 'dxScore': 915, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 66, 'rate': 'a', 'song_id': 488, 'title': 'Lividi', 'type': 'SD'
+        },
+        {'achievements': 95.2372, 'ds': 7.0, 'dxScore': 401, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 69, 'rate': 'aaa', 'song_id': 131, 'title': 'Link', 'type': 'SD'
+        },
+        {'achievements': 97.8667, 'ds': 8.8, 'dxScore': 1159, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 107, 'rate': 's', 'song_id': 11175, 'title': '宛城、炎上！！', 'type': 'DX'
+        },
+        {'achievements': 97.3877, 'ds': 8.0, 'dxScore': 807, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 97, 'rate': 's', 'song_id': 11029, 'title': 'Titania', 'type': 'DX'
+        },
+        {'achievements': 82.3326, 'ds': 6.8, 'dxScore': 733, 'fc': '', 'fs': '', 'level': '6', 'level_index': 1, 'level_label': 'Advanced', 'ra': 47, 'rate': 'a', 'song_id': 528, 'title': 'Invitation', 'type': 'SD'
+        },
+        {'achievements': 85.4597, 'ds': 7.0, 'dxScore': 774, 'fc': '', 'fs': '', 'level': '7', 'level_index': 1, 'level_label': 'Advanced', 'ra': 50, 'rate': 'a', 'song_id': 603, 'title': 'その群青が愛しかったようだった', 'type': 'SD'
+        },
+        {'achievements': 96.1645, 'ds': 8.8, 'dxScore': 1018, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 1, 'level_label': 'Advanced', 'ra': 88, 'rate': 'aaa', 'song_id': 736, 'title': 'World Vanquisher', 'type': 'SD'
+        },
+        {'achievements': 99.4675, 'ds': 8.5, 'dxScore': 933, 'fc': '', 'fs': '', 'level': '8', 'level_index': 1, 'level_label': 'Advanced', 'ra': 109, 'rate': 'ss', 'song_id': 11032, 'title': 'CHOCOLATE BOMB!!!!', 'type': 'DX'
+        },
+        {'achievements': 96.2732, 'ds': 8.7, 'dxScore': 767, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 87, 'rate': 'aaa', 'song_id': 11115, 'title': 'だから僕は音楽を辞めた', 'type': 'DX'
+        },
+        {'achievements': 97.6498, 'ds': 9.2, 'dxScore': 756, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 112, 'rate': 's', 'song_id': 654, 'title': '真・ハンサム体操でズンドコホイ', 'type': 'SD'
+        },
+        {'achievements': 100.1061, 'ds': 9.0, 'dxScore': 878, 'fc': 'fcp', 'fs': 'fsd', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 121, 'rate': 'sss', 'song_id': 11067, 'title': 'CocktaiL', 'type': 'DX'
+        },
+        {'achievements': 93.6868, 'ds': 9.5, 'dxScore': 1115, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 84, 'rate': 'aa', 'song_id': 742, 'title': '彗星ハネムーン', 'type': 'SD'
+        },
+        {'achievements': 98.9062, 'ds': 8.8, 'dxScore': 1071, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 110, 'rate': 'sp', 'song_id': 731, 'title': '妄想感傷代償連盟', 'type': 'SD'
+        },
+        {'achievements': 90.6628, 'ds': 8.8, 'dxScore': 828, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 75, 'rate': 'aa', 'song_id': 655, 'title': 'フラジール', 'type': 'SD'
+        },
+        {'achievements': 83.5198, 'ds': 9.8, 'dxScore': 985, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 69, 'rate': 'a', 'song_id': 507, 'title': 'キミノヨゾラ哨戒班', 'type': 'SD'
+        },
+        {'achievements': 93.5923, 'ds': 8.9, 'dxScore': 979, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 79, 'rate': 'aa', 'song_id': 448, 'title': 'ありふれたせかいせいふく', 'type': 'SD'
+        },
+        {'achievements': 91.4726, 'ds': 10.6, 'dxScore': 1079, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 92, 'rate': 'aa', 'song_id': 510, 'title': 'ヒビカセ', 'type': 'SD'
+        },
+        {'achievements': 94.3923, 'ds': 9.6, 'dxScore': 913, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 95, 'rate': 'aaa', 'song_id': 692, 'title': 'ドクハク', 'type': 'SD'
+        },
+        {'achievements': 96.1259, 'ds': 9.4, 'dxScore': 866, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 94, 'rate': 'aaa', 'song_id': 199, 'title': 'チルノのパーフェクトさんすう教室', 'type': 'SD'
+        },
+        {'achievements': 92.261, 'ds': 8.8, 'dxScore': 666, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 77, 'rate': 'aa', 'song_id': 535, 'title': '色は匂へど散りぬるを', 'type': 'SD'
+        },
+        {'achievements': 93.2818, 'ds': 9.4, 'dxScore': 718, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 83, 'rate': 'aa', 'song_id': 435, 'title': '願いを呼ぶ季節', 'type': 'SD'
+        },
+        {'achievements': 87.0395, 'ds': 9.2, 'dxScore': 509, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 68, 'rate': 'a', 'song_id': 540, 'title': '泡沫、哀のまほろば', 'type': 'SD'
+        },
+        {'achievements': 94.7653, 'ds': 9.6, 'dxScore': 1129, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 95, 'rate': 'aaa', 'song_id': 586, 'title': '永遠のメロディ', 'type': 'SD'
+        },
+        {'achievements': 95.2084, 'ds': 8.8, 'dxScore': 705, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 87, 'rate': 'aaa', 'song_id': 229, 'title': 'ぐるぐるWASH！コインランドリー・ディスコ', 'type': 'SD'
+        },
+        {'achievements': 94.4367, 'ds': 8.3, 'dxScore': 567, 'fc': '', 'fs': '', 'level': '8', 'level_index': 2, 'level_label': 'Expert', 'ra': 82, 'rate': 'aaa', 'song_id': 25, 'title': 'Sweets×Sweets', 'type': 'SD'
+        },
+        {'achievements': 90.0175, 'ds': 9.6, 'dxScore': 804, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 82, 'rate': 'aa', 'song_id': 735, 'title': 'Session High⤴', 'type': 'SD'
+        },
+        {'achievements': 80.5172, 'ds': 8.9, 'dxScore': 823, 'fc': '', 'fs': '', 'level': '8+', 'level_index': 2, 'level_label': 'Expert', 'ra': 60, 'rate': 'a', 'song_id': 547, 'title': '私の中の幻想的世界観及びその顕現を想起させたある現実での出来事に関する一考察', 'type': 'SD'
+        },
+        {'achievements': 98.9596, 'ds': 12.0, 'dxScore': 1084, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 150, 'rate': 'sp', 'song_id': 282, 'title': 'からくりピエロ', 'type': 'SD'
+        },
+        {'achievements': 93.6893, 'ds': 12.7, 'dxScore': 1059, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 113, 'rate': 'aa', 'song_id': 536, 'title': '月に叢雲華に風', 'type': 'SD'
+        },
+        {'achievements': 100.0539, 'ds': 12.6, 'dxScore': 2633, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 170, 'rate': 'sss', 'song_id': 11007, 'title': '超常マイマイン', 'type': 'DX'
+        },
+        {'achievements': 97.8411, 'ds': 12.8, 'dxScore': 1753, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 156, 'rate': 's', 'song_id': 11015, 'title': '一か罰', 'type': 'DX'
+        },
+        {'achievements': 99.9323, 'ds': 12.9, 'dxScore': 2148, 'fc': 'fc', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 170, 'rate': 'ssp', 'song_id': 547, 'title': '私の中の幻想的世界観及びその顕現を想起させたある現実での出来事に関する一考察', 'type': 'SD'
+        },
+        {'achievements': 99.9044, 'ds': 12.8, 'dxScore': 1867, 'fc': 'fc', 'fs': '', 'level': '12+', 'level_index': 2, 'level_label': 'Expert', 'ra': 168, 'rate': 'ssp', 'song_id': 566, 'title': '天火明命', 'type': 'SD'
+        },
+        {'achievements': 99.3858, 'ds': 11.4, 'dxScore': 1716, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 147, 'rate': 'ss', 'song_id': 531, 'title': 'Prophesy One', 'type': 'SD'
+        },
+        {'achievements': 97.2801, 'ds': 11.8, 'dxScore': 1185, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 143, 'rate': 's', 'song_id': 11113, 'title': 'ハム太郎とっとこうた', 'type': 'DX'
+        },
+        {'achievements': 95.9386, 'ds': 12.0, 'dxScore': 896, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 120, 'rate': 'aaa', 'song_id': 10181, 'title': '君の知らない物語', 'type': 'DX'
+        },
+        {'achievements': 100.6671, 'ds': 12.8, 'dxScore': 2239, 'fc': 'fc', 'fs': 'fsp', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 180, 'rate': 'sssp', 'song_id': 690, 'title': 'ダンスロボットダンス', 'type': 'SD'
+        },
+        {'achievements': 100.172, 'ds': 12.7, 'dxScore': 1722, 'fc': 'fcp', 'fs': 'fsp', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 171, 'rate': 'sss', 'song_id': 11073, 'title': 'アカリがやってきたぞっ', 'type': 'DX'
+        },
+        {'achievements': 100.0907, 'ds': 12.1, 'dxScore': 1251, 'fc': 'fc', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 163, 'rate': 'sss', 'song_id': 189, 'title': '弱虫モンブラン', 'type': 'SD'
+        },
+        {'achievements': 100.5013, 'ds': 12.4, 'dxScore': 1441, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 174, 'rate': 'sssp', 'song_id': 11034, 'title': 'METEOR', 'type': 'DX'
+        },
+        {'achievements': 98.6884, 'ds': 13.2, 'dxScore': 2348, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 165, 'rate': 'sp', 'song_id': 299, 'title': 'ロストワンの号哭', 'type': 'SD'
+        },
+        {'achievements': 97.2765, 'ds': 11.8, 'dxScore': 1484, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 143, 'rate': 's', 'song_id': 383, 'title': 'Link(CoF)', 'type': 'SD'
+        },
+        {'achievements': 98.9592, 'ds': 12.3, 'dxScore': 1577, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 154, 'rate': 'sp', 'song_id': 541, 'title': '華鳥風月', 'type': 'SD'
+        },
+        {'achievements': 96.6098, 'ds': 12.8, 'dxScore': 2018, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 129, 'rate': 'aaa', 'song_id': 11135, 'title': '全力ハッピーライフ', 'type': 'DX'
+        },
+        {'achievements': 100.0506, 'ds': 12.7, 'dxScore': 1258, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 171, 'rate': 'sss', 'song_id': 11147, 'title': 'Saika', 'type': 'DX'
+        },
+        {'achievements': 98.8915, 'ds': 12.8, 'dxScore': 1442, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 'sp', 'song_id': 815, 'title': 'L4TS: 2018 (feat. あひる & KTA)', 'type': 'SD'
+        },
+        {'achievements': 97.4564, 'ds': 11.2, 'dxScore': 989, 'fc': '', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 136, 'rate': 's', 'song_id': 329, 'title': 'かせげ！ジャリンコヒーロー', 'type': 'SD'
+        },
+        {'achievements': 98.623, 'ds': 12.8, 'dxScore': 1490, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 'sp', 'song_id': 674, 'title': 'Magical Flavor', 'type': 'SD'
+        },
+        {'achievements': 97.3694, 'ds': 12.4, 'dxScore': 1692, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 150, 'rate': 's', 'song_id': 617, 'title': 'オトヒメモリー☆ウタゲーション', 'type': 'SD'
+        },
+        {'achievements': 97.9146, 'ds': 12.4, 'dxScore': 1713, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 151, 'rate': 's', 'song_id': 564, 'title': 'ENJOY POLIS', 'type': 'SD'
+        },
+        {'achievements': 100.6078, 'ds': 12.4, 'dxScore': 2086, 'fc': 'fcp', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 174, 'rate': 'sssp', 'song_id': 11107, 'title': '最強 the サマータイム!!!!!', 'type': 'DX'
+        },
+        {'achievements': 100.2977, 'ds': 11.8, 'dxScore': 1406, 'fc': 'fcp', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 159, 'rate': 'sss', 'song_id': 11010, 'title': 'STARTLINER', 'type': 'DX'
+        },
+        {'achievements': 99.8209, 'ds': 12.6, 'dxScore': 1796, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 166, 'rate': 'ssp', 'song_id': 11108, 'title': 'UTAKATA', 'type': 'DX'
+        },
+        {'achievements': 92.1206, 'ds': 12.2, 'dxScore': 1182, 'fc': '', 'fs': '', 'level': '12', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 106, 'rate': 'aa', 'song_id': 17, 'title': 'Future', 'type': 'SD'
+        },
+        {'achievements': 96.2107, 'ds': 12.3, 'dxScore': 1256, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 124, 'rate': 'aaa', 'song_id': 113, 'title': 'YA･DA･YO [Reborn
+            ]', 'type': 'SD'
+        },
+        {'achievements': 100.1078, 'ds': 12.3, 'dxScore': 1950, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 166, 'rate': 'sss', 'song_id': 647, 'title': 'エイリアンエイリアン', 'type': 'SD'
+        },
+        {'achievements': 98.8565, 'ds': 12.8, 'dxScore': 1243, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 'sp', 'song_id': 106, 'title': 'BAD∞END∞NIGHT', 'type': 'SD'
+        },
+        {'achievements': 93.2605, 'ds': 13.5, 'dxScore': 2145, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 119, 'rate': 'aa', 'song_id': 10593, 'title': 'conflict', 'type': 'DX'
+        },
+        {'achievements': 89.291, 'ds': 13.2, 'dxScore': 904, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 100, 'rate': 'a', 'song_id': 114, 'title': 'Space Harrier Main Theme [Reborn
+            ]', 'type': 'SD'
+        },
+        {'achievements': 91.7409, 'ds': 13.2, 'dxScore': 1306, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 115, 'rate': 'aa', 'song_id': 209, 'title': 'ココロスキャンのうた', 'type': 'SD'
+        },
+        {'achievements': 95.2781, 'ds': 12.6, 'dxScore': 1745, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 126, 'rate': 'aaa', 'song_id': 11095, 'title': '絡めトリック利己ライザー', 'type': 'DX'
+        },
+        {'achievements': 93.2473, 'ds': 12.8, 'dxScore': 1032, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 113, 'rate': 'aa', 'song_id': 139, 'title': 'Acceleration', 'type': 'SD'
+        },
+        {'achievements': 100.1589, 'ds': 10.5, 'dxScore': 1330, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 141, 'rate': 'sss', 'song_id': 11006, 'title': 'P-qoq', 'type': 'DX'
+        },
+        {'achievements': 100.8117, 'ds': 12.5, 'dxScore': 1942, 'fc': 'fc', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 175, 'rate': 'sssp', 'song_id': 11124, 'title': 'スロウダウナー', 'type': 'DX'
+        },
+        {'achievements': 100.1739, 'ds': 12.4, 'dxScore': 1902, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 167, 'rate': 'sss', 'song_id': 11047, 'title': 'ジャガーノート', 'type': 'DX'
+        },
+        {'achievements': 99.039, 'ds': 12.6, 'dxScore': 1915, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 162, 'rate': 'ss', 'song_id': 510, 'title': 'ヒビカセ', 'type': 'SD'
+        },
+        {'achievements': 93.7698, 'ds': 13.2, 'dxScore': 1759, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 117, 'rate': 'aa', 'song_id': 376, 'title': 'L9', 'type': 'SD'
+        },
+        {'achievements': 98.1387, 'ds': 12.9, 'dxScore': 1717, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 'sp', 'song_id': 853, 'title': '前前前世', 'type': 'SD'
+        },
+        {'achievements': 96.9071, 'ds': 12.8, 'dxScore': 1829, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 130, 'rate': 'aaa', 'song_id': 506, 'title': 'セハガガガンバッちゃう！！', 'type': 'SD'
+        },
+        {'achievements': 97.24, 'ds': 11.1, 'dxScore': 1136, 'fc': '', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 134, 'rate': 's', 'song_id': 310, 'title': 'エピクロスの虹はもう見えない', 'type': 'SD'
+        },
+        {'achievements': 98.6454, 'ds': 13.1, 'dxScore': 2171, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 164, 'rate': 'sp', 'song_id': 555, 'title': 'GOODMEN', 'type': 'SD'
+        },
+        {'achievements': 99.437, 'ds': 13.9, 'dxScore': 2364, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 179, 'rate': 'ss', 'song_id': 11025, 'title': '管弦楽組曲 第3番 ニ長調「第2曲（G線上のアリア）」BWV.1068-2', 'type': 'DX'
+        },
+        {'achievements': 97.0514, 'ds': 13.5, 'dxScore': 1976, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 163, 'rate': 's', 'song_id': 548, 'title': 'DETARAME ROCK&ROLL THEORY', 'type': 'SD'
+        },
+        {'achievements': 100.0923, 'ds': 13.6, 'dxScore': 2205, 'fc': 'fc', 'fs': 'fsp', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 183, 'rate': 'sss', 'song_id': 649, 'title': '猛進ソリストライフ！', 'type': 'SD'
+        },
+        {'achievements': 95.4593, 'ds': 12.6, 'dxScore': 1775, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 126, 'rate': 'aaa', 'song_id': 695, 'title': 'TRUST', 'type': 'SD'
+        },
+        {'achievements': 98.0216, 'ds': 13.2, 'dxScore': 1484, 'fc': '', 'fs': '', 'level': '13', 'level_index': 2, 'level_label': 'Expert', 'ra': 164, 'rate': 'sp', 'song_id': 11028, 'title': '玩具狂奏曲 -終焉-', 'type': 'DX'
+        },
+        {'achievements': 99.7807, 'ds': 12.8, 'dxScore': 1660, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 'ssp', 'song_id': 781, 'title': 'Seyana. ～何でも言うことを聞いてくれるアカネチャン～', 'type': 'SD'
+        },
+        {'achievements': 96.6663, 'ds': 12.9, 'dxScore': 2141, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 130, 'rate': 'aaa', 'song_id': 11084, 'title': 'イカサマライフゲイム', 'type': 'DX'
+        },
+        {'achievements': 96.3789, 'ds': 13.4, 'dxScore': 2451, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 135, 'rate': 'aaa', 'song_id': 711, 'title': '拝啓ドッペルゲンガー', 'type': 'SD'
+        },
+        {'achievements': 98.3026, 'ds': 12.1, 'dxScore': 1355, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 151, 'rate': 'sp', 'song_id': 316, 'title': 'M.S.S.Planet', 'type': 'SD'
+        },
+        {'achievements': 92.3879, 'ds': 12.8, 'dxScore': 1575, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 112, 'rate': 'aa', 'song_id': 709, 'title': 'アウターサイエンス', 'type': 'SD'
+        },
+        {'achievements': 98.6866, 'ds': 12.8, 'dxScore': 1843, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 'sp', 'song_id': 725, 'title': '砂の惑星 feat. HATSUNE MIKU', 'type': 'SD'
+        },
+        {'achievements': 95.3483, 'ds': 13.3, 'dxScore': 1333, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 133, 'rate': 'aaa', 'song_id': 268, 'title': 'トルコ行進曲 - オワタ＼(^o^)／', 'type': 'SD'
+        },
+        {'achievements': 100.5689, 'ds': 12.8, 'dxScore': 1240, 'fc': 'fc', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 180, 'rate': 'sssp', 'song_id': 835, 'title': 'Believe the Rainbow', 'type': 'SD'
+        },
+        {'achievements': 99.7622, 'ds': 12.9, 'dxScore': 2061, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 169, 'rate': 'ssp', 'song_id': 627, 'title': '心象蜃気楼', 'type': 'SD'
+        },
+        {'achievements': 100.7592, 'ds': 11.6, 'dxScore': 1947, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 163, 'rate': 'sssp', 'song_id': 741, 'title': 'インビジブル', 'type': 'SD'
+        },
+        {'achievements': 100.217, 'ds': 13.0, 'dxScore': 2195, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 175, 'rate': 'sss', 'song_id': 553, 'title': 'チュルリラ・チュルリラ・ダッダッダ！', 'type': 'SD'
+        },
+        {'achievements': 94.6721, 'ds': 12.4, 'dxScore': 1669, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 123, 'rate': 'aaa', 'song_id': 507, 'title': 'キミノヨゾラ哨戒班', 'type': 'SD'
+        },
+        {'achievements': 100.5204, 'ds': 12.7, 'dxScore': 1929, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 178, 'rate': 'sssp', 'song_id': 731, 'title': '妄想感傷代償連盟', 'type': 'SD'
+        },
+        {'achievements': 100.2499, 'ds': 9.0, 'dxScore': 1529, 'fc': '', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 121, 'rate': 'sss', 'song_id': 11194, 'title': 'ベノム', 'type': 'DX'
+        },
+        {'achievements': 100.5808, 'ds': 10.7, 'dxScore': 1582, 'fc': 'fc', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 150, 'rate': 'sssp', 'song_id': 11195, 'title': 'マネマネサイコトロピック', 'type': 'DX'
+        },
+        {'achievements': 99.6009, 'ds': 9.8, 'dxScore': 1208, 'fc': '', 'fs': '', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 128, 'rate': 'ssp', 'song_id': 11192, 'title': '絶対にチョコミントを食べるアオイチャン', 'type': 'DX'
+        },
+        {'achievements': 100.3017, 'ds': 9.9, 'dxScore': 986, 'fc': 'fc', 'fs': 'fsp', 'level': '9+', 'level_index': 2, 'level_label': 'Expert', 'ra': 134, 'rate': 'sss', 'song_id': 11189, 'title': 'ガランド', 'type': 'DX'
+        },
+        {'achievements': 100.9719, 'ds': 9.2, 'dxScore': 1643, 'fc': 'fcp', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 129, 'rate': 'sssp', 'song_id': 10690, 'title': 'ダンスロボットダンス', 'type': 'DX'
+        },
+        {'achievements': 100.3329, 'ds': 12.7, 'dxScore': 1908, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 2, 'level_label': 'Expert', 'ra': 172, 'rate': 'sss', 'song_id': 11221, 'title': '≠彡"/了→', 'type': 'DX'}, {'achievements': 100.3023, 'ds': 12.5, 'dxScore': 1694, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 169, 'rate': 'sss', 'song_id': 11160, 'title': 'Mutation', 'type': 'DX'}, {'achievements': 100.7808, 'ds': 10.5, 'dxScore': 1718, 'fc': 'fcp', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 147, 'rate': 'sssp', 'song_id': 11177, 'title': 'レーイレーイ', 'type': 'DX'}, {'achievements': 100.4078, 'ds': 12.4, 'dxScore': 2206, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 'sss', 'song_id': 11194, 'title': 'ベノム', 'type': 'DX'}, {'achievements': 100.0478, 'ds': 12.9, 'dxScore': 1927, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 174, 'rate': 'sss', 'song_id': 11192, 'title': '絶対にチョコミントを食べるアオイチャン', 'type': 'DX'}, {'achievements': 93.6032, 'ds': 13.3, 'dxScore': 2026, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 118, 'rate': 'aa', 'song_id': 598, 'title': 'すーぱーぬこになりたい', 'type': 'SD'}, {'achievements': 100.5565, 'ds': 12.7, 'dxScore': 2357, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 178, 'rate': 'sssp', 'song_id': 10690, 'title': 'ダンスロボットダンス', 'type': 'DX'}, {'achievements': 97.5991, 'ds': 12.2, 'dxScore': 1418, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 148, 'rate': 's', 'song_id': 457, 'title': '言ノ葉遊戯', 'type': 'SD'}, {'achievements': 99.2912, 'ds': 12.8, 'dxScore': 2255, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 165, 'rate': 'ss', 'song_id': 11177, 'title': 'レーイレーイ', 'type': 'DX'}, {'achievements': 100.5753, 'ds': 11.4, 'dxScore': 1055, 'fc': 'fcp', 'fs': 'fsp', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 160, 'rate': 'sssp', 'song_id': 837, 'title': 'Altale', 'type': 'SD'}, {'achievements': 95.2303, 'ds': 13.0, 'dxScore': 1025, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 129, 'rate': 'aaa', 'song_id': 753, 'title': 'Rodeo Machine', 'type': 'SD'}, {'achievements': 96.5142, 'ds': 12.9, 'dxScore': 1562, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 130, 'rate': 'aaa', 'song_id': 11189, 'title': 'ガランド', 'type': 'DX'}, {'achievements': 95.0508, 'ds': 12.7, 'dxScore': 1141, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 126, 'rate': 'aaa', 'song_id': 198, 'title': 'カゲロウデイズ', 'type': 'SD'}, {'achievements': 98.9898, 'ds': 13.0, 'dxScore': 1982, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 163, 'rate': 'sp', 'song_id': 764, 'title': 'フィクサー', 'type': 'SD'}, {'achievements': 96.9957, 'ds': 12.8, 'dxScore': 1701, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 130, 'rate': 'aaa', 'song_id': 194, 'title': '放課後ストライド', 'type': 'SD'}, {'achievements': 96.902, 'ds': 12.8, 'dxScore': 1711, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 130, 'rate': 'aaa', 'song_id': 202, 'title': 'Grip & Break down !!', 'type': 'SD'}, {'achievements': 95.1366, 'ds': 12.8, 'dxScore': 883, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 127, 'rate': 'aaa', 'song_id': 216, 'title': 'Mysterious Destiny', 'type': 'SD'}, {'achievements': 98.8925, 'ds': 13.1, 'dxScore': 2417, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 164, 'rate': 'sp', 'song_id': 628, 'title': '光線チューニング', 'type': 'SD'}, {'achievements': 99.5663, 'ds': 12.8, 'dxScore': 1570, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 168, 'rate': 'ssp', 'song_id': 11113, 'title': 'ハム太郎とっとこうた', 'type': 'DX'}, {'achievements': 96.7995, 'ds': 13.0, 'dxScore': 2414, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 132, 'rate': 'aaa', 'song_id': 11193, 'title': 'デリヘル呼んだら君が来た', 'type': 'DX'}, {'achievements': 100.158, 'ds': 12.4, 'dxScore': 1971, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 167, 'rate': 'sss', 'song_id': 11191, 'title': '明星ギャラクティカ', 'type': 'DX'}, {'achievements': 100.1833, 'ds': 13.0, 'dxScore': 1733, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 175, 'rate': 'sss', 'song_id': 11188, 'title': '絶え間なく藍色', 'type': 'DX'}, {'achievements': 100.5448, 'ds': 12.6, 'dxScore': 2414, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 177, 'rate': 'sssp', 'song_id': 11052, 'title': 'グリーンライツ・セレナーデ', 'type': 'DX'}, {'achievements': 98.7733, 'ds': 12.0, 'dxScore': 1303, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 150, 'rate': 'sp', 'song_id': 842, 'title': "WORLD'S END UMBRELLA", 'type': 'SD'}, {'achievements': 98.6865, 'ds': 12.1, 'dxScore': 1057, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 151, 'rate': 'sp', 'song_id': 309, 'title': '神々の祈り', 'type': 'SD'}, {'achievements': 96.9505, 'ds': 13.0, 'dxScore': 1735, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 132, 'rate': 'aaa', 'song_id': 11014, 'title': '♡マイマイマイラブ♡', 'type': 'DX'}, {'achievements': 97.802, 'ds': 12.3, 'dxScore': 1550, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 150, 'rate': 's', 'song_id': 418, 'title': 'welcome to maimai!! with マイマイマー', 'type': 'SD'}, {'achievements': 100.0, 'ds': 13.1, 'dxScore': 2450, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 176, 'rate': 'sss', 'song_id': 461, 'title': '無敵We are one!!', 'type': 'SD'}, {'achievements': 99.7855, 'ds': 11.2, 'dxScore': 1547, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 147, 'rate': 'ssp', 'song_id': 324, 'title': 'Jack-the-Ripper◆', 'type': 'SD'}, {'achievements': 94.897, 'ds': 12.9, 'dxScore': 1899, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 128, 'rate': 'aaa', 'song_id': 610, 'title': 'リンカーネイション', 'type': 'SD'}, {'achievements': 99.0852, 'ds': 12.8, 'dxScore': 1695, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 164, 'rate': 'ss', 'song_id': 621, 'title': 'ARROW', 'type': 'SD'}, {'achievements': 97.8856, 'ds': 12.8, 'dxScore': 1782, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 156, 'rate': 's', 'song_id': 726, 'title': 'アンノウン・マザーグース', 'type': 'SD'}, {'achievements': 94.943, 'ds': 13.1, 'dxScore': 1712, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 130, 'rate': 'aaa', 'song_id': 374, 'title': 'アンハッピーリフレイン', 'type': 'SD'}, {'achievements': 96.7678, 'ds': 13.1, 'dxScore': 1545, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 133, 'rate': 'aaa', 'song_id': 738, 'title': 'Brain Power', 'type': 'SD'}, {'achievements': 97.6875, 'ds': 13.3, 'dxScore': 2581, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 162, 'rate': 's', 'song_id': 11097, 'title': 'ブレインジャックシンドローム', 'type': 'DX'}, {'achievements': 98.0796, 'ds': 12.9, 'dxScore': 1766, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 160, 'rate': 'sp', 'song_id': 11180, 'title': '紅蓮華', 'type': 'DX'}, {'achievements': 94.3446, 'ds': 13.0, 'dxScore': 1380, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 128, 'rate': 'aaa', 'song_id': 710, 'title': 'REVIVER オルタンシア・サーガ -蒼の騎士団- オリジナルVer.', 'type': 'SD'}, {'achievements': 98.5282, 'ds': 12.9, 'dxScore': 1766, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 161, 'rate': 'sp', 'song_id': 426, 'title': '蒼空に舞え、墨染の桜', 'type': 'SD'}, {'achievements': 99.5238, 'ds': 12.9, 'dxScore': 2371, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 169, 'rate': 'ssp', 'song_id': 11017, 'title': '福宿音屋魂音泉', 'type': 'DX'}, {'achievements': 98.1577, 'ds': 12.7, 'dxScore': 1998, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 158, 'rate': 'sp', 'song_id': 420, 'title': 'Change Our MIRAI！', 'type': 'SD'}, {'achievements': 99.3636, 'ds': 13.6, 'dxScore': 2585, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 175, 'rate': 'ss', 'song_id': 11085, 'title': 'Halcyon', 'type': 'DX'}, {'achievements': 100.0696, 'ds': 12.6, 'dxScore': 2124, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 170, 'rate': 'sss', 'song_id': 11003, 'title': 'でらっくmaimai♪てんてこまい!', 'type': 'DX'}, {'achievements': 96.3831, 'ds': 13.0, 'dxScore': 1471, 'fc': '', 'fs': '', 'level': '13', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 131, 'rate': 'aaa', 'song_id': 107, 'title': 'ロミオとシンデレラ', 'type': 'SD'}, {'achievements': 98.5459, 'ds': 12.8, 'dxScore': 1769, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 160, 'rate': 'sp', 'song_id': 200, 'title': 'Bad Apple!! feat nomico', 'type': 'SD'}, {'achievements': 100.1897, 'ds': 12.7, 'dxScore': 1948, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 2, 'level_label': 'Expert', 'ra': 171, 'rate': 'sss', 'song_id': 658, 'title': '人里に下ったアタイがいつの間にか社畜になっていた件', 'type': 'SD'}, {'achievements': 100.0211, 'ds': 11.1, 'dxScore': 849, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 149, 'rate': 'sss', 'song_id': 130, 'title': 'FEEL ALIVE', 'type': 'SD'}, {'achievements': 99.5653, 'ds': 12.8, 'dxScore': 2331, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 'ssp', 'song_id': 11185, 'title': '命に嫌われている', 'type': 'DX'}, {'achievements': 99.5481, 'ds': 13.2, 'dxScore': 2157, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 173, 'rate': 'ssp', 'song_id': 11195, 'title': 'マネマネサイコトロピック', 'type': 'DX'}, {'achievements': 97.2604, 'ds': 12.9, 'dxScore': 2082, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 156, 'rate': 's', 'song_id': 11121, 'title': 'ビターチョコデコレーション', 'type': 'DX'}, {'achievements': 99.8357, 'ds': 13.8, 'dxScore': 2433, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 181, 'rate': 'ssp', 'song_id': 11141, 'title': 'energy trixxx', 'type': 'DX'}, {'achievements': 100.2206, 'ds': 13.2, 'dxScore': 1277, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 178, 'rate': 'sss', 'song_id': 837, 'title': 'Altale', 'type': 'SD'}, {'achievements': 99.2307, 'ds': 13.5, 'dxScore': 2324, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 174, 'rate': 'ss', 'song_id': 10734, 'title': 'ENERGY SYNERGY MATRIX', 'type': 'DX'}, {'achievements': 97.9598, 'ds': 13.9, 'dxScore': 2683, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 170, 'rate': 's', 'song_id': 772, 'title': 'FREEDOM DiVE (tpz Overcute Remix)', 'type': 'SD'}, {'achievements': 97.7953, 'ds': 12.7, 'dxScore': 909, 'fc': 'fc', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 155, 'rate': 's', 'song_id': 330, 'title': 'キズナの物語', 'type': 'SD'}, {'achievements': 96.9326, 'ds': 12.8, 'dxScore': 1172, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 130, 'rate': 'aaa', 'song_id': 213, 'title': 'KONNANじゃないっ！', 'type': 'SD'}, {'achievements': 100.1497, 'ds': 13.4, 'dxScore': 1695, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 181, 'rate': 'sss', 'song_id': 11094, 'title': 'ここからはじまるプロローグ。', 'type': 'DX'}, {'achievements': 95.4422, 'ds': 13.0, 'dxScore': 1887, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 130, 'rate': 'aaa', 'song_id': 459, 'title': '幾四音-Ixion-', 'type': 'SD'}, {'achievements': 100.2754, 'ds': 11.0, 'dxScore': 1216, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 148, 'rate': 'sss', 'song_id': 11158, 'title': 'Komplexe', 'type': 'DX'}, {'achievements': 58.0602, 'ds': 14.0, 'dxScore': 1236, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 40, 'rate': 'c', 'song_id': 432, 'title': '幸せになれる隠しコマンドがあるらしい', 'type': 'SD'}, {'achievements': 96.9673, 'ds': 12.9, 'dxScore': 1651, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 131, 'rate': 'aaa', 'song_id': 258, 'title': 'Nyan Cat EX', 'type': 'SD'}, {'achievements': 96.8775, 'ds': 12.9, 'dxScore': 2029, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 131, 'rate': 'aaa', 'song_id': 817, 'title': '【東方ニコカラ】秘神マターラ feat.魂音泉【IOSYS】', 'type': 'SD'}, {'achievements': 98.6981, 'ds': 12.3, 'dxScore': 1711, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 154, 'rate': 'sp', 'song_id': 699, 'title': '天狗の落とし文 feat. ｙｔｒ', 'type': 'SD'}, {'achievements': 97.6809, 'ds': 13.1, 'dxScore': 1466, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 159, 'rate': 's', 'song_id': 739, 'title': '進め！イッスン軍団 -Rebellion of the Dwarfs-', 'type': 'SD'}, {'achievements': 92.6725, 'ds': 12.8, 'dxScore': 1299, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 112, 'rate': 'aa', 'song_id': 75, 'title': '天国と地獄', 'type': 'SD'}, {'achievements': 99.1506, 'ds': 13.7, 'dxScore': 2044, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 176, 'rate': 'ss', 'song_id': 11158, 'title': 'Komplexe', 'type': 'DX'}, {'achievements': 96.6611, 'ds': 13.9, 'dxScore': 2582, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 141, 'rate': 'aaa', 'song_id': 11023, 'title': 'Blows Up Everything', 'type': 'DX'}, {'achievements': 100.488, 'ds': 11.9, 'dxScore': 1569, 'fc': 'fc', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 161, 'rate': 'sss', 'song_id': 11080, 'title': 'Jump!! Jump!! Jump!!', 'type': 'DX'}, {'achievements': 100.0125, 'ds': 13.1, 'dxScore': 2053, 'fc': 'fc', 'fs': 'fsp', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 176, 'rate': 'sss', 'song_id': 696, 'title': 'Still', 'type': 'SD'}, {'achievements': 100.4508, 'ds': 11.9, 'dxScore': 1720, 'fc': 'fcp', 'fs': 'fsp', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 161, 'rate': 'sss', 'song_id': 11024, 'title': 'Agitation！', 'type': 'DX'}, {'achievements': 99.276, 'ds': 13.8, 'dxScore': 2337, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 178, 'rate': 'ss', 'song_id': 823, 'title': '奏者はただ背中と提琴で語るのみ', 'type': 'SD'}, {'achievements': 94.4021, 'ds': 13.9, 'dxScore': 2208, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 137, 'rate': 'aaa', 'song_id': 11031, 'title': '立川浄穢捕物帳', 'type': 'DX'}, {'achievements': 99.0489, 'ds': 13.5, 'dxScore': 2247, 'fc': '', 'fs': '', 'level': '13', 'level_index': 2, 'level_label': 'Expert', 'ra': 173, 'rate': 'ss', 'song_id': 496, 'title': 'AMAZING MIGHTYYYY!!!!', 'type': 'SD'}, {'achievements': 97.8028, 'ds': 12.8, 'dxScore': 1350, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 2, 'level_label': 'Expert', 'ra': 156, 'rate': 's', 'song_id': 365, 'title': 'ガラテアの螺旋', 'type': 'SD'}, {'achievements': 95.8031, 'ds': 13.7, 'dxScore': 1917, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 2, 'level_label': 'Expert', 'ra': 137, 'rate': 'aaa', 'song_id': 834, 'title': 'PANDORA PARADOXXX', 'type': 'SD'}, {'achievements': 96.3978, 'ds': 13.9, 'dxScore': 2237, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 140, 'rate': 'aaa', 'song_id': 411, 'title': '初音ミクの消失', 'type': 'SD'}, {'achievements': 95.4178, 'ds': 13.0, 'dxScore': 1552, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 130, 'rate': 'aaa', 'song_id': 344, 'title': 'RIDGE RACER STEPS -GMT remix-', 'type': 'SD'}, {'achievements': 99.6668, 'ds': 12.9, 'dxScore': 2512, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 169, 'rate': 'ssp', 'song_id': 11154, 'title': '居並ぶ穀物と溜息まじりの運送屋', 'type': 'DX'}, {'achievements': 95.6404, 'ds': 14.6, 'dxScore': 2953, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 146, 'rate': 'aaa', 'song_id': 11103, 'title': '渦状銀河のシンフォニエッタ', 'type': 'DX'}, {'achievements': 98.3822, 'ds': 13.7, 'dxScore': 1745, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 171, 'rate': 'sp', 'song_id': 11021, 'title': '魔ジョ狩リ', 'type': 'DX'}, {'achievements': 97.1725, 'ds': 12.7, 'dxScore': 2215, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 154, 'rate': 's', 'song_id': 578, 'title': 'ドキドキDREAM!!!', 'type': 'SD'}, {'achievements': 97.8069, 'ds': 13.8, 'dxScore': 1341, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 's', 'song_id': 786, 'title': 'My First Phone', 'type': 'SD'}, {'achievements': 99.2282, 'ds': 12.8, 'dxScore': 1444, 'fc': 'fc', 'fs': '', 'level': '12+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 165, 'rate': 'ss', 'song_id': 10021, 'title': 'コネクト', 'type': 'DX'}, {'achievements': 100.0148, 'ds': 13.0, 'dxScore': 2159, 'fc': '', 'fs': '', 'level': '13', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 175, 'rate': 'sss', 'song_id': 793, 'title': 'ロキ', 'type': 'SD'}, {'achievements': 98.4706, 'ds': 12.8, 'dxScore': 2012, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 160, 'rate': 'sp', 'song_id': 816, 'title': 'クレイジークレイジーダンサーズ', 'type': 'SD'}, {'achievements': 96.7524, 'ds': 13.8, 'dxScore': 988, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 140, 'rate': 'aaa', 'song_id': 777, 'title': '花と、雪と、ドラムンベース。', 'type': 'SD'}, {'achievements': 99.2712, 'ds': 12.5, 'dxScore': 1930, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 161, 'rate': 'ss', 'song_id': 746, 'title': 'larva', 'type': 'SD'}, {'achievements': 98.1327, 'ds': 12.9, 'dxScore': 2405, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 'sp', 'song_id': 829, 'title': '敗北の少年', 'type': 'SD'}, {'achievements': 98.3013, 'ds': 12.8, 'dxScore': 1272, 'fc': 'fc', 'fs': 'fsp', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 159, 'rate': 'sp', 'song_id': 582, 'title': '幽闇に目醒めしは', 'type': 'SD'}, {'achievements': 98.4451, 'ds': 13.0, 'dxScore': 1709, 'fc': 'fc', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 162, 'rate': 'sp', 'song_id': 303, 'title': 'Endless, Sleepless Night', 'type': 'SD'}, {'achievements': 69.2666, 'ds': 13.8, 'dxScore': 1104, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 57, 'rate': 'b', 'song_id': 592, 'title': 'Sakura Fubuki', 'type': 'SD'}, {'achievements': 97.3878, 'ds': 12.1, 'dxScore': 1325, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 147, 'rate': 's', 'song_id': 260, 'title': 'LUCIA', 'type': 'SD'}, {'achievements': 96.6655, 'ds': 12.8, 'dxScore': 1511, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 129, 'rate': 'aaa', 'song_id': 493, 'title': 'Imitation:Loud Lounge', 'type': 'SD'}, {'achievements': 98.2723, 'ds': 13.0, 'dxScore': 2036, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 162, 'rate': 'sp', 'song_id': 821, 'title': '-OutsideR:RequieM-', 'type': 'SD'}, {'achievements': 98.1849, 'ds': 11.0, 'dxScore': 684, 'fc': '', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 137, 'rate': 'sp', 'song_id': 181, 'title': '君の知らない物語', 'type': 'SD'}, {'achievements': 100.1879, 'ds': 12.6, 'dxScore': 1570, 'fc': 'fc', 'fs': 'fsp', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 170, 'rate': 'sss', 'song_id': 11050, 'title': 'Strobe♡Girl', 'type': 'DX'}, {'achievements': 96.7264, 'ds': 12.1, 'dxScore': 1253, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 122, 'rate': 'aaa', 'song_id': 298, 'title': 'お嫁にしなさいっ！', 'type': 'SD'}, {'achievements': 97.4212, 'ds': 13.0, 'dxScore': 1485, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 158, 'rate': 's', 'song_id': 640, 'title': '妖精村の月誕祭 ～Lunate Elf', 'type': 'SD'}, {'achievements': 97.1201, 'ds': 13.1, 'dxScore': 967, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 159, 'rate': 's', 'song_id': 308, 'title': 'Back 2 Back', 'type': 'SD'}, {'achievements': 93.7963, 'ds': 13.5, 'dxScore': 1702, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 120, 'rate': 'aa', 'song_id': 261, 'title': 'Death Scythe', 'type': 'SD'}, {'achievements': 96.8133, 'ds': 13.8, 'dxScore': 2040, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 140, 'rate': 'aaa', 'song_id': 705, 'title': 'Mare Maris', 'type': 'SD'}, {'achievements': 96.2627, 'ds': 12.3, 'dxScore': 1407, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 124, 'rate': 'aaa', 'song_id': 263, 'title': "JUMPIN' JUMPIN'", 'type': 'SD'}, {'achievements': 98.7259, 'ds': 12.1, 'dxScore': 1680, 'fc': '', 'fs': '', 'level': '12', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 151, 'rate': 'sp', 'song_id': 256, 'title': 'いーあるふぁんくらぶ', 'type': 'SD'}, {'achievements': 97.8723, 'ds': 11.7, 'dxScore': 804, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 143, 'rate': 's', 'song_id': 42, 'title': 'jelly', 'type': 'SD'}, {'achievements': 96.9294, 'ds': 13.5, 'dxScore': 1757, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 137, 'rate': 'aaa', 'song_id': 288, 'title': '六兆年と一夜物語', 'type': 'SD'}, {'achievements': 98.2177, 'ds': 13.7, 'dxScore': 2087, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 170, 'rate': 'sp', 'song_id': 580, 'title': '吉原ラメント', 'type': 'SD'}, {'achievements': 98.9245, 'ds': 11.7, 'dxScore': 1216, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 146, 'rate': 'sp', 'song_id': 375, 'title': 'One Step Ahead', 'type': 'SD'}, {'achievements': 98.7598, 'ds': 13.0, 'dxScore': 1877, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 163, 'rate': 'sp', 'song_id': 624, 'title': 'KISS CANDY FLAVOR', 'type': 'SD'}, {'achievements': 97.8398, 'ds': 12.9, 'dxScore': 2289, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 157, 'rate': 's', 'song_id': 11006, 'title': 'P-qoq', 'type': 'DX'}, {'achievements': 95.5465, 'ds': 13.5, 'dxScore': 1863, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 135, 'rate': 'aaa', 'song_id': 11092, 'title': 'My My My', 'type': 'DX'}, {'achievements': 96.5087, 'ds': 13.8, 'dxScore': 2422, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 139, 'rate': 'aaa', 'song_id': 495, 'title': 'Hyper Active', 'type': 'SD'}, {'achievements': 99.3846, 'ds': 13.1, 'dxScore': 1488, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 169, 'rate': 'ss', 'song_id': 737, 'title': 'FestivaLight', 'type': 'SD'}, {'achievements': 98.9579, 'ds': 13.0, 'dxScore': 1010, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 163, 'rate': 'sp', 'song_id': 119, 'title': 'ソーラン☆節', 'type': 'SD'}, {'achievements': 100.8313, 'ds': 11.9, 'dxScore': 2020, 'fc': 'fcp', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 167, 'rate': 'sssp', 'song_id': 11086, 'title': 'だれかの心臓になれたなら', 'type': 'DX'}, {'achievements': 97.0422, 'ds': 12.5, 'dxScore': 1272, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 151, 'rate': 's', 'song_id': 146, 'title': '39', 'type': 'SD'}, {'achievements': 97.7989, 'ds': 13.1, 'dxScore': 1846, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 's', 'song_id': 665, 'title': 'チルノのパーフェクトさんすう教室\u3000⑨周年バージョン', 'type': 'SD'}, {'achievements': 99.8782, 'ds': 12.8, 'dxScore': 1421, 'fc': 'fc', 'fs': 'fsp', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 'ssp', 'song_id': 11139, 'title': 'wheel', 'type': 'DX'}, {'achievements': 98.6405, 'ds': 13.8, 'dxScore': 2064, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 172, 'rate': 'sp', 'song_id': 11159, 'title': 'Beautiful Future', 'type': 'DX'}, {'achievements': 96.136, 'ds': 13.6, 'dxScore': 2148, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 137, 'rate': 'aaa', 'song_id': 11022, 'title': 'TwisteD! XD', 'type': 'DX'}, {'achievements': 92.7584, 'ds': 14.4, 'dxScore': 2227, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 126, 'rate': 'aa', 'song_id': 431, 'title': 'Contrapasso -paradiso-', 'type': 'SD'}, {'achievements': 93.142, 'ds': 14.2, 'dxScore': 2541, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 125, 'rate': 'aa', 'song_id': 363, 'title': 'Oshama Scramble!', 'type': 'SD'}, {'achievements': 94.9186, 'ds': 13.9, 'dxScore': 2343, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 138, 'rate': 'aaa', 'song_id': 631, 'title': 'KING is BACK!!', 'type': 'SD'}, {'achievements': 97.5684, 'ds': 13.6, 'dxScore': 2353, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 165, 'rate': 's', 'song_id': 614, 'title': '夢花火', 'type': 'SD'}, {'achievements': 90.9127, 'ds': 13.9, 'dxScore': 2104, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 120, 'rate': 'aa', 'song_id': 566, 'title': '天火明命', 'type': 'SD'}, {'achievements': 61.6665, 'ds': 13.8, 'dxScore': 1433, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 51, 'rate': 'b', 'song_id': 606, 'title': 'The wheel to the right', 'type': 'SD'}, {'achievements': 94.6137, 'ds': 13.7, 'dxScore': 2212, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 136, 'rate': 'aaa', 'song_id': 830, 'title': '立ち入り禁止', 'type': 'SD'}, {'achievements': 99.9609, 'ds': 11.2, 'dxScore': 1186, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 147, 'rate': 'ssp', 'song_id': 233, 'title': 'MYTHOS', 'type': 'SD'}, {'achievements': 93.1115, 'ds': 14.3, 'dxScore': 1761, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 126, 'rate': 'aa', 'song_id': 750, 'title': '初音ミクの激唱', 'type': 'SD'}, {'achievements': 98.2097, 'ds': 12.9, 'dxScore': 2345, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 'sp', 'song_id': 520, 'title': '木彫り鯰と右肩ゾンビ', 'type': 'SD'}, {'achievements': 96.2686, 'ds': 13.8, 'dxScore': 1795, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 139, 'rate': 'aaa', 'song_id': 389, 'title': 'FLOWER', 'type': 'SD'}, {'achievements': 96.0196, 'ds': 13.9, 'dxScore': 2303, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 140, 'rate': 'aaa', 'song_id': 612, 'title': 'GO BACK 2 YOUR RAVE', 'type': 'SD'}, {'achievements': 96.2389, 'ds': 13.0, 'dxScore': 1557, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 131, 'rate': 'aaa', 'song_id': 367, 'title': 'Dragoon', 'type': 'SD'}, {'achievements': 91.6845, 'ds': 14.2, 'dxScore': 1330, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 123, 'rate': 'aa', 'song_id': 143, 'title': 'Fragrance', 'type': 'SD'}, {'achievements': 96.3605, 'ds': 13.9, 'dxScore': 2498, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 140, 'rate': 'aaa', 'song_id': 492, 'title': 'Jumble Rumble', 'type': 'SD'}, {'achievements': 94.9906, 'ds': 14.3, 'dxScore': 2459, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 142, 'rate': 'aaa', 'song_id': 719, 'title': 'エンドマークに希望と涙を添えて', 'type': 'SD'}, {'achievements': 95.9678, 'ds': 13.7, 'dxScore': 2027, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 138, 'rate': 'aaa', 'song_id': 838, 'title': '最終鬼畜妹フランドール・S', 'type': 'SD'}, {'achievements': 98.1661, 'ds': 12.8, 'dxScore': 1511, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 159, 'rate': 'sp', 'song_id': 188, 'title': '天ノ弱', 'type': 'SD'}, {'achievements': 99.0802, 'ds': 13.5, 'dxScore': 1988, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 173, 'rate': 'ss', 'song_id': 11134, 'title': 'ソリッド', 'type': 'DX'}, {'achievements': 99.0173, 'ds': 12.9, 'dxScore': 1586, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 166, 'rate': 'ss', 'song_id': 11051, 'title': 'Destr0yer', 'type': 'DX'}, {'achievements': 94.2196, 'ds': 14.0, 'dxScore': 1930, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 138, 'rate': 'aaa', 'song_id': 820, 'title': 'FFT', 'type': 'SD'}, {'achievements': 92.3146, 'ds': 14.1, 'dxScore': 1530, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 123, 'rate': 'aa', 'song_id': 233, 'title': 'MYTHOS', 'type': 'SD'}, {'achievements': 99.9774, 'ds': 10.4, 'dxScore': 1480, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 137, 'rate': 'ssp', 'song_id': 11048, 'title': 'ナイト・オブ・ナイツ (Cranky Remix)', 'type': 'DX'}, {'achievements': 100.8311, 'ds': 10.4, 'dxScore': 1334, 'fc': 'fcp', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 146, 'rate': 'sssp', 'song_id': 626, 'title': '相思創愛', 'type': 'SD'}, {'achievements': 99.2804, 'ds': 11.9, 'dxScore': 841, 'fc': 'fc', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 153, 'rate': 'ss', 'song_id': 11116, 'title': 'ラブ・ドラマティック feat. 伊原六花', 'type': 'DX'}, {'achievements': 98.6936, 'ds': 11.7, 'dxScore': 653, 'fc': 'fc', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 146, 'rate': 'sp', 'song_id': 40, 'title': 'come again', 'type': 'SD'}, {'achievements': 98.1042, 'ds': 12.7, 'dxScore': 1884, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 158, 'rate': 'sp', 'song_id': 775, 'title': 'ジンギスカン', 'type': 'SD'}, {'achievements': 98.1914, 'ds': 12.8, 'dxScore': 2361, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 159, 'rate': 'sp', 'song_id': 511, 'title': 'パーフェクト生命', 'type': 'SD'}, {'achievements': 96.2434, 'ds': 13.2, 'dxScore': 1444, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 133, 'rate': 'aaa', 'song_id': 358, 'title': '毒占欲', 'type': 'SD'}, {'achievements': 97.302, 'ds': 13.7, 'dxScore': 2359, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 166, 'rate': 's', 'song_id': 670, 'title': 'ドーナツホール', 'type': 'SD'}, {'achievements': 98.1571, 'ds': 12.7, 'dxScore': 1851, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 158, 'rate': 'sp', 'song_id': 693, 'title': 'キレキャリオン', 'type': 'SD'}, {'achievements': 95.4642, 'ds': 13.9, 'dxScore': 2116, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 139, 'rate': 'aaa', 'song_id': 556, 'title': '夜明けまであと３秒', 'type': 'SD'}, {'achievements': 94.5657, 'ds': 14.5, 'dxScore': 2174, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 143, 'rate': 'aaa', 'song_id': 387, 'title': 'FUJIN Rumble', 'type': 'SD'}, {'achievements': 98.4523, 'ds': 13.9, 'dxScore': 2067, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 173, 'rate': 'sp', 'song_id': 11101, 'title': 'GRÄNDIR', 'type': 'DX'}, {'achievements': 99.552, 'ds': 12.9, 'dxScore': 2007, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 169, 'rate': 'ssp', 'song_id': 11019, 'title': 'Scarlet Wings', 'type': 'DX'}, {'achievements': 96.2199, 'ds': 13.8, 'dxScore': 2361, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 139, 'rate': 'aaa', 'song_id': 11004, 'title': 'MAXRAGE', 'type': 'DX'}, {'achievements': 98.2326, 'ds': 12.9, 'dxScore': 1628, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 'sp', 'song_id': 236, 'title': 'ユビキリ', 'type': 'SD'}, {'achievements': 97.1649, 'ds': 11.7, 'dxScore': 885, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 142, 'rate': 's', 'song_id': 68, 'title': 'オレンジの夏', 'type': 'SD'}, {'achievements': 97.4063, 'ds': 12.0, 'dxScore': 1246, 'fc': '', 'fs': '', 'level': '12', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 146, 'rate': 's', 'song_id': 414, 'title': '若い力 -SEGA HARD GIRLS MIX-', 'type': 'SD'}, {'achievements': 98.433, 'ds': 12.7, 'dxScore': 1187, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 158, 'rate': 'sp', 'song_id': 100, 'title': 'Tell Your World', 'type': 'SD'}, {'achievements': 100.6928, 'ds': 10.7, 'dxScore': 1355, 'fc': 'fcp', 'fs': 'fsp', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 150, 'rate': 'sssp', 'song_id': 11212, 'title': 'emomomo', 'type': 'DX'}, {'achievements': 100.8076, 'ds': 10.0, 'dxScore': 1235, 'fc': 'fcp', 'fs': 'fsd', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 140, 'rate': 'sssp', 'song_id': 11162, 'title': 'ユメヒバナ', 'type': 'DX'}, {'achievements': 100.7093, 'ds': 10.2, 'dxScore': 1474, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 143, 'rate': 'sssp', 'song_id': 11163, 'title': 'REAL VOICE', 'type': 'DX'}, {'achievements': 100.5212, 'ds': 12.5, 'dxScore': 2078, 'fc': 'fcp', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 175, 'rate': 'sssp', 'song_id': 11171, 'title': 'YURUSHITE', 'type': 'DX'}, {'achievements': 100.5677, 'ds': 12.8, 'dxScore': 1974, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 180, 'rate': 'sssp', 'song_id': 11198, 'title': 'アスノヨゾラ哨戒班', 'type': 'DX'}, {'achievements': 94.0783, 'ds': 13.5, 'dxScore': 2343, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 133, 'rate': 'aaa', 'song_id': 682, 'title': '人生リセットボタン', 'type': 'SD'}, {'achievements': 99.815, 'ds': 11.0, 'dxScore': 1019, 'fc': '', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 144, 'rate': 'ssp', 'song_id': 46, 'title': 'ルカルカ★ナイトフィーバー', 'type': 'SD'}, {'achievements': 99.758, 'ds': 12.8, 'dxScore': 1810, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 'ssp', 'song_id': 10188, 'title': '天ノ弱', 'type': 'DX'}, {'achievements': 98.5154, 'ds': 13.9, 'dxScore': 2008, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 173, 'rate': 'sp', 'song_id': 11213, 'title': 'Arty Party', 'type': 'DX'}, {'achievements': 97.6338, 'ds': 13.8, 'dxScore': 2104, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 's', 'song_id': 11210, 'title': 'c.s.q.n.', 'type': 'DX'}, {'achievements': 99.1361, 'ds': 13.7, 'dxScore': 2189, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 176, 'rate': 'ss', 'song_id': 11212, 'title': 'emomomo', 'type': 'DX'}, {'achievements': 97.0644, 'ds': 13.0, 'dxScore': 1067, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 157, 'rate': 's', 'song_id': 337, 'title': '鼓動', 'type': 'SD'}, {'achievements': 99.4766, 'ds': 12.8, 'dxScore': 1563, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 165, 'rate': 'ss', 'song_id': 278, 'title': 'レッツゴー!陰陽師', 'type': 'SD'}, {'achievements': 100.576, 'ds': 12.7, 'dxScore': 1864, 'fc': 'fc', 'fs': '', 'level': '12+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 178, 'rate': 'sssp', 'song_id': 11184, 'title': 'Virtual to LIVE', 'type': 'DX'}, {'achievements': 96.19, 'ds': 13.7, 'dxScore': 2201, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 138, 'rate': 'aaa', 'song_id': 756, 'title': 'CYBER Sparks', 'type': 'SD'}, {'achievements': 99.2109, 'ds': 12.0, 'dxScore': 2172, 'fc': '', 'fs': '', 'level': '12', 'level_index': 2, 'level_label': 'Expert', 'ra': 154, 'rate': 'ss', 'song_id': 11176, 'title': 'Climax', 'type': 'DX'}, {'achievements': 96.1599, 'ds': 13.8, 'dxScore': 2367, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 139, 'rate': 'aaa', 'song_id': 840, 'title': 'Imperishable Night 2006 (2016 Refine)', 'type': 'SD'}, {'achievements': 96.4538, 'ds': 12.2, 'dxScore': 1035, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 123, 'rate': 'aaa', 'song_id': 207, 'title': '時空を超えて久しぶり！', 'type': 'SD'}, {'achievements': 100.5733, 'ds': 12.8, 'dxScore': 2205, 'fc': 'fc', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 180, 'rate': 'sssp', 'song_id': 11163, 'title': 'REAL VOICE', 'type': 'DX'}, {'achievements': 100.6052, 'ds': 9.2, 'dxScore': 1302, 'fc': 'fcp', 'fs': '', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 129, 'rate': 'sssp', 'song_id': 11061, 'title': 'アマツキツネ', 'type': 'DX'}, {'achievements': 100.3051, 'ds': 11.5, 'dxScore': 1483, 'fc': '', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 155, 'rate': 'sss', 'song_id': 11020, 'title': 'Technicians High', 'type': 'DX'}, {'achievements': 100.3711, 'ds': 11.3, 'dxScore': 2009, 'fc': 'fc', 'fs': 'fsp', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 153, 'rate': 'sss', 'song_id': 830, 'title': '立ち入り禁止', 'type': 'SD'}, {'achievements': 88.3083, 'ds': 13.9, 'dxScore': 1247, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 104, 'rate': 'a', 'song_id': 191, 'title': '脳漿炸裂ガール', 'type': 'SD'}, {'achievements': 99.1167, 'ds': 11.7, 'dxScore': 1130, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 150, 'rate': 'ss', 'song_id': 107, 'title': 'ロミオとシンデレラ', 'type': 'SD'}, {'achievements': 99.379, 'ds': 11.7, 'dxScore': 1125, 'fc': '', 'fs': '', 'level': '11+', 'level_index': 3, 'level_label': 'Master', 'ra': 151, 'rate': 'ss', 'song_id': 81, 'title': 'Rooftop Run: Act1', 'type': 'SD'}, {'achievements': 98.0006, 'ds': 13.3, 'dxScore': 1901, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 165, 'rate': 'sp', 'song_id': 11162, 'title': 'ユメヒバナ', 'type': 'DX'}, {'achievements': 100.4667, 'ds': 11.4, 'dxScore': 1422, 'fc': '', 'fs': '', 'level': '11', 'level_index': 3, 'level_label': 'Master', 'ra': 154, 'rate': 'sss', 'song_id': 722, 'title': 'Tic Tac DREAMIN’', 'type': 'SD'}, {'achievements': 97.2405, 'ds': 12.8, 'dxScore': 2333, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 155, 'rate': 's', 'song_id': 759, 'title': 'サドマミホリック', 'type': 'SD'}, {'achievements': 99.7638, 'ds': 12.4, 'dxScore': 2003, 'fc': 'fc', 'fs': '', 'level': '12', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 163, 'rate': 'ssp', 'song_id': 532, 'title': '洗脳', 'type': 'SD'}, {'achievements': 99.8665, 'ds': 12.8, 'dxScore': 1865, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 'ssp', 'song_id': 11131, 'title': '深海シティアンダーグラウンド', 'type': 'DX'}, {'achievements': 98.9277, 'ds': 12.8, 'dxScore': 1678, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 'sp', 'song_id': 11128, 'title': 'KILLER B', 'type': 'DX'}, {'achievements': 97.779, 'ds': 13.3, 'dxScore': 2030, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 162, 'rate': 's', 'song_id': 11058, 'title': 'デンパラダイム', 'type': 'DX'}, {'achievements': 98.5664, 'ds': 13.5, 'dxScore': 1853, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 'sp', 'song_id': 10301, 'title': '患部で止まってすぐ溶ける～狂気の優曇華院', 'type': 'DX'}, {'achievements': 97.7686, 'ds': 13.8, 'dxScore': 2106, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 168, 'rate': 's', 'song_id': 11075, 'title': 'プナイプナイせんそう', 'type': 'DX'}, {'achievements': 97.6958, 'ds': 13.9, 'dxScore': 2498, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 169, 'rate': 's', 'song_id': 446, 'title': 'GEMINI -M-', 'type': 'SD'}, {'achievements': 93.4608, 'ds': 14.0, 'dxScore': 3179, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 124, 'rate': 'aa', 'song_id': 11175, 'title': '宛城、炎上！！', 'type': 'DX'}, {'achievements': 100.9038, 'ds': 9.4, 'dxScore': 1292, 'fc': 'ap', 'fs': 'fsp', 'level': '9', 'level_index': 2, 'level_label': 'Expert', 'ra': 132, 'rate': 'sssp', 'song_id': 11219, 'title': 'Prismatic', 'type': 'DX'}, {'achievements': 100.3052, 'ds': 10.7, 'dxScore': 1384, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 144, 'rate': 'sss', 'song_id': 11204, 'title': 'Sweet Requiem', 'type': 'DX'}, {'achievements': 99.7638, 'ds': 10.8, 'dxScore': 1520, 'fc': '', 'fs': '', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 142, 'rate': 'ssp', 'song_id': 11207, 'title': 'Ether Strike', 'type': 'DX'}, {'achievements': 100.5981, 'ds': 11.0, 'dxScore': 1617, 'fc': 'fc', 'fs': '', 'level': '11', 'level_index': 2, 'level_label': 'Expert', 'ra': 154, 'rate': 'sssp', 'song_id': 11208, 'title': 'Cyaegha', 'type': 'DX'}, {'achievements': 99.9139, 'ds': 12.8, 'dxScore': 1923, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 2, 'level_label': 'Expert', 'ra': 168, 'rate': 'ssp', 'song_id': 11222, 'title': 'BREaK! BREaK! BREaK!', 'type': 'DX'}, {'achievements': 100.1389, 'ds': 10.2, 'dxScore': 1583, 'fc': '', 'fs': '', 'level': '10', 'level_index': 2, 'level_label': 'Expert', 'ra': 137, 'rate': 'sss', 'song_id': 11172, 'title': 'ポケットからぬりつぶせ！', 'type': 'DX'}, {'achievements': 100.9782, 'ds': 10.7, 'dxScore': 1730, 'fc': 'ap', 'fs': 'fsd', 'level': '10+', 'level_index': 2, 'level_label': 'Expert', 'ra': 150, 'rate': 'sssp', 'song_id': 11173, 'title': 'トリドリ⇒モリモリ！Lovely fruits☆', 'type': 'DX'}, {'achievements': 100.4981, 'ds': 11.8, 'dxScore': 1850, 'fc': 'fc', 'fs': '', 'level': '11+', 'level_index': 2, 'level_label': 'Expert', 'ra': 160, 'rate': 'sss', 'song_id': 11174, 'title': 'Desperado Waltz', 'type': 'DX'}, {'achievements': 95.8831, 'ds': 13.9, 'dxScore': 2018, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 139, 'rate': 'aaa', 'song_id': 11207, 'title': 'Ether Strike', 'type': 'DX'}, {'achievements': 99.0724, 'ds': 13.5, 'dxScore': 2434, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 173, 'rate': 'ss', 'song_id': 11208, 'title': 'Cyaegha', 'type': 'DX'}, {'achievements': 98.0376, 'ds': 13.7, 'dxScore': 2261, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 170, 'rate': 'sp', 'song_id': 11146, 'title': 'Lunar Mare', 'type': 'DX'}, {'achievements': 95.5438, 'ds': 14.1, 'dxScore': 1850, 'fc': '', 'fs': '', 'level': '14', 'level_index': 3, 'level_label': 'Master', 'ra': 141, 'rate': 'aaa', 'song_id': 11166, 'title': 'ワンダーシャッフェンの法則', 'type': 'DX'}, {'achievements': 100.6925, 'ds': 12.8, 'dxScore': 2124, 'fc': 'fc', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 180, 'rate': 'sssp', 'song_id': 11172, 'title': 'ポケットからぬりつぶせ！', 'type': 'DX'}, {'achievements': 100.2535, 'ds': 13.2, 'dxScore': 2406, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 178, 'rate': 'sss', 'song_id': 11173, 'title': 'トリドリ⇒モリモリ！Lovely fruits☆', 'type': 'DX'}, {'achievements': 99.9607, 'ds': 12.8, 'dxScore': 1521, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 2, 'level_label': 'Expert', 'ra': 168, 'rate': 'ssp', 'song_id': 11167, 'title': 'BIRTH', 'type': 'DX'}, {'achievements': 99.3386, 'ds': 12.8, 'dxScore': 1723, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 165, 'rate': 'ss', 'song_id': 11125, 'title': 'クレイジー・ビート', 'type': 'DX'}, {'achievements': 98.5516, 'ds': 12.7, 'dxScore': 1748, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 158, 'rate': 'sp', 'song_id': 11127, 'title': 'グラーヴェ', 'type': 'DX'}, {'achievements': 99.8381, 'ds': 12.9, 'dxScore': 1739, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 170, 'rate': 'ssp', 'song_id': 10191, 'title': '脳漿炸裂ガール', 'type': 'DX'}, {'achievements': 100.4064, 'ds': 12.5, 'dxScore': 1577, 'fc': 'fc', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 169, 'rate': 'sss', 'song_id': 11046, 'title': 'アディショナルメモリー', 'type': 'DX'}, {'achievements': 97.6129, 'ds': 13.7, 'dxScore': 2208, 'fc': '', 'fs': '', 'level': '13+', 'level_index': 3, 'level_label': 'Master', 'ra': 167, 'rate': 's', 'song_id': 11204, 'title': 'Sweet Requiem', 'type': 'DX'}, {'achievements': 97.3888, 'ds': 12.9, 'dxScore': 2096, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 157, 'rate': 's', 'song_id': 585, 'title': 'Phantasm Brigade', 'type': 'SD'}, {'achievements': 97.3873, 'ds': 12.8, 'dxScore': 1563, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 155, 'rate': 's', 'song_id': 254, 'title': 'Live & Learn', 'type': 'SD'}, {'achievements': 98.6056, 'ds': 12.7, 'dxScore': 1801, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 159, 'rate': 'sp', 'song_id': 403, 'title': '悪戯', 'type': 'SD'}, {'achievements': 98.5346, 'ds': 13.4, 'dxScore': 2179, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 167, 'rate': 'sp', 'song_id': 11020, 'title': 'Technicians High', 'type': 'DX'}, {'achievements': 99.033, 'ds': 13.6, 'dxScore': 2262, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 175, 'rate': 'ss', 'song_id': 530, 'title': '高気圧ねこロック', 'type': 'SD'}, {'achievements': 99.0447, 'ds': 12.8, 'dxScore': 2112, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 164, 'rate': 'ss', 'song_id': 11036, 'title': 'U.S.A.', 'type': 'DX'}, {'achievements': 98.5717, 'ds': 12.9, 'dxScore': 1846, 'fc': 'fc', 'fs': '', 'level': '12+', 'level_index': 4, 'level_label': 'Re:MASTER', 'ra': 161, 'rate': 'sp', 'song_id': 818, 'title': '隠然', 'type': 'SD'}, {'achievements': 98.6921, 'ds': 13.1, 'dxScore': 2202, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 164, 'rate': 'sp', 'song_id': 448, 'title': 'ありふれたせかいせいふく', 'type': 'SD'}, {'achievements': 97.7434, 'ds': 13.4, 'dxScore': 2012, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 163, 'rate': 's', 'song_id': 11202, 'title': '物凄いヴァイブスで魔理沙が物凄いラップ', 'type': 'DX'}, {'achievements': 99.0217, 'ds': 12.8, 'dxScore': 2007, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 164, 'rate': 'ss', 'song_id': 10665, 'title': 'チルノのパーフェクトさんすう教室\u3000⑨周年バージョン', 'type': 'DX'}, {'achievements': 98.8822, 'ds': 13.3, 'dxScore': 2290, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 167, 'rate': 'sp', 'song_id': 11105, 'title': 'ワードワードワード', 'type': 'DX'}, {'achievements': 98.4147, 'ds': 12.6, 'dxScore': 2072, 'fc': '', 'fs': '', 'level': '12', 'level_index': 3, 'level_label': 'Master', 'ra': 157, 'rate': 'sp', 'song_id': 10420, 'title': 'Change Our MIRAI！', 'type': 'DX'}, {'achievements': 98.373, 'ds': 12.9, 'dxScore': 2049, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 161, 'rate': 'sp', 'song_id': 527, 'title': 'ハート・ビート', 'type': 'SD'}, {'achievements': 98.9181, 'ds': 12.8, 'dxScore': 2153, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 'sp', 'song_id': 526, 'title': 'brilliant better', 'type': 'SD'}, {'achievements': 98.7237, 'ds': 12.8, 'dxScore': 1908, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 160, 'rate': 'sp', 'song_id': 721, 'title': 'Bang Babang Bang!!!', 'type': 'SD'}, {'achievements': 99.4512, 'ds': 12.8, 'dxScore': 1855, 'fc': '', 'fs': '', 'level': '12+', 'level_index': 3, 'level_label': 'Master', 'ra': 165, 'rate': 'ss', 'song_id': 770, 'title': 'あねぺったん', 'type': 'SD'}, {'achievements': 98.0544, 'ds': 13.4, 'dxScore': 1964, 'fc': '', 'fs': '', 'level': '13', 'level_index': 3, 'level_label': 'Master', 'ra': 166, 'rate': 'sp', 'song_id': 769, 'title': 'なるとなぎのパーフェクトロックンロール教室', 'type': 'SD'}], 'username': 'mallow'}

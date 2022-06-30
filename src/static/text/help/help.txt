@@ -1,0 +1,4 @@
+help mai  舞萌相关的核心功能
+help mia  mia的好玩功能
+help line 分数线相关使用的帮助
+help b40  自定义查分器的外观
