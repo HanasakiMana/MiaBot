@@ -11,7 +11,7 @@ import datetime, pytz
 import time
 
 
-from CONST import b50_resource, jacket_path, font_path, customize_path
+from CONST import b50_resource, jacket_path, font_path, customize_path, frame_path, plate_path
 
 
 # 各种类型素材的目录
@@ -396,7 +396,7 @@ class GenerateB50(object):
         # 自定义姓名框
         customize = self.get_customize()
         plate_id = customize.get('plate')
-        output = Image.open(b50_resource + f"/plate/UI_Plate_{plate_id}.png")
+        output = Image.open(plate_path + f"/UI_Plate_{plate_id}.png")
 
         # 用户头像
         avatar = Image.open(self.get_avatar()).resize((98, 98))
