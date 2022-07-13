@@ -337,7 +337,7 @@ class GenerateB50(object):
         if self.b50:
             init_width = 900
         else:
-            init_width = 750
+            init_width = 700
         for i in range(0, len(b15List)):
             if self.b50:
                 b15Position.append([init_width + (i%3) * 120, init_heigh + int(i/3) * 115])
@@ -404,7 +404,6 @@ class GenerateB50(object):
             diff_level = dict.get('level_index') # 水鱼定义的难度的label是0，1，2，3，4，需要加1
             rank = dict.get('rate') # 这个其实应该是rank（AAA， S， S+这些）
             score = dict.get('achievements')
-            dxscore = dict.get('dxScore')
             fc = dict.get('fc')
             fs = dict.get('fs')
             type = dict.get('type') # SD/DX谱面
@@ -509,5 +508,5 @@ class GenerateB50(object):
 
 
 if __name__ == '__main__':
-    asyncio.run(GenerateB50(qq='1179782321', b50=True).generate()).show()
+    asyncio.run(GenerateB50(qq='1179782321', b50=False).generate()).show()
     # print(asyncio.run(GetBest(qq='1179782321', b50=False).get_data()))
