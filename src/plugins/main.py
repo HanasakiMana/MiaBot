@@ -21,7 +21,7 @@ from nonebot.message import event_preprocessor
 from nonebot.exception import IgnoredException
 
 # 自建文件导入
-from src.libraries.music_data_process import update_music_data # 更新本地缓存的歌曲数据
+from src.libraries.database import maimaiDB # 更新本地缓存的歌曲数据
 from src.libraries.initialize import general # 一些供随时调用的变量
 from src.libraries.image_transform import send_image # 将文本格式化成图片并编码成必要的形式
 
@@ -46,7 +46,7 @@ def _():
     logger.info("Boot up successfully!")
     scheduler.add_job(
         # 每天0时从水鱼服务器抓取歌曲数据
-        update_music_data,
+        maimaiDB.update(),
         trigger='cron',
         hour = 0,
         minute = 0

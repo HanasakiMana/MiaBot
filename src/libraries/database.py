@@ -1,9 +1,16 @@
+# 包含与数据库相关的操作
+
 import sqlite3
 import os
 import requests
 import datetime, pytz
+# 数据库文件夹所在的路径
 dbFolderPath = 'src/database'
+# sql文件的路径
 sqlFilePath = 'src/libraries/sql_conf'
+# 难度索引
+diffList = ['basic', 'advanced', 'expert', 'master', 'reMaster']
+
 
 
 class DBInit(object):
@@ -58,7 +65,7 @@ class maimaiDB(object):
         
         # 将数据格式化成上面函数可以接受的形式
         musicData = {} # 歌曲基本信息
-        chartData = {} # 谱面信息
+        chartData = [] # 谱面信息
         chartTypeData = {} # 谱面种类信息（格式：[std谱面id，dx谱面id]）
 
         for singleData in rawData:
@@ -85,9 +92,10 @@ class maimaiDB(object):
             levels = singleData.get('level')
             
             charts = singleData.get('charts')
-            chartInfo = [chartType, musicId]
+            
             # 遍历每一个难度的谱面
             for i in range(len(charts)):
+                diff = diffList[i]
                 notes = charts[i].get('notes')
                 charter = charts[i].get('charter')
                 singleLevel = levels[i]
@@ -102,15 +110,12 @@ class maimaiDB(object):
                     bReak = notes[4]
                 else:
                     bReak = notes[3]
+                
+                chartInfo = [chartid, chartType, musicId, diff]
                 for i in [singleLevel, singleDs, charter, tap, hold, slide, touch, bReak]:
                     chartInfo.append(i)
-            # 没有白谱的情况下需要对白谱的数据进行补全
-            if len(charts) == 4:
-                for i in range(8):
-                    chartInfo.append('NULL')
+                chartData.append(chartInfo)
             
-            # 向谱面字典添加数据
-            chartData.update({chartid: chartInfo})
             # 更新歌曲信息
             musicData.update({musicId: [title, artist, genre, bpm, addVersion, isNew]})
             # 更新谱面类型信息
@@ -142,7 +147,10 @@ class maimaiDB(object):
         
         # 一个用来拼接出sql命令的小函数
         def joinCmd(id, info, targetTable):
-            data = f"\'{id}\'"
+            if id != None:
+                data = f"\'{id}\'"
+            else:
+                data = ''
             for i in info:
                 # 给str套单引号，不然sql不认为是TEXT类型
                 if isinstance(i, str):
@@ -151,6 +159,8 @@ class maimaiDB(object):
                     # 套引号
                     i = f"\'{i}\'"
                 data += f', {i}'
+            if id == None:
+                data = data[1:]
             return f'INSERT INTO {targetTable} VALUES({data})'
 
         # musicInfo
@@ -158,8 +168,8 @@ class maimaiDB(object):
             cmdList.append(joinCmd(musicId, musicInfo, 'musicInfo'))
 
         # chartInfo
-        for chartId, chartInfo in chartData.items():
-            cmdList.append(joinCmd(chartId, chartInfo, 'chartInfo'))
+        for data in chartData:
+            cmdList.append(joinCmd(None, data, 'chartInfo'))
         # dbInfo
         updateTime = datetime.datetime.now(pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
         cmdList.append(f"INSERT INTO dbInfo VALUES('{updateTime}')")
@@ -174,11 +184,41 @@ class maimaiDB(object):
             cur.execute(cmd)
             conn.commit()
         conn.close()
+    
+
+    # 对歌曲数据库进行搜索（支持同时检索两个元素，比如谱面id+谱面难度，歌曲id+歌曲类型等）
+    def search(self, type: str, keyword: str, type2: str = None, keyword2: str = None, dbType: str = 'SDGB'):
+        dbPath = f'{dbFolderPath}/{dbType}.sqlite'
+        # 歌曲可供调用的搜索类型（这些都是数据库中已有的column）
+        musicType = ['musicId', 'title', 'artist', 'genre', 'addVersion', 'isNew']
+        # 谱面可供调用的搜索类型（这些都是数据库中已有的column）
+        chartType = ['chartId', 'chartType', 'diff', \
+            'tapCount', 'holdCount', 'slideCount', 'touchCount', 'breakCount'
+        ]
+        # 额外的谱面搜索关键字（数据库中没有对应column，需要额外代码支撑）
+        chartTypeExtended = ['Level', 'Ds', 'Charter']
+        conn = sqlite3.connect(dbPath)
+        cur = conn.cursor()
+        cmd = ''
+        if type in musicType:
+            cmd = f'SELECT * FROM musicInfo WHERE {type} LIKE \'%{keyword}%\''
+            if type2 in musicType:
+                cmd += f' AND {type2} LIKE \'%{keyword2}%\''
+        elif type in chartType:
+            cmd = f'SELECT * FROM chartInfo WHERE {type} LIKE \'%{keyword}%\''
+            if type2 in chartType:
+                cmd += f' AND {type2} LIKE \'%{keyword2}%\''
+        # 定义一个用于返回数据的变量
+        searchResult = []
+        result = cur.execute(cmd)
+        for row in result:
+            searchResult.append(row)
+        print(searchResult)
         
-
-
+        
 
         
 if __name__ == '__main__':
-    DBInit(rebuild=True)
-    maimaiDB().update()
+    # DBInit(rebuild=True)
+    # maimaiDB().update()
+    maimaiDB().search('chartId', '11173', 'diff', 'master')
