@@ -53,7 +53,7 @@ def _():
         )
 
 
-# 帮助命令
+'''# 帮助命令
 help = on_command('help', aliases={'Help', '帮助'})
 
 @help.handle()
@@ -70,4 +70,4 @@ async def _(bot: Bot, event: Event, state: T_State):
     if text is None:
         await help.finish('没救啦！')
     else:
-        await help.finish(MessageSegment.image(send_image(text)))
+        await help.finish(MessageSegment.image(send_image(text)))'''

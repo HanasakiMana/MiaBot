@@ -11,7 +11,7 @@ CREATE TABLE poke(
 
 CREATE TABLE eatMeal(
     QQ          TEXT,
-    eatCount    TEXT
+    eatCount    INTEGER
 );
 
 INSERT INTO b50Custom VALUES('default', '200101', '259505')

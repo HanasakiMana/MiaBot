@@ -16,6 +16,8 @@ import time
 
 
 from CONST import b50_resource,plate_path, frame_path, jacket_path, font_path, customize_path, mia_version
+# 用于获取自定义设置的函数get_custom
+from database import miaDB
 
 
 # 各种类型素材的目录
@@ -177,19 +179,6 @@ class GenerateB50(object):
             except:
                 return default
 
-    
-    # 获取自定义设置
-    def get_customize(self):
-        customize_setting = open(customize_path + '/b50_customize.json').read()
-        customize_dict: dict= eval(str(customize_setting))
-        try:
-            if customize_dict.get(self.qq) is not None:
-                return customize_dict.get(self.qq)
-            else:
-                return customize_dict.get('default')
-        except:
-            return customize_dict.get('default')
-
 
     # 获取dx rating的框框并添加值
     def get_dxrating_frame(self, rating: int):
@@ -233,8 +222,8 @@ class GenerateB50(object):
         dxscore_sum = dxscore_b35 + dxscore_b15 + additioal_rating
     
         # 自定义姓名框
-        customize = self.get_customize()
-        plate_id = customize.get('plate')
+        customize = miaDB().get_custom(self.qq)
+        plate_id = customize[0]
         output = Image.open(plate_path + f"/UI_Plate_{plate_id}.png")
 
         # 用户头像
@@ -300,8 +289,8 @@ class GenerateB50(object):
 
         # ----------加载素材----------
         # 加载背景
-        customize = self.get_customize()
-        frameId = customize.get('frame')
+        customize = miaDB().get_custom(self.qq)
+        frameId = customize[1]
         output = Image.open(frame_path + f'/UI_Frame_{frameId}.png')
         output = output.resize(self.scale(output.size, 1.5), resample=Image.HAMMING)
 
@@ -523,5 +512,5 @@ class GenerateB50(object):
 
 
 if __name__ == '__main__':
-    asyncio.run(GenerateB50(qq='3317609588', b50=False).generate()).show()
-    # print(asyncio.run(GetBest(qq='1179782321', b50=False).get_data()))
+    asyncio.run(GenerateB50(qq='1179782321', b50=True).generate()).show()
+    

@@ -55,7 +55,7 @@ class DBInit(object):
 # maimai相关数据库的读写操作
 class maimaiDB(object):
     def __init__(self, dbPath: str = 'src/database/SDGB.sqlite'):
-        # 默认操作的是来自水鱼的数据库
+        # 默认操作的是用水鱼的数据生成的数据库
         self.dbPath = dbPath
 
 
@@ -172,7 +172,7 @@ class maimaiDB(object):
             cmdList.append(joinCmd(None, data, 'chartInfo'))
         # dbInfo
         updateTime = datetime.datetime.now(pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
-        cmdList.append(f"INSERT INTO dbInfo VALUES('{updateTime}')")
+        cmdList.append(f"INSERT INTO dbInfo VALUES(\'{updateTime}\')")
         # 执行命令
         conn = sqlite3.connect(self.dbPath)
         cur = conn.cursor()
@@ -186,17 +186,16 @@ class maimaiDB(object):
         conn.close()
     
 
-    # 对歌曲数据库进行搜索（支持同时检索两个元素，比如谱面id+谱面难度，歌曲id+歌曲类型等）
+    # 对歌曲数据库进行搜索（支持同时检索两个元素，比如谱面id+谱面难度，歌曲id+歌曲类型等，第二个元素不是必须的）
     def search(self, type: str, keyword: str, type2: str = None, keyword2: str = None, dbType: str = 'SDGB'):
         dbPath = f'{dbFolderPath}/{dbType}.sqlite'
         # 歌曲可供调用的搜索类型（这些都是数据库中已有的column）
         musicType = ['musicId', 'title', 'artist', 'genre', 'addVersion', 'isNew']
         # 谱面可供调用的搜索类型（这些都是数据库中已有的column）
-        chartType = ['chartId', 'chartType', 'diff', \
+        chartType = ['chartId', 'chartType', 'diff', 'charter', \
             'tapCount', 'holdCount', 'slideCount', 'touchCount', 'breakCount'
         ]
-        # 额外的谱面搜索关键字（数据库中没有对应column，需要额外代码支撑）
-        chartTypeExtended = ['Level', 'Ds', 'Charter']
+        # 进行数据库操作
         conn = sqlite3.connect(dbPath)
         cur = conn.cursor()
         cmd = ''
@@ -205,7 +204,7 @@ class maimaiDB(object):
             if type2 in musicType:
                 cmd += f' AND {type2} LIKE \'%{keyword2}%\''
         elif type in chartType:
-            cmd = f'SELECT * FROM chartInfo WHERE {type} LIKE \'%{keyword}%\''
+            cmd = f'SELECT * FROM chartInfo WHERE {type} = \'{keyword}\''
             if type2 in chartType:
                 cmd += f' AND {type2} LIKE \'%{keyword2}%\''
         # 定义一个用于返回数据的变量
@@ -213,12 +212,79 @@ class maimaiDB(object):
         result = cur.execute(cmd)
         for row in result:
             searchResult.append(row)
-        print(searchResult)
+        conn.close()
+        return searchResult
+
+
+class miaDB(object):
+
+    def __init__(self, dbPath: str = f'{dbFolderPath}/mia_custom.sqlite') -> None:
+        self.dbPath = dbPath
+    
+
+    # 获取默认设置
+    def get_default(self) -> list:
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        result = cur.execute(f'SELECT * FROM b50Custom WHERE QQ = \'default\'')
+        defaultResult = None
+        for row in result:
+            defaultResult = row[1:]
+        conn.close()
+        return defaultResult
+
+
+    # 获取自定义信息（格式：(姓名框id, 背景板id)）
+    def get_custom(self, QQ: str) -> list:
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        # 根据QQ号检索
+        result = cur.execute(f'SELECT * FROM b50Custom WHERE QQ = \'{QQ}\'')
+        searchResult = None
+        for row in result:
+            searchResult = row[1:]
+        conn.close()
+        # 获取默认Id以备用
+        defaultPlateId, defaultFrameId = self.get_default()
+        if searchResult:
+            plateId = searchResult[0]
+            frameId = searchResult[1]
+            if plateId == 'NULL': # 将空数据替换成默认的
+                plateId = defaultPlateId
+            if frameId == 'NULL':
+                frameId = defaultFrameId
+            return [plateId, frameId]
+        else:
+            return [defaultPlateId, defaultFrameId]
         
-        
+    
+    # 写入自定义信息
+    def add_custom(self, QQ: str, idType: str, id: str) -> None:
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        # 先查询当前是否有对应QQ号的记录
+        result = cur.execute(f'SELECT * FROM b50Custom WHERE QQ = \'{QQ}\'')
+        searchResult = None
+        for row in result:
+            searchResult = row
+        if idType in ['plateId', 'frameId']:
+            if searchResult: # 查询到已有记录的情况
+                cur.execute(f'UPDATE b50Custom SET {idType} = \'{id}\' WHERE QQ = \'{QQ}\'')
+            else: # 未查询到已有记录的情况
+                plateId, frameId = 'NULL', 'NULL'
+                if idType == 'frameId':
+                    frameId = id
+                elif idType == 'plateId':
+                    plateId = id
+                cur.execute(f"INSERT INTO b50Custom VALUES('{QQ}', {plateId}, {frameId})")
+        conn.commit()
+        conn.close()
 
         
 if __name__ == '__main__':
     # DBInit(rebuild=True)
     # maimaiDB().update()
-    maimaiDB().search('chartId', '11173', 'diff', 'master')
+    # print(maimaiDB().search('charter', 'はっぴー'))
+    # print(miaDB().get_custom('1'))
+    # print(miaDB().get_default())
+    miaDB().add_custom('1179782321','frameId', '259505')
