@@ -27,8 +27,7 @@ font_path = 'src/static/font'
 
 # 生成b50所需要的素材所在的目录
 b50_resource = 'src/static/image/b50_resource'
-# b50自定义设置的json
-customize_path = 'src/database/json'
+
 
 # 水鱼的开发者token
 developer_token = 'U6opXzrPWmJYfx8gvIHawAjNVBiu5chT'

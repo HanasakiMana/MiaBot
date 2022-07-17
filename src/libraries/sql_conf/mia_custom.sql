@@ -4,6 +4,14 @@ CREATE TABLE b50Custom(
     frameId TEXT
 );
 
+CREATE TABLE plateIdList(
+    plateId TEXT
+);
+
+CREATE TABLE frameIdList(
+    frameId TEXT
+);
+
 CREATE TABLE poke(
     QQ          TEXT,
     pokeCount   INTEGER

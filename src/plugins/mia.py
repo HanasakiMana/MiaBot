@@ -22,4 +22,4 @@ from nonebot.exception import IgnoredException
 
 # 自建文件导入
 
-from src.libraries.image_transform import send_image # 将文本格式化成图片并编码成必要的形式
+from src.libraries.image_process import send_image # 将文本格式化成图片并编码成必要的形式

@@ -2,8 +2,11 @@
 
 import sqlite3
 import os
+from xmlrpc.client import Boolean
 import requests
 import datetime, pytz
+
+from src.libraries.CONST import plate_path, frame_path
 # 数据库文件夹所在的路径
 dbFolderPath = 'src/database'
 # sql文件的路径
@@ -34,7 +37,8 @@ class DBInit(object):
                 try:
                     self.createDB(sqlFilePath + '/' + sqlFile, fileName, dbFolderPath)
                 except:
-                    pass
+                    print(f'Failed to create database {fileName}.sqlite')
+        self.miaInit(currentPath)
 
 
     def createDB(self, sqlPath, dbName, dbFolderPath):
@@ -51,6 +55,32 @@ class DBInit(object):
         conn.commit()
         conn.close()
 
+
+    # 初始化姓名框和背景板的id列表（记录在mia_custom.sqlite下）
+    def miaInit(self, currentPath, dbPath: str = f'{dbFolderPath}/mia_custom.sqlite'):
+        # 获取plateId和frameId的列表
+        def getIdList(path):
+            os.chdir(currentPath + '/' + path)
+            fileList = os.listdir()
+            os.chdir(currentPath)
+            idList = []
+            for file in fileList:
+                idList.append(f"'{file.split('.')[0].split('_')[-1]}'")
+            return idList
+
+        plateIdList = getIdList(plate_path)
+        frameIdList = getIdList(frame_path)
+        cmdList = []
+        for i in plateIdList:
+            cmdList.append(f'INSERT INTO plateIdList VALUES({i})')
+        for i in frameIdList:
+            cmdList.append(f'INSERT INTO frameIdList VALUES({i})')
+        conn = sqlite3.connect(dbPath)
+        cur = conn.cursor()
+        for cmd in cmdList:
+            cur.execute(cmd)
+            conn.commit()
+        conn.close()
 
 # maimai相关数据库的读写操作
 class maimaiDB(object):
@@ -157,7 +187,8 @@ class maimaiDB(object):
                     # 如果曲名中出现了单引号，就需要把单引号打两遍，第一个相当于转义符
                     i = i.replace('\'', r"''")
                     # 套引号
-                    i = f"\'{i}\'"
+                    if i != 'NULL':
+                        i = f"\'{i}\'"
                 data += f', {i}'
             if id == None:
                 data = data[1:]
@@ -172,7 +203,7 @@ class maimaiDB(object):
             cmdList.append(joinCmd(None, data, 'chartInfo'))
         # dbInfo
         updateTime = datetime.datetime.now(pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
-        cmdList.append(f"INSERT INTO dbInfo VALUES(\'{updateTime}\')")
+        cmdList.append(f"INSERT INTO dbInfo VALUES('{updateTime}')")
         # 执行命令
         conn = sqlite3.connect(self.dbPath)
         cur = conn.cursor()
@@ -259,7 +290,7 @@ class miaDB(object):
         
     
     # 写入自定义信息
-    def add_custom(self, QQ: str, idType: str, id: str) -> None:
+    def add_custom(self, QQ: str, idType: str, id: str) -> Boolean:
         conn = sqlite3.connect(self.dbPath)
         cur = conn.cursor()
         # 先查询当前是否有对应QQ号的记录
@@ -268,15 +299,24 @@ class miaDB(object):
         for row in result:
             searchResult = row
         if idType in ['plateId', 'frameId']:
-            if searchResult: # 查询到已有记录的情况
-                cur.execute(f'UPDATE b50Custom SET {idType} = \'{id}\' WHERE QQ = \'{QQ}\'')
-            else: # 未查询到已有记录的情况
-                plateId, frameId = 'NULL', 'NULL'
-                if idType == 'frameId':
-                    frameId = id
-                elif idType == 'plateId':
-                    plateId = id
-                cur.execute(f"INSERT INTO b50Custom VALUES('{QQ}', {plateId}, {frameId})")
+            # 先判断id是否存在
+            result = cur.execute(f'SELECT * FROM {idType}List WHERE {idType} = \'{id}\'')
+            searchResult = None
+            for row in result:
+                searchResult = row
+            if searchResult: # id合法的情况
+                if searchResult: # 查询到已有记录的情况
+                    cur.execute(f'UPDATE b50Custom SET {idType} = \'{id}\' WHERE QQ = \'{QQ}\'')
+                else: # 未查询到已有记录的情况
+                    plateId, frameId = 'NULL', 'NULL'
+                    if idType == 'frameId':
+                        frameId = id
+                    elif idType == 'plateId':
+                        plateId = id
+                    cur.execute(f"INSERT INTO b50Custom VALUES('{QQ}', {plateId}, {frameId})")
+                return True
+            else: # id不合法的情况
+                return False
         conn.commit()
         conn.close()
 
@@ -287,4 +327,4 @@ if __name__ == '__main__':
     # print(maimaiDB().search('charter', 'はっぴー'))
     # print(miaDB().get_custom('1'))
     # print(miaDB().get_default())
-    miaDB().add_custom('1179782321','frameId', '259505')
+    print(miaDB().add_custom('1179782321','plateId', '206201'))

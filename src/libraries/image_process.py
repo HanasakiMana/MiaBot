@@ -2,7 +2,7 @@ from PIL import ImageFont, ImageDraw, Image
 from io import BytesIO
 import base64
 
-from CONST import font_path
+from src.libraries.CONST import font_path
 
 
 def text_to_image(text):
