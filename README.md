@@ -10,3 +10,8 @@
 ## Documentation
 
 See [Docs](https://v2.nonebot.dev/)
+
+## Credit
+@Nyagamon for HCA decoder
+@Diving-Fish for prober server and Chiyuki-bot
+@Simon-f1sh for Ame_bot
