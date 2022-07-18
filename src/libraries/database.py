@@ -6,6 +6,7 @@ from xmlrpc.client import Boolean
 import requests
 import datetime, pytz
 
+# from CONST import plate_path, frame_path
 from src.libraries.CONST import plate_path, frame_path
 # 数据库文件夹所在的路径
 dbFolderPath = 'src/database'
@@ -13,7 +14,6 @@ dbFolderPath = 'src/database'
 sqlFilePath = 'src/libraries/sql_conf'
 # 难度索引
 diffList = ['basic', 'advanced', 'expert', 'master', 'reMaster']
-
 
 
 class DBInit(object):
@@ -322,9 +322,9 @@ class miaDB(object):
 
         
 if __name__ == '__main__':
-    # DBInit(rebuild=True)
+    DBInit(rebuild=True)
     # maimaiDB().update()
     # print(maimaiDB().search('charter', 'はっぴー'))
     # print(miaDB().get_custom('1'))
     # print(miaDB().get_default())
-    print(miaDB().add_custom('1179782321','plateId', '206201'))
+    # print(miaDB().add_custom('1179782321','plateId', '206201'))

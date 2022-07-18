@@ -22,4 +22,5 @@ CREATE TABLE eatMeal(
     eatCount    INTEGER
 );
 
-INSERT INTO b50Custom VALUES('default', '200101', '259505')
+INSERT INTO b50Custom VALUES('default', '200101', '259505');
+INSERT INTO b50Custom VALUES('1179782321', '206201', '259505')

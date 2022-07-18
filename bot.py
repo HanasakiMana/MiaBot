@@ -14,7 +14,7 @@ from nonebot.adapters.onebot.v11 import Adapter as ONEBOT_V11Adapter
 #            format=default_format)
 
 # You can pass some keyword args config to init function
-nonebot.init(_env_file=".env.dev")
+nonebot.init(_env_file=".env")
 app = nonebot.get_asgi()
 
 driver = nonebot.get_driver()

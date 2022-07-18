@@ -14,7 +14,8 @@ import requests
 import datetime, pytz
 import time
 
-
+# from CONST import b50_resource,plate_path, frame_path, jacket_path, font_path, mia_version
+# from database import miaDB
 from src.libraries.CONST import b50_resource,plate_path, frame_path, jacket_path, font_path, mia_version
 # 用于获取自定义设置的函数get_custom
 from src.libraries.database import miaDB
@@ -512,5 +513,5 @@ class GenerateB50(object):
 
 
 if __name__ == '__main__':
-    asyncio.run(GenerateB50(qq='1179782321', b50=True).generate())
+    asyncio.run(GenerateB50(username='mallow', b50=True).generate()).show()
     
