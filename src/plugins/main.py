@@ -21,7 +21,7 @@ from nonebot.message import event_preprocessor
 from nonebot.exception import IgnoredException
 
 # 自建文件导入
-from src.libraries.database import DBInit, maimaiDB # 更新本地缓存的歌曲数据
+from src.libraries.database import DBInit, maimaiDB, miaDB # 更新本地缓存的歌曲数据
 from src.libraries.image_process import send_image # 将文本格式化成图片并编码成必要的形式
 from src.libraries.generate_b50v3 import GenerateB50
 from src.libraries.image_process import image_to_base64
@@ -47,6 +47,9 @@ def _():
     # 初始化数据库
     DBInit()
     maimaiDB().update()
+    # 设定默认的姓名框和背景板
+    miaDB().add_custom('default', 'plateId', '250101')
+    miaDB().add_custom('default', 'frameId', '259505')
     scheduler.add_job(
         # 每天0时从水鱼服务器抓取歌曲数据
         maimaiDB().update,

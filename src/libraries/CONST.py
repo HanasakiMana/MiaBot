@@ -4,7 +4,7 @@
 mia_version = 'DX1.25'
 
 # 用于存储临时文件的文件夹
-temp_folder = 'src/tmp'
+tmp_path = 'src/tmp'
 
 # 存储帮助信息的文件夹
 help_path = 'src/static/text/help'

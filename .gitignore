@@ -8,3 +8,6 @@ src/plugins/__pycache__
 tools/go-cqhttp
 tools/go-cqhttp/data/video.db.lock
 tools/go-cqhttp/data/video.db
+tools/plate_frame_index/plate
+tools/plate_frame_index/frame
+src/tmp
