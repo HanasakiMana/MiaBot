@@ -7,7 +7,7 @@ import requests
 import datetime, pytz
 from PIL import Image
 
-# from CONST import plate_path, frame_path
+# from CONST import plate_path, frame_path, tmp_path
 # from image_process import scale, text_to_image
 from src.libraries.CONST import plate_path, frame_path, tmp_path
 from src.libraries.image_process import scale, text_to_image
@@ -259,21 +259,35 @@ class maimaiDB(object):
         # 歌曲可供调用的搜索类型（这些都是数据库中已有的column）
         musicType = ['musicId', 'title', 'artist', 'genre', 'addVersion', 'isNew']
         # 谱面可供调用的搜索类型（这些都是数据库中已有的column）
-        chartType = ['chartId', 'chartType', 'diff', 'charter', \
+        chartType = ['chartId', 'chartType', 'chartLevel', 'chartDs', 'diff', 'charter',\
             'tapCount', 'holdCount', 'slideCount', 'touchCount', 'breakCount'
         ]
+        modeType = ['like', 'equal']
+
         # 进行数据库操作
         conn = sqlite3.connect(dbPath)
         cur = conn.cursor()
         cmd = ''
         if type in musicType:
-            cmd = f'SELECT * FROM musicInfo WHERE {type} LIKE \'%{keyword}%\''
+            if type in ['title', 'artist']:
+                cmd = f'SELECT * FROM musicInfo WHERE {type} LIKE \'%{keyword}%\''
+            else:
+                cmd = f'SELECT * FROM musicInfo WHERE {type} = \'{keyword}\''
             if type2 in musicType:
-                cmd += f' AND {type2} LIKE \'%{keyword2}%\''
+                if type2 in ['title', 'artist']:
+                    cmd += f' AND {type2} LIKE \'%{keyword2}%\''
+                else:
+                    cmd += f' AND {type2} = \'{keyword2}\''
         elif type in chartType:
-            cmd = f'SELECT * FROM chartInfo WHERE {type} = \'{keyword}\''
+            if type == 'chartDs':
+                cmd = f'SELECT * FROM chartInfo WHERE {type} = {keyword}'
+            else:
+                cmd = f'SELECT * FROM chartInfo WHERE {type} = \'{keyword}\''
             if type2 in chartType:
-                cmd += f' AND {type2} LIKE \'%{keyword2}%\''
+                if type == 'chartDs':
+                    cmd += f' AND {type2} = {keyword2}'
+                else:
+                    cmd += f' AND {type2} = \'{keyword2}\''
         # 定义一个用于返回数据的变量
         searchResult = []
         result = cur.execute(cmd)
@@ -281,6 +295,16 @@ class maimaiDB(object):
             searchResult.append(row)
         conn.close()
         return searchResult
+    
+
+    # 获取数据的更新时间
+    def getUpdateTime(self):
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        result = cur.execute(f'SELECT * FROM dbInfo')
+        for row in result:
+            result = row
+        return result[0]
 
 
 class miaDB(object):
@@ -361,13 +385,13 @@ class miaDB(object):
             conn.commit()
             conn.close()
             return False
-        
 
         
 if __name__ == '__main__':
     # DBInit(rebuild=True)
     # maimaiDB().update()
-    # print(maimaiDB().search('charter', 'はっぴー'))
+    print(maimaiDB().search('musicId', '8'))
     # print(miaDB().get_custom('1'))
     # print(miaDB().get_default())
-    miaDB().add_custom('1179782321','plateId', '206201')
+    # miaDB().add_custom('1179782321','plateId', '206201')
+    # maimaiDB().getUpdateTime()

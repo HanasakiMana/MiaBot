@@ -1,33 +1,20 @@
 # b40/b50的相关功能
 
 # 系统库
-import os
-import random
-import json
-import asyncio
-import shutil
+
 from PIL import Image
 
 # nonebot
-from nonebot import get_driver, require
-from nonebot.plugin import on_command, on_regex
-from nonebot.log import logger
-from nonebot.rule import to_me
+from nonebot.plugin import on_regex
 from nonebot.typing import T_State
 from nonebot.adapters.onebot.v11 import Bot, Event, MessageSegment
-from nonebot.permission import Permission
-from nonebot.permission import SUPERUSER
-from nonebot.message import event_preprocessor
-from nonebot.exception import IgnoredException
-from nonebot.matcher import Matcher
-from nonebot.adapters import Message
-from nonebot.params import Arg, CommandArg, ArgPlainText
+
 
 # 自建函数
 from src.libraries.generate_b50v3 import GenerateB50
-from src.libraries.image_process import image_to_base64, text_to_image, scale
+from src.libraries.image_process import image_to_base64
 from src.libraries.database import miaDB
-from src.libraries.CONST import plate_path, frame_path, tmp_path
+from src.libraries.CONST import tmp_path
 
 
 b40 = on_regex("^b40")

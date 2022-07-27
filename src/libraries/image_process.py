@@ -2,6 +2,7 @@ from PIL import ImageFont, ImageDraw, Image
 from io import BytesIO
 import base64
 
+# from CONST import font_path
 from src.libraries.CONST import font_path
 
 
@@ -21,7 +22,7 @@ def text_to_image(text: str, font_size: int, font_color: tuple = (255, 255, 255)
         max_width = max(max_width, width)
     image_width = max_width + padding * 2
     image_height = height * len(text_list) + margin * (len(text_list) - 1) + padding * 2
-    image = Image.new('RGBA', (image_width, image_height), color=(0, 0, 0, 0))
+    image = Image.new('RGBA', (image_width, image_height), color=(255, 255, 255, 255))
     draw = ImageDraw.Draw(image)
     for j in range(len(text_list)):
         text = text_list[j]
@@ -39,11 +40,6 @@ def image_to_base64(img, format='PNG'):
 
 def bytes_to_base64(byte_data: bytes):
     return base64.b64encode(byte_data)
-
-
-# 将文本格式化成图片并编码成必要的形式
-def send_image(text: str):
-    output = f"base64://{str(image_to_base64(text_to_image(text)), encoding='utf-8')}"
 
 
 # 因为图片的resize需要同时指定宽和高，写一个能够同时进行宽和高缩放的函数
