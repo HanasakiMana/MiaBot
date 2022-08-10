@@ -386,6 +386,29 @@ class miaDB(object):
             conn.close()
             return False
 
+    
+    # poke相关功能
+    def addPokeCount(self, QQ:str):
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        # 查询当前是否有对应QQ号的记录
+        result = cur.execute(f'SELECT * FROM b50Custom WHERE QQ = \'{QQ}\'')
+        qqSearchResult = None
+        for row in result:
+            qqSearchResult = row
+        if qqSearchResult:
+            currentPokeCount = qqSearchResult[-1]
+            cur.execute(f'UPDATE poke SET pokeCount = {currentPokeCount + 1} WHERE QQ = \'{QQ}\'')
+        else:
+            cur.execute(f"INSERT INTO poke VALUES('{QQ}', 1)")
+        conn.commit()
+        conn.close()
+
+    def readPokeCount(self):
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        
+
 
 if __name__ == '__main__':
     # DBInit(rebuild=True)

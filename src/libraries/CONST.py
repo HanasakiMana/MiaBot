@@ -24,6 +24,8 @@ plate_path = 'src/static/image/plate'
 frame_path = 'src/static/image/frame'
 # 表情包存放位置
 sticker_path = 'src/static/image/sticker'
+# 用于回应戳一戳的图片位置
+poke_path = 'src/static/image/poke'
 
 # 生成图片所需的字体目录
 font_path = 'src/static/font'
