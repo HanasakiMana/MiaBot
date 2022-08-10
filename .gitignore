@@ -14,3 +14,4 @@ src/tmp
 src/database
 src/database/maimaidb.sqlite
 src/database/user_custom.sqlite
+src/libraries/__pycache__/CONST.cpython-310.pyc

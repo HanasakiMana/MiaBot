@@ -386,7 +386,7 @@ class miaDB(object):
             conn.close()
             return False
 
-        
+
 if __name__ == '__main__':
     # DBInit(rebuild=True)
     # maimaiDB().update()
