@@ -15,3 +15,6 @@ src/database
 src/database/maimaidb.sqlite
 src/database/user_custom.sqlite
 src/libraries/__pycache__/CONST.cpython-310.pyc
+src/database/mia_custom.sqlite
+src/database/mia_custom.sqlite
+src/database/SDGB.sqlite
