@@ -11,6 +11,7 @@ from PIL import Image
 # from image_process import scale, text_to_image
 from src.libraries.CONST import plate_path, frame_path, tmp_path
 from src.libraries.image_process import scale, text_to_image
+from src.libraries.misc import getFileList
 
 # 数据库文件夹所在的路径
 dbFolderPath = 'src/database'
@@ -288,7 +289,6 @@ class maimaiDB(object):
                     cmd += f' AND {type2} = {keyword2}'
                 else:
                     cmd += f' AND {type2} = \'{keyword2}\''
-        print(cmd)
         # 定义一个用于返回数据的变量
         searchResult = []
         result = cur.execute(cmd)
@@ -303,6 +303,16 @@ class maimaiDB(object):
         conn = sqlite3.connect(self.dbPath)
         cur = conn.cursor()
         result = cur.execute(f'SELECT * FROM dbInfo')
+        for row in result:
+            result = row
+        return result[0]
+
+    
+    # 随机一首歌曲id
+    def random(self):
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        result = cur.execute(f'SELECT musicId FROM musicInfo ORDER BY RANDOM() LIMIT 1')
         for row in result:
             result = row
         return result[0]
@@ -386,6 +396,122 @@ class miaDB(object):
             conn.commit()
             conn.close()
             return False
+
+    
+    # poke相关功能
+    def addPokeCount(self, QQ:str):
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        # 查询当前是否有对应QQ号的记录
+        result = cur.execute(f'SELECT * FROM b50Custom WHERE QQ = \'{QQ}\'')
+        qqSearchResult = None
+        for row in result:
+            qqSearchResult = row
+        if qqSearchResult:
+            currentPokeCount = qqSearchResult[-1]
+            cur.execute(f'UPDATE poke SET pokeCount = {currentPokeCount + 1} WHERE QQ = \'{QQ}\'')
+        else:
+            cur.execute(f"INSERT INTO poke VALUES('{QQ}', 1)")
+        conn.commit()
+        conn.close()
+
+    def readPokeCount(self):
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        # 查询当前是否有对应QQ号的记录
+        result = cur.execute(f'SELECT * FROM b50Custom')
+        searchResult = None
+        for row in result:
+            searchResult = row
+    
+
+    # 获取抽签结果
+    def getOmikujiResult(self, QQ: str):
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        # 查询当前是否有对应QQ号的记录
+        result = cur.execute(f'SELECT * FROM omikuji WHERE QQ = \'{QQ}\'')
+        searchResult = None
+        for row in result:
+            searchResult = row
+        conn.close()
+        if searchResult:
+            print(searchResult[0])
+            return float(searchResult[1]), searchResult[2]
+        else:
+            return None
+
+    
+    # 写入抽签结果
+    def writeOmikujiResult(self, QQ: str, randomNum: float, musicId: str):
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        cur.execute(f"INSERT INTO omikuji VALUES({QQ}, {randomNum}, {musicId})")
+        conn.commit()
+        conn.close()
+    
+
+    # 清空抽签结果
+    def cleanOmikujiResult(self):
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        cur.execute(f"DELETE FROM omikuji")
+        conn.commit()
+        conn.close()
+
+    
+    def getVersion(self):
+        conn = sqlite3.connect(self.dbPath)
+        cur = conn.cursor()
+        searchResult = None
+        try:
+            result = cur.execute(f'SELECT * FROM DBVersion')
+            for row in result:
+                searchResult = row
+            return searchResult[0]
+        except:
+            return '100'
+
+
+class DBUpgrade(object):
+    def __init__(self, dbName: str) -> None:
+        self.dbName = dbName
+    
+     # 获取数据库版本信息
+    def get_version(self):
+        conn = sqlite3.connect(f"src/database/{self.dbName}.sqlite")
+        cur = conn.cursor()
+        searchResult = None
+        try:
+            result = cur.execute(f'SELECT * FROM DBVersion')
+            for row in result:
+                searchResult = row
+            return searchResult[0]
+        except:
+            return '100'
+
+    
+    def upgrade(self):
+        sqlPath = f"src/libraries/sql_upgrade_conf/{self.dbName}"
+        # 获取升级文件列表
+        fileList = getFileList(sqlPath)
+        fileList.sort()
+        # 获取数据库版本
+        currentVersion = self.get_version()
+
+        conn = sqlite3.connect(f"src/database/{self.dbName}.sqlite")
+        cur = conn.cursor()
+        
+        for file in fileList:
+            if int(file.split('.')[0]) > int(currentVersion):
+                sql = open(f"{sqlPath}/{file}", 'r')
+                sqlCmd = sql.readlines()
+                sql.close()
+                sqlCmd = "".join(sqlCmd)
+                cur.executescript(sqlCmd)
+
+        cur.close()
+
 
         
 if __name__ == '__main__':

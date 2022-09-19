@@ -18,3 +18,8 @@ src/libraries/__pycache__/CONST.cpython-310.pyc
 src/database/mia_custom.sqlite
 src/database/mia_custom.sqlite
 src/database/SDGB.sqlite
+src/plugins/__pycache__/mia.cpython-310.pyc
+src/static/image/jacket/UI_Jacket_001410.png
+src/static/image/jacket/UI_Jacket_001343.png
+src/static/image/jacket/UI_Jacket_000234.png
+src/plugins/__pycache__/mia.cpython-310.pyc

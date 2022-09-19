@@ -36,12 +36,12 @@ async def _(bot: Bot, event: Event, state: T_State):
         memory = psutil.virtual_memory().percent
         memory = round(memory, 2)
         disk = psutil.disk_usage('/').percent
-        msg = "server status:\n"
-        msg += f"OS: {pla}"
-        msg += f"Running on Python {py_info}\n"
-        msg += f"CPU {cpu}%\n"
-        msg += f"MEM {memory}%\n"
-        msg += f"DISK {disk}%\n"
+        msg = "服务器状态:\n"
+        msg += f"  -系统版本：{pla}"
+        msg += f"  -Python版本：{py_info}\n"
+        msg += f"  -CPU占用：{cpu}%\n"
+        msg += f"  -内存占用：{memory}%\n"
+        msg += f"  -硬盘占用：{disk}%\n"
         msg += f"\n歌曲信息更新时间：{maimaiDB().getUpdateTime()}\n"
         msg += f"MIA数据库版本：V{miaDB().getVersion()}\n"
         if cpu > 80 or memory > 80:
