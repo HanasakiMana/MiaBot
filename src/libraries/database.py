@@ -380,6 +380,7 @@ class miaDB(object):
                     cur.execute(f'UPDATE b50Custom SET {idType} = \'{id}\' WHERE QQ = \'{QQ}\'')
                 else: # 未查询到已有记录的情况
                     plateId, frameId = "NULL", "NULL"
+                    id = f"'{id}'"
                     if idType == 'frameId':
                         frameId = id
                     elif idType == 'plateId':

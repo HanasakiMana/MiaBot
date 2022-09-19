@@ -23,3 +23,5 @@ src/static/image/jacket/UI_Jacket_001410.png
 src/static/image/jacket/UI_Jacket_001343.png
 src/static/image/jacket/UI_Jacket_000234.png
 src/plugins/__pycache__/mia.cpython-310.pyc
+*.sqlite
+*.pyc
