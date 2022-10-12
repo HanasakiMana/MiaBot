@@ -6,6 +6,7 @@ import platform
 import psutil
 import random
 from PIL import Image
+from collections import Counter
 
 # nonebot
 from nonebot.plugin import on_regex, on_notice
@@ -175,3 +176,34 @@ async def _(bot: Bot, event: Event, state: T_State):
         +MessageSegment.image(f"base64://{str(image_to_base64(jacket), encoding='utf-8')}")
         +MessageSegment.text(outputStr)
     )
+
+
+# 美亚帮我选
+chooseOne = on_regex('[帮_选]', rule=to_me())
+@chooseOne.handle()
+async def _(bot: Bot, event: Event, state: T_State):
+    optionList = str(event.get_message()).strip().split(' ')
+    if len(optionList) <= 1:
+        await chooseOne.finish(
+            MessageSegment.reply(event.dict().get('message_id'))
+            +MessageSegment.text('请输入想要美亚帮忙选择的东西哦')
+        )
+    elif len(optionList) < 3:
+        await chooseOne.finish(
+            MessageSegment.reply(event.dict().get('message_id'))
+            +MessageSegment.text('选项太少啦，再检查一下吧！')
+        )
+    else:
+        optionList = optionList[1:] # 清除第一个元素（‘美亚帮我选’这个命令）
+        optionDict = dict(Counter(optionList))
+        duplicate = [key for key, value in optionDict.items() if value > 1]
+        if duplicate != []:
+            await chooseOne.finish(
+            MessageSegment.reply(event.dict().get('message_id'))
+            +MessageSegment.text(f'怎么会有重复的{duplicate[0]}，不可以耍美亚！')
+        )
+        else:
+            await chooseOne.finish(
+                MessageSegment.reply(event.dict().get('message_id'))
+                +MessageSegment.text(f'美亚建议选：{str(random.choice(optionList))} 哦！')
+            )

@@ -299,13 +299,24 @@ class maimaiDB(object):
     
 
     # 获取数据的更新时间
-    def getUpdateTime(self):
-        conn = sqlite3.connect(self.dbPath)
+    def getUpdateTime(self, dbType: str = 'SDGB'):
+        conn = sqlite3.connect(f'src/database/{dbType}.sqlite')
         cur = conn.cursor()
         result = cur.execute(f'SELECT * FROM dbInfo')
         for row in result:
             result = row
         return result[0]
+
+
+    # 获取数据库数据版本信息（仅限日服）
+    def getSDEZDataVersion(self):
+        conn = sqlite3.connect(f'src/database/SDEZ.sqlite')
+        cur = conn.cursor()
+        result = cur.execute(f'SELECT * FROM dataVersion')
+        for row in result:
+            result = row
+        return result[0]
+
 
     
     # 随机一首歌曲id
@@ -322,7 +333,7 @@ class miaDB(object):
 
     def __init__(self, dbPath: str = f'{dbFolderPath}/mia_custom.sqlite') -> None:
         self.dbPath = dbPath
-    
+
 
     # 获取默认设置
     def get_default(self) -> list:
@@ -382,9 +393,9 @@ class miaDB(object):
                     plateId, frameId = "NULL", "NULL"
                     id = f"'{id}'"
                     if idType == 'frameId':
-                        frameId = id
+                        frameId = f"'{id}'"
                     elif idType == 'plateId':
-                        plateId = id
+                        plateId = f"'{id}'"
                     cur.execute(f"INSERT INTO b50Custom VALUES('{QQ}', {plateId}, {frameId})")
                 conn.commit()
                 conn.close()
@@ -487,7 +498,7 @@ class DBUpgrade(object):
             result = cur.execute(f'SELECT * FROM DBVersion')
             for row in result:
                 searchResult = row
-            return searchResult[0]
+            return searchResult[-1]
         except:
             return '100'
 

@@ -81,7 +81,9 @@ async def _(bot: Bot, event: Event, state: T_State):
     else:
         # 获得一个包含全部匹配结果的列表
         resultList = maimaiDB().search(type='title', keyword=keyword)
-        if len(resultList) == 0:
+        sdezResultList = maimaiDB().search(type='title', keyword=keyword, dbType='SDEZ')
+        
+        if len(resultList) == 0 and len(sdezResultList) == 0:
             await musicTitleSearch.send(
                 MessageSegment.reply(event.dict().get('message_id'))
                 +MessageSegment.text(f'美亚没有找到这样的歌曲，请仔细检查之后再试哦！')
@@ -96,7 +98,20 @@ async def _(bot: Bot, event: Event, state: T_State):
                 if result[-1]: # 标准谱面id
                     outputStr += f'    DX谱面id: {result[-1]}\n'
                 count += 1
-            outputStr += f'数据更新时间：{maimaiDB().getUpdateTime()}'
+            for sdezResult in sdezResultList:
+                notInSDGB = True # 记录一个flag，用于确认该日服曲目是否包含在国服里
+                for result in resultList:
+                    if result[0] == sdezResult[0]:
+                        notInSDGB = False
+                if notInSDGB:
+                    outputStr += f'{sdezResult[0]}: {sdezResult[1]}\n'
+                    if sdezResult[-2]: # 标准谱面id
+                        outputStr += f'    标准谱面id: {sdezResult[-2]}\n'
+                    if sdezResult[-1]: # 标准谱面id
+                        outputStr += f'    DX谱面id: {sdezResult[-1]}\n'
+                    count += 1
+            outputStr += f'国服数据更新时间：{maimaiDB().getUpdateTime()}'
+            outputStr += f'\n\n日服数据版本：{maimaiDB().getSDEZDataVersion()}'
             if count > 20:
                 await musicTitleSearch.send(
                     MessageSegment.reply(event.dict().get('message_id'))
@@ -114,7 +129,7 @@ musicSearch = on_regex("^id")
 @musicSearch.handle()
 async def _(bot: Bot, event: Event, state: T_State):
     message = str(event.get_message()).strip().split(' ')
-    keyword = message[-1]
+    keyword = message[-1] # 此时的keyword可能是歌曲id也可能是谱面id
     if len(message) == 1:
         if message == 'id':
             text = '请输入要检索的歌曲id哦！'
@@ -125,31 +140,124 @@ async def _(bot: Bot, event: Event, state: T_State):
             +MessageSegment.text(text)
         )
     else:
-        # 检索谱面id，再获取歌曲id
+        # 获取歌曲id
+        # 以谱面id为关键字类型进行检索
         result = maimaiDB().search('chartId', keyword=keyword)
-        if len(result) != 0:
+        sdezResult = maimaiDB().search('chartId', keyword=keyword, dbType='SDEZ')  
+        # 检索国服
+        if len(result) != 0: # 说明是谱面id，就可以从结果里拉取歌曲id
             musicId = result[0][2]
         else:
             result = maimaiDB().search('musicId', keyword=keyword)
             if len(result) != 0:
                 musicId = keyword
-            else:
-                await musicTitleSearch.finish(
+        # 检索日服
+        if len(sdezResult) != 0: 
+            musicId = sdezResult[0][2]
+        else:
+            sdezResult = maimaiDB().search('musicId', keyword=keyword, dbType='SDEZ')
+            if len(sdezResult) != 0:
+                musicId = keyword
+
+        # 生成歌曲信息
+
+        # 根据国服和日服不同的结果返回查询到的定数结果（共2x2=4种）
+        # 声明两个用于保存定数的变量
+        stdDs = [] # 各个难度的定数
+        dxDs = []
+        # 二者都没找到的情况
+        if len(result) == 0 and len(sdezResult) == 0:
+            await musicTitleSearch.finish(
                     MessageSegment.reply(event.dict().get('message_id'))
                     +MessageSegment.text(f'美亚没有找到这样的歌曲，请仔细检查之后再试哦！\n')
             )
-        # 获取各难度定数
-        result = maimaiDB().search('musicId', keyword=musicId)
-        stdDs = [] # 各个难度的定数
-        dxDs = []
-        if result[0][-2]: # 标准谱面id
-            chartResult = maimaiDB().search('chartId', keyword=result[0][-2])
-            for data in chartResult:
-                stdDs.append(data[5])
-        if result[0][-1]: # dx谱面id
-            chartResult = maimaiDB().search('chartId', keyword=result[0][-1])
-            for data in chartResult:
-                dxDs.append(data[5])
+        # 国服有而日服没有的情况
+        elif len(result) != 0 and len(sdezResult) == 0:
+            result = maimaiDB().search('musicId', keyword=musicId)
+            if result[0][-2]: # 标准谱面id
+                chartResult = maimaiDB().search('chartId', keyword=result[0][-2])
+                for data in chartResult:
+                    stdDs.append(data[5])
+            if result[0][-1]: # dx谱面id
+                chartResult = maimaiDB().search('chartId', keyword=result[0][-1])
+                for data in chartResult:
+                    dxDs.append(data[5])
+        # 国服没有而日服有的情况
+        elif len(result) == 0 and len(sdezResult) != 0:
+            result = maimaiDB().search('musicId', keyword=musicId, dbType='SDEZ')
+            if result[0][-2]: # 标准谱面id
+                chartResult = maimaiDB('src/database/SDEZ.sqlite').search('chartId', keyword=result[0][-2], dbType='SDEZ')
+                for data in chartResult:
+                    stdDs.append(data[5])
+            if result[0][-1]: # dx谱面id
+                chartResult = maimaiDB('src/database/SDEZ.sqlite').search('chartId', keyword=result[0][-1], dbType='SDEZ')
+                for data in chartResult:
+                    dxDs.append(data[5])
+        # 国服和日服都有的情况（可能存在定数差异和追加谱面）
+        elif len(result) != 0 and len(sdezResult) != 0:
+            result = maimaiDB().search('musicId', keyword=musicId)
+            sdezResult = maimaiDB().search('musicId', keyword=musicId, dbType='SDEZ')
+            
+            sdgbStdDs = [] # 国服谱面定数
+            sdgbDxDs = []
+            sdezStdDs = [] # 日服谱面定数
+            sdezDxDs = []
+
+            if result[0][-2]: # 标准谱面id
+                chartResult = maimaiDB().search('chartId', keyword=result[0][-2])
+                for data in chartResult:
+                    sdgbStdDs.append(data[5])
+            if result[0][-1]: # dx谱面id
+                chartResult = maimaiDB().search('chartId', keyword=result[0][-1])
+                for data in chartResult:
+                    sdgbDxDs.append(data[5])
+
+            if sdezResult[0][-2]: # 标准谱面id
+                chartResult = maimaiDB().search('chartId', keyword=sdezResult[0][-2], dbType='SDEZ')
+                for data in chartResult:
+                    sdezStdDs.append(data[5])
+            if sdezResult[0][-1]: # dx谱面id
+                chartResult = maimaiDB('src/database/SDEZ.sqlite').search('chartId', keyword=sdezResult[0][-1], dbType='SDEZ')
+                for data in chartResult:
+                    sdezDxDs.append(data[5])
+            
+            if sdgbStdDs == sdezStdDs: # 国服日服谱面定数完全一致
+                stdDs = sdgbStdDs
+            else:
+                if len(sdgbStdDs) == len(sdezStdDs): # 只改变了定数，没有更改谱面
+                    for i in range(len(sdgbStdDs)):
+                        if sdgbStdDs[i] == sdezStdDs[i]:
+                            stdDs.append(sdgbStdDs[i])
+                        else:
+                            stdDs.append(f"{sdgbStdDs[i]}->{sdezStdDs[i]}")
+                else: # 增加了谱面
+                    assert len(sdgbStdDs) == 4 and len(sdezStdDs) == 5
+                    for i in range(0, 4):
+                        if sdgbStdDs[i] == sdezStdDs[i]:
+                            stdDs.append(sdgbStdDs[i])
+                        else:
+                            stdDs.append(f"{sdgbStdDs[i]}->{sdezStdDs[i]}")
+                    stdDs.append(sdezStdDs[5])
+
+            if sdgbDxDs == sdezDxDs: # 国服日服谱面定数完全一致
+                dxDs = sdgbDxDs
+            else:
+                if len(sdgbDxDs) == len(sdezDxDs): # 只改变了定数，没有更改谱面
+                    for i in range(len(sdgbDxDs)):
+                        if sdgbDxDs[i] == sdezDxDs[i]:
+                            dxDs.append(sdgbDxDs[i])
+                        else:
+                            dxDs.append(f"{sdgbDxDs[i]}->{sdezDxDs[i]}")
+                else: # 增加了谱面
+                    assert len(sdgbDxDs) == 4 and len(sdezDxDs) == 5
+                    for i in range(0, 4):
+                        if sdgbDxDs[i] == sdezDxDs[i]:
+                            dxDs.append(sdgbDxDs[i])
+                        else:
+                            dxDs.append(f"{sdgbDxDs[i]}->{sdezDxDs[i]}")
+                    dxDs.append(sdezDxDs[5])
+        
+        
         # 歌曲信息
         if len(result) == 0:
             await musicTitleSearch.send(
@@ -183,6 +291,7 @@ BPM：{result[4]}\n\
                 for i in dxDs:
                     outputStr += f'{i}/'
                 outputStr = outputStr[:-1]
+            outputStr += f'\n\n日服数据版本：{maimaiDB().getSDEZDataVersion()}'
             await musicTitleSearch.send(
                 MessageSegment.image(f"base64://{str(image_to_base64(jacket), encoding='utf-8')}")
                 +MessageSegment.text(outputStr)
@@ -208,8 +317,27 @@ async def _(bot: Bot, event: Event, state: T_State):
         chartSearch.finish(
             MessageSegment.text("请输入正确的参数！")
         )
-    chartData = maimaiDB().search('chartId', chartId, 'diff', diff)
-    if len(chartData) == 1:
+
+    try:
+        chartData = maimaiDB().search('chartId', chartId, 'diff', diff)
+    except:
+        chartData = []
+
+    try: 
+        sdezChartData = maimaiDB().search('chartId', chartId, 'diff', diff, dbType='SDEZ')
+    except:
+        sdezChartData = []
+    
+    if len(chartData) == 0:
+        if len(sdezChartData) == 0:
+            # 完全无法检索到
+            await chartSearch.finish(
+                MessageSegment.text("美亚没有找到这样的谱面，请重新检查后再试哦！")
+            )
+        elif len(sdezChartData) != 0:
+            # 日服限定曲目
+            chartData = sdezChartData
+        
         try:
             chartData = chartData[0]
             chartType = chartData[1]
@@ -217,7 +345,7 @@ async def _(bot: Bot, event: Event, state: T_State):
             chartLevel = chartData[4]
             chartDs = chartData[5]
             charter = chartData[6]
-            title = maimaiDB().search('musicId', musicId)[0][1]
+            title = maimaiDB().search('musicId', musicId, dbType='SDEZ')[0][1]
             outputStr = f"{chartId}. {title}({chartType})\n{diffName} {chartLevel}({chartDs})\n"
             tapCount, holdCount, slideCount, touchCount, breakCount = chartData[7], chartData[8], chartData[9], chartData[10], chartData[11]
             if touchCount is None:
@@ -237,10 +365,66 @@ async def _(bot: Bot, event: Event, state: T_State):
             await chartSearch.finish(
                 MessageSegment.text("美亚没有找到这样的谱面，请重新检查后再试哦！(Internal Error)")
             )
+    elif len(chartData) == 1:
+        if len(sdezChartData) == 0:
+            # 国服有而日服没有的曲子
+            try:
+                chartData = chartData[0]
+                chartType = chartData[1]
+                musicId = chartData[2]
+                chartLevel = chartData[4]
+                chartDs = chartData[5]
+                charter = chartData[6]
+                title = maimaiDB().search('musicId', musicId)[0][1]
+                outputStr = f"{chartId}. {title}({chartType})\n{diffName} {chartLevel}({chartDs})\n"
+                tapCount, holdCount, slideCount, touchCount, breakCount = chartData[7], chartData[8], chartData[9], chartData[10], chartData[11]
+                if touchCount is None:
+                    touchCount = '-'
+                outputStr += f"TAP: {tapCount}\nHOLD: {holdCount}\nSLIDE: {slideCount}\nTOUCH: {touchCount}\nBREAK: {breakCount}\n谱师: {charter}"
+                # 将musicId变成封面id
+                jacketId = (4 - len(musicId)) * '0' + musicId
+                try: 
+                    jacket = Image.open(f'{jacket_path}/UI_Jacket_00{jacketId}.png')
+                except:
+                    jacket = Image.open(f'{jacket_path}/UI_Jacket_000000.png')
+                await chartSearch.send(
+                    MessageSegment.image(f"base64://{str(image_to_base64(jacket), encoding='utf-8')}")
+                    +MessageSegment.text(outputStr)
+                )
+            except:
+                await chartSearch.finish(
+                    MessageSegment.text("美亚没有找到这样的谱面，请重新检查后再试哦！(Internal Error)")
+                )
+        elif len(sdezChartData) == 1:
+            # 国服和日服都有的曲子
+            chartData = chartData[0]
+            chartType = chartData[1]
+            musicId = chartData[2]
+            chartLevel = chartData[4]
 
-    else:
-        await chartSearch.finish(
-            MessageSegment.text("美亚没有找到这样的谱面，请重新检查后再试哦！")
-        )
+            chartDs = chartData[5]
+            sdezChartDs = sdezChartData[0][5]
 
+            charter = chartData[6]
+            title = maimaiDB().search('musicId', musicId)[0][1]
+            
+            if chartDs != sdezChartDs:
+                outputStr = f"{chartId}. {title}({chartType})\n{diffName} {chartLevel}({chartDs}->{sdezChartDs})\n"
+            else:
+                outputStr = f"{chartId}. {title}({chartType})\n{diffName} {chartLevel}({chartDs})\n"
+            tapCount, holdCount, slideCount, touchCount, breakCount = chartData[7], chartData[8], chartData[9], chartData[10], chartData[11]
+            if touchCount is None:
+                touchCount = '-'
+            outputStr += f"TAP: {tapCount}\nHOLD: {holdCount}\nSLIDE: {slideCount}\nTOUCH: {touchCount}\nBREAK: {breakCount}\n谱师: {charter}"
 
+            outputStr += f"\n\n日服数据版本：{maimaiDB().getSDEZDataVersion()}"
+            # 将musicId变成封面id
+            jacketId = (4 - len(musicId)) * '0' + musicId
+            try: 
+                jacket = Image.open(f'{jacket_path}/UI_Jacket_00{jacketId}.png')
+            except:
+                jacket = Image.open(f'{jacket_path}/UI_Jacket_000000.png')
+            await chartSearch.send(
+                MessageSegment.image(f"base64://{str(image_to_base64(jacket), encoding='utf-8')}")
+                +MessageSegment.text(outputStr)
+            )
