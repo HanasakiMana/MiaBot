@@ -393,9 +393,9 @@ class miaDB(object):
                     plateId, frameId = "NULL", "NULL"
                     id = f"'{id}'"
                     if idType == 'frameId':
-                        frameId = f"'{id}'"
+                        frameId = id
                     elif idType == 'plateId':
-                        plateId = f"'{id}'"
+                        plateId = id
                     cur.execute(f"INSERT INTO b50Custom VALUES('{QQ}', {plateId}, {frameId})")
                 conn.commit()
                 conn.close()

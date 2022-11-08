@@ -5,6 +5,7 @@ import os
 import platform
 import psutil
 import random
+import re
 from PIL import Image
 from collections import Counter
 
@@ -24,6 +25,7 @@ from src.libraries.database import maimaiDB, miaDB
 from src.libraries.image_process import image_to_base64 # 将文本格式化成图片并编码成必要的形式
 from src.libraries.CONST import poke_path, jacket_path
 from src.libraries.misc import getFileList
+from src.libraries.score_list import Generate
 
 
 # 系统状态
@@ -72,7 +74,7 @@ async def _(bot: Bot, event: Event, state: T_State):
 # 戳一戳功能
 '''async def _group_poke(bot: Bot, event: Event, state: T_State): # 用于判断戳一戳的行为和目标
     eventDict = event.dict()
-    value = (eventDict.get('post_type') == 'notice' and eventDict.get('notice_type') == 'notipy' and eventDict.get('sub_type') == 'poke' and eventDict.get('target_id') == event.self_id)
+    value = (eventDict.get('post_type') == 'notice' and eventDict.get('notice_type') == 'notify' and eventDict.get('sub_type') == 'poke' and eventDict.get('target_id') == event.self_id)
     return value
 
 poke = on_notice(rule=_group_poke, priority=10, block=True)
@@ -207,3 +209,84 @@ async def _(bot: Bot, event: Event, state: T_State):
                 MessageSegment.reply(event.dict().get('message_id'))
                 +MessageSegment.text(f'美亚建议选：{str(random.choice(optionList))} 哦！')
             )
+
+
+# baseline
+baseline = on_regex('^line|^Line|^baseline|^Baseline|^分数线')
+@baseline.handle()
+async def _(bot: Bot, event: Event, state: T_State):
+    cmdList = str(event.get_message()).strip().split(' ') # 分割命令
+    if len(cmdList) == 1 and cmdList[0] in ('line', 'Line', 'baseline', 'Baseline', '分数线'):
+        await baseline.finish(
+            MessageSegment.reply(event.dict().get('message_id'))
+            +MessageSegment.text('关于分数线的使用方法：line 谱面难度&id 目标达成率\n例如：“line 紫id11173 100.5”')
+        )
+    elif len(cmdList) != 3:
+        await baseline.finish(
+            MessageSegment.reply(event.dict().get('message_id'))
+            +MessageSegment.text('请检查格式是否正确哦！\n')
+        )
+    else:
+        chart = cmdList[1]
+        line = float(cmdList[2])
+        
+        try:
+            chartLevelChinese, chartId = re.match("([绿黄红紫白])(?:id)?([0-9]+)", chart).groups()
+            chartLevelList = ['basic', 'advanced', 'expert', 'master', 'reMaster']
+            chartLevelChineseList = ['绿', '黄', '红', '紫', '白']
+            chartLevel = chartLevelList[chartLevelChineseList.index(chartLevelChinese)]
+        except:
+            await baseline.finish(
+            MessageSegment.reply(event.dict().get('message_id'))
+            +MessageSegment.text('请检查输入的谱面格式是否正确哦！\n')
+        )
+        
+        # 先搜国服再搜日服
+        chartSearchResult = maimaiDB().search('chartId', chartId, 'diff', chartLevel)
+        if chartSearchResult == []:
+            chartSearchResult = maimaiDB().search('chartId', chartId, 'diff', chartLevel, dbType='SDEZ')
+        
+        if chartSearchResult == []:
+            await baseline.finish(
+                MessageSegment.reply(event.dict().get('message_id'))
+                +MessageSegment.text('没有找到这样的谱面，请检查一下谱面id和难度哦\n')
+            )
+        else:
+            chartData = chartSearchResult[0]
+            musicId = chartData[2]
+            
+            title = maimaiDB().search('musicId', musicId, dbType='SDEZ')[0][1]
+            tapCount, holdCount, slideCount, touchCount, breakCount = int(chartData[7]), int(chartData[8]), int(chartData[9]), chartData[10], int(chartData[11])
+            if touchCount == None:
+                touchCount = 0
+            else:
+                touchCount = int(touchCount)
+            
+            totalScore = 500 * tapCount + slideCount * 1500 + holdCount * 1000 + touchCount * 500 + breakCount * 2500
+            breakBonus = 0.01 / breakCount # 绝赞总加分
+            break50Reduce = totalScore * breakBonus / 4 # 50落减少的分数
+
+            jacketId = (4 - len(musicId)) * '0' + musicId
+            try: 
+                jacket = Image.open(f'{jacket_path}/UI_Jacket_00{jacketId}.png')
+            except:
+                jacket = Image.open(f'{jacket_path}/UI_Jacket_000000.png')
+            
+            if (101-line) > 0 and (101-line) < 101:
+                await baseline.finish(
+                    MessageSegment.reply(event.dict().get('message_id'))
+                    +MessageSegment.text(
+                        f"{chartLevelChinese}id{chartId}：{title}\n")
+                    +MessageSegment.image(f"base64://{str(image_to_base64(jacket), encoding='utf-8')}")
+                    +MessageSegment.text(
+f'''在{line}%下最多允许的Tap GREAT数量为{(totalScore * (101-line)/10000):.2f}（每个-{10000 / totalScore:.4f}%）\n
+绝赞（共{breakCount}个）50落相当于{(break50Reduce/100):.3f}个Tap GREAT（-{break50Reduce / totalScore * 100:.4f}%）'''
+                    )
+                )
+            else:
+                await baseline.finish(
+                    MessageSegment.reply(event.dict().get('message_id'))
+                    +MessageSegment.text('怎么可能会有这样的达成率嘛！')
+                )
+
+
