@@ -15,10 +15,10 @@ from nonebot.permission import SUPERUSER
 from nonebot.adapters.onebot.v11 import GROUP_ADMIN, GROUP_OWNER, Bot, Event, Message, MessageSegment, GroupMessageEvent
 from nonebot import get_bot
 # 自建
-from src.libraries.generate_b50v3 import GenerateB50
 from src.libraries.image_process import image_to_base64, text_to_image
 from src.libraries.database import maimaiDB
 from src.libraries.CONST import jacket_path, server_ip
+from src.libraries.score_listv2 import generateScoreList
 
 
 # 美亚唱歌
@@ -33,7 +33,6 @@ async def _(bot: Bot, event: Event, state: T_State):
             +MessageSegment.text('请输入歌曲的id并注意留有空格哦！')
         )
     else:
-        try:
             musicId = id[-4:] # 封面里使用的id，最多只有四位
             while musicId[0] == '0':
                     musicId = musicId[1:]
@@ -43,28 +42,19 @@ async def _(bot: Bot, event: Event, state: T_State):
                 title = musicData[0][1]
                 artist = musicData[0][2]
             except:
-                title = ''
+                title = musicId
                 artist = ''
             jacketId = musicId
             if len(jacketId) < 4:
                 jacketId = (4 - len(jacketId)) * '0' + jacketId # id不足四位进行补全0
-            musicUrl = f"http://{server_ip}/music/{musicId}.mp3"
+            musicUrl = f"http://{server_ip}/{musicId}.mp3"
             jacketUrl = f"http://{server_ip}/jacket/UI_Jacket_00{jacketId}.png"
-            print(event.dict().get('group_id'))
+            jsonStr = {"app":"com.tencent.structmsg","desc":"音乐","view":"music","ver":"0.0.0.1","prompt":title,"meta":{"music":{"sourceMsgId":"0","title":title,"desc":artist,"preview":musicUrl,"tag":"","musicUrl":"","jumpUrl":"https://www.abcio.cn","appid":3353779836,"app_type":1,"action":"","source_url":"","source_icon":"","android_pkg_name":""}},"config":{"forward":0,"showSender":1}}
+            jsonStr = str(jsonStr).replace(',', '&#44;')
+
             await singASong.send(Message(
-                MessageSegment.music_custom(
-                    url=f'链接：{musicUrl}',
-                    audio=musicUrl,
-                    title=title,
-                    content=artist,
-                    img_url=jacketUrl
-                )
+                MessageSegment.text(musicUrl)
             ))
-        except:
-            await musicTitleSearch.finish(
-            MessageSegment.reply(event.dict().get('message_id'))
-            +MessageSegment.text('美亚没有找到这样的歌曲，请检查歌曲/谱面id后再试哦！')
-        )
 
 # 根据部分歌曲名称搜索歌曲
 musicTitleSearch = on_regex("^search")
@@ -428,3 +418,125 @@ async def _(bot: Bot, event: Event, state: T_State):
                 MessageSegment.image(f"base64://{str(image_to_base64(jacket), encoding='utf-8')}")
                 +MessageSegment.text(outputStr)
             )
+
+
+# 定数查询
+base = on_regex(r"^base")
+@base.handle()
+async def _(bot: Bot, event: Event, state: T_State):
+    message = str(event.get_message()).strip().split(' ')
+    ds = message[-1]
+    results = maimaiDB().search('chartDs', ds)
+    outputText = ''
+    for result in results:
+        chartId = result[0]
+        chartType = result[1]
+        musicId = result[2]
+        musicName = maimaiDB().search('musicId', musicId, dbType='SDEZ')[0][1]
+        chartDiff = result[3]
+        outputText += f"{chartId}. {musicName} {chartDiff} ({chartType})\n"
+    outputText = outputText[:-1]
+    output = text_to_image(outputText, 10, (0, 0, 0), max_length=10000)
+    await base.finish(
+        MessageSegment.reply(event.dict().get('message_id'))
+        +MessageSegment.image(f"base64://{str(image_to_base64(output), encoding='utf-8')}")
+    )
+
+
+# baseline
+baseline = on_regex('^line|^Line|^baseline|^Baseline|^分数线')
+@baseline.handle()
+async def _(bot: Bot, event: Event, state: T_State):
+    cmdList = str(event.get_message()).strip().split(' ') # 分割命令
+    if len(cmdList) == 1 and cmdList[0] in ('line', 'Line', 'baseline', 'Baseline', '分数线'):
+        await baseline.finish(
+            MessageSegment.reply(event.dict().get('message_id'))
+            +MessageSegment.text('关于分数线的使用方法：line 谱面难度&id 目标达成率\n例如：“line 紫id11173 100.5”')
+        )
+    elif len(cmdList) != 3:
+        await baseline.finish(
+            MessageSegment.reply(event.dict().get('message_id'))
+            +MessageSegment.text('请检查格式是否正确哦！\n')
+        )
+    else:
+        chart = cmdList[1]
+        line = float(cmdList[2])
+        
+        try:
+            chartLevelChinese, chartId = re.match("([绿黄红紫白])(?:id)?([0-9]+)", chart).groups()
+            chartLevelList = ['basic', 'advanced', 'expert', 'master', 'reMaster']
+            chartLevelChineseList = ['绿', '黄', '红', '紫', '白']
+            chartLevel = chartLevelList[chartLevelChineseList.index(chartLevelChinese)]
+        except:
+            await baseline.finish(
+            MessageSegment.reply(event.dict().get('message_id'))
+            +MessageSegment.text('请检查输入的谱面格式是否正确哦！\n')
+        )
+        
+        # 先搜国服再搜日服
+        chartSearchResult = maimaiDB().search('chartId', chartId, 'diff', chartLevel)
+        if chartSearchResult == []:
+            chartSearchResult = maimaiDB().search('chartId', chartId, 'diff', chartLevel, dbType='SDEZ')
+        
+        if chartSearchResult == []:
+            await baseline.finish(
+                MessageSegment.reply(event.dict().get('message_id'))
+                +MessageSegment.text('没有找到这样的谱面，请检查一下谱面id和难度哦\n')
+            )
+        else:
+            chartData = chartSearchResult[0]
+            musicId = chartData[2]
+            
+            title = maimaiDB().search('musicId', musicId, dbType='SDEZ')[0][1]
+            tapCount, holdCount, slideCount, touchCount, breakCount = int(chartData[7]), int(chartData[8]), int(chartData[9]), chartData[10], int(chartData[11])
+            if touchCount == None:
+                touchCount = 0
+            else:
+                touchCount = int(touchCount)
+            
+            totalScore = 500 * tapCount + slideCount * 1500 + holdCount * 1000 + touchCount * 500 + breakCount * 2500
+            breakBonus = 0.01 / breakCount # 绝赞总加分
+            break50Reduce = totalScore * breakBonus / 4 # 50落减少的分数
+
+            jacketId = (4 - len(musicId)) * '0' + musicId
+            try: 
+                jacket = Image.open(f'{jacket_path}/UI_Jacket_00{jacketId}.png')
+            except:
+                jacket = Image.open(f'{jacket_path}/UI_Jacket_000000.png')
+            
+            if (101-line) > 0 and (101-line) < 101:
+                await baseline.finish(
+                    MessageSegment.reply(event.dict().get('message_id'))
+                    +MessageSegment.text(
+                        f"{chartLevelChinese}id{chartId}：{title}\n")
+                    +MessageSegment.image(f"base64://{str(image_to_base64(jacket), encoding='utf-8')}")
+                    +MessageSegment.text(
+f'''在{line}%下最多允许的Tap GREAT数量为{(totalScore * (101-line)/10000):.2f}（每个-{10000 / totalScore:.4f}%）\n
+绝赞（共{breakCount}个）50落相当于{(break50Reduce/100):.3f}个Tap GREAT（-{break50Reduce / totalScore * 100:.4f}%）'''
+                    )
+                )
+            else:
+                await baseline.finish(
+                    MessageSegment.reply(event.dict().get('message_id'))
+                    +MessageSegment.text('怎么可能会有这样的达成率嘛！')
+                )
+
+
+# 分数列表
+scoreList = on_regex(r"[0-9]+\+?分数列表([0-9]+)?")
+@scoreList.handle()
+async def _(bot: Bot, event: Event, state: T_State):
+    diff, page = str(event.get_message()).split('分数列表')[0], str(event.get_message()).split('分数列表')[1]
+    if page == '':
+        page = 1
+    # 能成功就是ds，否则就是等级
+    if len(diff.split('.')) != 1:
+        diff = float(diff)
+        outputImg = await generateScoreList(int(page), str(event.get_user_id()), ds=diff).generate()
+    else:
+        outputImg = await generateScoreList(int(page), str(event.get_user_id()), level=diff).generate()
+    await scoreList.finish(
+        MessageSegment.reply(event.dict().get('message_id'))
+        +MessageSegment.image(f"base64://{str(image_to_base64(outputImg), encoding='utf-8')}")
+    )
+   

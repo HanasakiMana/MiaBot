@@ -25,3 +25,6 @@ src/static/image/jacket/UI_Jacket_000234.png
 src/plugins/__pycache__/mia.cpython-310.pyc
 *.sqlite
 *.pyc
+__pycache__/
+*.pyc
+src/libraries/__pycache__/CONST.cpython-310.pyc

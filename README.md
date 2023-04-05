@@ -1,26 +1,12 @@
 # miabot
 
-## 更新日志
+## How to start
 
-### 2022.10.25
+1. generate project using `nb create` .
+2. create your plugin using `nb plugin create` .
+3. writing your plugins under `src/plugins` folder.
+4. run your bot using `nb run` .
 
-* 修复自定义姓名框/背景板的bug
+## Documentation
 
-### 2022.10.12
-
-* 增加 美亚帮忙选 功能
-
-### 2022.9.19
-
-* 增加抽签功能  
-* 增加数据库更新功能  
-* MIA数据库更新到V103  
-  >* 加入抽签数据，用于记录每日抽签所生成的随机数，于次日0时清空（V101）  
-  >* 补充抽签数据记录的每日随机提分曲目id，默认为11173（V102）  
-  >* 修复版本号冲突的问题（V103） 
-
-## Credit
-
-@Nyagamon for HCA decoder.  
-@Diving-Fish for prober server and Chiyuki-bot.  
-@Simon-f1sh for Ame_bot.
+See [Docs](https://v2.nonebot.dev/)

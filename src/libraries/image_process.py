@@ -50,4 +50,23 @@ def scale(size: tuple, rate: float):
 
 
 if __name__ == '__main__':
-    text_to_image('Hello World !')
+    text_to_image('''435. 願いを呼ぶ季節 master SD
+468. ラブリー☆えんじぇる!! master SD
+643. Excalibur ～Revived resolution～ expert SD
+806. ナイトメア☆パーティーナイト reMaster SD
+820. FFT expert SD
+842. WORLD'S END UMBRELLA master SD
+10181. 君の知らない物語 master DX
+11150. ウマイネームイズうまみちゃん master DX
+11155. ARAIS expert DX
+11176. Climax expert DX
+11178. ノーポイッ! master DX
+11209. Grievous Lady expert DX
+11236. Last Samurai expert DX
+11272. 約束 master DX
+11281. Re：End of a Dream expert DX
+11288. Big Daddy expert DX
+11293. LOSE CONTROL expert DX
+11299. NAGAREBOSHI☆ROCKET expert DX
+11300. U&iVERSE -銀河鸞翔- expert DX
+11331. スーパーシンメトリー expert DX''', 10, (0, 0, 0), max_length=10000).show()
