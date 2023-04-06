@@ -169,7 +169,7 @@ class GenerateB50(object):
 
     # 获取当前用户的QQ头像
     def get_avatar(self):
-        default = b50_resource + '/UI_Icon_209501.png' # 如果找不到头像就用一个默认的头像替代
+        default = b50_resource + '/UI_Icon_309501.png' # 如果找不到头像就用一个默认的头像替代
         if self.qq == None:
             return default
         else:
@@ -513,5 +513,5 @@ class GenerateB50(object):
 
 
 if __name__ == '__main__':
-    asyncio.run(GenerateB50(username='mallow', b50=True).generate()).show()
+    asyncio.run(GenerateB50(username='mallow', b50=False).generate()).show()
     

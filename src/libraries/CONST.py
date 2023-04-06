@@ -4,7 +4,7 @@
 server_ip = '101.42.230.90:5359'
 
 # 当前内部使用的素材和歌曲信息的版本
-mia_version = 'DX1.26'
+mia_version = 'DX1.30'
 
 # 用于存储临时文件的文件夹
 tmp_path = 'src/tmp'

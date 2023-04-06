@@ -14,7 +14,7 @@ from nonebot.adapters.onebot.v11 import Bot, Event, MessageSegment
 from src.libraries.generate_b50v3 import GenerateB50
 from src.libraries.image_process import image_to_base64
 from src.libraries.database import miaDB
-from src.libraries.CONST import tmp_path
+from src.libraries.CONST import plate_path, frame_path
 
 
 b40 = on_regex("^b40")
@@ -82,7 +82,7 @@ async def _(bot: Bot, event: Event, state: T_State):
             )
     else:
         if miaDB().add_custom(qq, 'plateId', id):
-            img = Image.open(f'{tmp_path}/plate/{id}.png')
+            img = Image.open(f'{plate_path}/UI_Plate_{id}_S.png')
             await plateCustom.send(
                 MessageSegment.reply(event.dict().get('message_id'))
                 +MessageSegment.text(f'美亚已经记下来啦！你现在选择的姓名框是{id}:')
@@ -107,7 +107,7 @@ async def _(bot: Bot, event: Event, state: T_State):
             )
     else:
         if miaDB().add_custom(qq, 'frameId', id):
-            img = Image.open(f'{tmp_path}/frame/{id}.png')
+            img = Image.open(f'{frame_path}/UI_Frame_{id}_S.png')
             await frameCustom.send(
                 MessageSegment.reply(event.dict().get('message_id'))
                 +MessageSegment.text(f'美亚已经记下来啦！你现在选择的背景是{id}:')

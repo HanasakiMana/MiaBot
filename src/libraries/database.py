@@ -7,8 +7,10 @@ import requests
 import datetime, pytz
 from PIL import Image
 
-# from CONST import plate_path, frame_path, tmp_path
-# from image_process import scale, text_to_image
+'''from CONST import plate_path, frame_path, tmp_path
+from image_process import scale, text_to_image
+from misc import getFileList'''
+
 from src.libraries.CONST import plate_path, frame_path, tmp_path
 from src.libraries.image_process import scale, text_to_image
 from src.libraries.misc import getFileList
@@ -114,9 +116,8 @@ class DBInit(object):
             conn.commit()
         conn.close()
         # 生成姓名框和背景板的预览图
-        if self.rebuild:
-            self.getImageIndex('Frame')
-            self.getImageIndex('Plate')
+        # self.getImageIndex('Frame')
+        # self.getImageIndex('Plate')
 
 
 # maimai相关数据库的读写操作

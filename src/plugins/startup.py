@@ -25,8 +25,8 @@ def _():
     maimaiDB().update()
     DBUpgrade('mia_custom').upgrade()
     # 设定默认的姓名框和背景板
-    miaDB().add_custom('default', 'plateId', '250101')
-    miaDB().add_custom('default', 'frameId', '259505')
+    miaDB().add_custom('default', 'plateId', '300101')
+    miaDB().add_custom('default', 'frameId', '300101')
     # 每天0时从水鱼服务器抓取歌曲数据
     scheduler.add_job(
         maimaiDB().update,
